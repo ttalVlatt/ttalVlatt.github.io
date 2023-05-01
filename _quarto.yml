@@ -8,7 +8,9 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: data-viz-examples.qmd
+        text: Data Viz Examples
+      
 
 format:
   html:
