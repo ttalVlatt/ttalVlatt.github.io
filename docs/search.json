@@ -4,7 +4,7 @@
     "href": "data-viz-examples.html",
     "title": "Data Viz Examples",
     "section": "",
-    "text": "Coming soon: Some cool data visualizations!"
+    "text": "Coming soon: Some cool data visualizations!\n\nRTG Dashboard\nShow the dashboard\n\n\nSpatial Point Analysis\n\nHot-Spot AnalysisOutlier AnalysisLocal RegressionInterpolation\n\n\nHi\n\n\nHi again\n\n\nHelloooo\n\n\nHi\n\n\n\n\n\nGGirpah Interactives"
   },
   {
     "objectID": "index.html",
@@ -12,5 +12,19 @@
     "title": "Matt Capaldi",
     "section": "",
     "text": "Hi there, this website is currently being built, please check back later!\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "data-viz-examples.html#interactive-dashboard",
+    "href": "data-viz-examples.html#interactive-dashboard",
+    "title": "Data Viz Examples",
+    "section": "Interactive Dashboard",
+    "text": "Interactive Dashboard\nHi"
+  },
+  {
+    "objectID": "data-viz-examples.html#hot-spot-analysis",
+    "href": "data-viz-examples.html#hot-spot-analysis",
+    "title": "Data Viz Examples",
+    "section": "Hot-Spot Analysis",
+    "text": "Hot-Spot Analysis\nHi again"
   }
 ]

@@ -3,3 +3,31 @@ title: "Data Viz Examples"
 ---
 
 Coming soon: Some cool data visualizations!
+
+# RTG Dashboard
+
+Show the dashboard
+
+# Spatial Point Analysis
+
+::: {.panel-tabset}
+
+## Hot-Spot Analysis
+
+Hi
+
+## Outlier Analysis
+
+Hi again
+
+## Local Regression
+
+Helloooo
+
+## Interpolation
+
+Hi
+
+:::
+
+# GGirpah Interactives
