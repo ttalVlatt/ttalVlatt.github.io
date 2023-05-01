@@ -2,4 +2,4 @@
 title: "Data Viz Examples"
 ---
 
-Coming soon: Some cool data visualizations
+Coming soon: Some cool data visualizations!
