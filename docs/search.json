@@ -1,16 +1,16 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Matt Capaldi",
-    "section": "",
-    "text": "Hi there, this website is currently being built, please check back later!\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
     "objectID": "data-viz-examples.html",
     "href": "data-viz-examples.html",
     "title": "Data Viz Examples",
     "section": "",
     "text": "Coming soon: Some cool data visualizations"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Matt Capaldi",
+    "section": "",
+    "text": "Hi there, this website is currently being built, please check back later!\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   }
 ]
