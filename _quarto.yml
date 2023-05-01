@@ -6,12 +6,9 @@ website:
   title: "Matt Capaldi"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
       - href: data-viz-examples.qmd
         text: Data Viz Examples
       
-
 format:
   html:
     theme: lux
