@@ -2,4 +2,16 @@
 title: "Matt Capaldi"
 ---
 
-This is my C.V.
+_Data analyst and education graduate student researching at the intersection of transportation and access to college. Data-focused data visualization & R enthusiast._
+
+## Education
+
+#### Ph.D. Higher Education Administration
+**University of Florida, FL** _(2021 - Present)_
+
+###### Minor: Urban and Regional Planning
+###### Research Method Track: Quantitative Methods
+
+## Work Experience
+
+## Publications

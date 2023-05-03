@@ -9,13 +9,14 @@ website:
       - href: data-viz-examples.qmd
         text: Data Viz Examples
       - href: cv.qmd
-        text: CV
+        text: C.V.
       
 format:
   html:
     theme: lux
     css: styles.css
     toc: true
+  docx: default
 
 editor: source
 
