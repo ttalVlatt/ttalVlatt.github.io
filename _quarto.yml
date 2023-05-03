@@ -8,6 +8,8 @@ website:
     left:
       - href: data-viz-examples.qmd
         text: Data Viz Examples
+      - href: cv.qmd
+        text: CV
       
 format:
   html:
