@@ -1,0 +1,57 @@
+---
+references:
+- id: capaldi2023
+  author:
+  - family: Capaldi
+    given: Matthew J.
+  container-title: "Journal of College Student Retention: Research,
+    Theory & Practice"
+  DOI: 10.1177/15210251231156421
+  ISSN: 1521-0251
+  issued: 2023-03-09
+  key: 3X94K6UD
+  language: en
+  libraryid: 1
+  providerKey: Bibliography
+  publisher: SAGE
+  source: SAGE Journals
+  title: "The Route to Graduation: An Exploration of the Association
+    Between Transit Stop Proximity and Pell Recipient Completion Rates
+    at US Commuter Colleges"
+  title-short: The Route to Graduation
+  type: article-journal
+  URL: "https://doi.org/10.1177/15210251231156421"
+- id: capaldi2021
+  accessed: "19:32:24"
+  author:
+  - family: Capaldi
+    given: Matthew J
+  container-title: American City and County
+  issued: 2021-12-01
+  key: FRM6DF6L
+  language: en-US
+  libraryID: 1
+  providerKey: Zotero
+  title: Ensuring equitable public safety responses in college towns
+  type: webpage
+  URL: "https://www.americancityandcounty.com/2021/12/01/ensuring-equitable-public-safety-responses-in-college-towns/"
+- id: hu2023
+  author:
+  - family: Hu
+    given: Xiaodan
+  - family: Fernandez
+    given: Frank
+  - family: Qiu
+    given: Yuxi
+  - family: Capaldi
+    given: Matthew J.
+  event: "AERA: American Educational Research Association"
+  issued: 2023-04-13
+  key: 7SRZK86C
+  libraryID: 1
+  providerKey: Zotero
+  publisher-place: Chicago, IL
+  title: A typology of state merit aid programs for community college
+    students.
+  type: speech
+...
