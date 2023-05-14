@@ -4,6 +4,5 @@ title: "Matt Capaldi"
 
 Hi there, this website is currently being built, please check back later!
 
-This is a Quarto website.
+This is a Quarto website, [learn more here](https://quarto.org/docs/websites).
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.

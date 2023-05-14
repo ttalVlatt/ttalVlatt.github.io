@@ -4,9 +4,17 @@ title: "Data Viz Examples"
 
 Coming soon: Some cool data visualizations!
 
-# RTG Dashboard
+# Interative Dashboard
 
-Show the dashboard
+I created the below dashboard to go with paper ["The Route to Graduation"](https://doi.org/10.1177/15210251231156421) that explored the association between transit accessibility and Pell completion rates. The dashboard allows you explore different slices of the data used in the paper, e.g. different regions and/or college types. The dashboard was developed using Shiny and R.
+
+If this isn't displaying right, you are using a smaller screen, or you just want to explore the dashboard in more detail, it might be easier to view it in its own window [here](https://ttalvlatt.shinyapps.io/rtg-dashboard/).
+
+<!-- Commented out to avoid using all my server time h/t
+https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/12-html-block/ -->
+<!-- ```{=html} -->
+<!-- <iframe width="780" height="500" src="https://ttalvlatt.shinyapps.io/rtg-dashboard/" title="RTG Dashboard"></iframe> -->
+<!-- ``` -->
 
 # Spatial Point Analysis
 
@@ -30,4 +38,4 @@ Hi
 
 :::
 
-# GGirpah Interactives
+# GIFs for Data Viz

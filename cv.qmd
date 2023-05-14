@@ -1,4 +1,5 @@
 ---
+title: "Matt Capaldi"
 csl: apa.csl
 section-bibs-bibliography: references.yaml
 filters:
@@ -8,40 +9,53 @@ reference-section-title: false
 section-bibs-level : 4
 ---
 
-# Matt Capaldi
-
 *Education data analyst and doctoral student researching at the intersection of transportation and access to college. Data visualization & R enthusiast.*
 
-## Education
+# Education
 
 ### Ph.D. Higher Education Administration
-
-**University of Florida, FL** *(2021 - Present)*
 
 ###### Minor: Urban and Regional Planning
 
 ###### Research Method Track: Quantitative Methods
 
-### Work Experience
+*University of Florida, FL (2021 - Present)*
 
-## Publications
+### M.Ed. Research Evaluation Methodology
 
-#### Peer-Reviewed Articles
+*University of Florida, FL (2022 - Present)*
+
+### M.Ed. Student Personnel in Higher Education
+
+*University of Florida, FL (2018 - 2020)*
+
+### B.A. International Relations with Political Science
+
+###### Year Abroad: Providence College, RI
+
+*University of Birmingham, UK (2014 - 2018)*
+
+
+# Work Experience
+
+# Publications
+
+### Peer-Reviewed Articles
 
 ::: content-hidden
 [@capaldi2023]
 :::
 
-#### Commentary Articles
+
+### Commentary Articles
 
 ::: content-hidden
 [@capaldi2021]
 :::
 
-#### Presentations
+
+### Presentations
 
 ::: content-hidden
 [@hu2023]
 :::
-
-### But Now This Gets Added
