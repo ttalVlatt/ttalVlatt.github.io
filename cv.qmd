@@ -6,7 +6,10 @@ filters:
   - section-bibliographies
 citeproc: false
 reference-section-title: false
-section-bibs-level : 4
+section-bibs-level : 3
+bibliography: references.yaml
+toc: false
+anchor-sections: false
 ---
 
 *Education data analyst and doctoral student researching at the intersection of transportation and access to college. Data visualization & R enthusiast.*
@@ -35,24 +38,134 @@ section-bibs-level : 4
 
 *University of Birmingham, UK (2014 - 2018)*
 
+# Technical Skills
+
+###### R
+  - Data wrangling, data visualization, interactive graphics, machine learning, mapping & spatial statistics
+
+###### Shiny
+  - Developing interactive applications including visualization dashboards and data collection tools. Primarily using R Shiny, also exploring shinyExpress with Python
+
+###### Python
+   - Data wrangling, machine learning, natural language processing, integration with R through Reticulate
+
+###### GitHub
+  - Version control of code, collaboration through shared repositories, publishing websites with GitHub Pages
+  
+###### Geographic Information Systems
+  - Utilize R/Python for most GIS tasks, also familiar with both QGIS and ArcGIS
+  
+###### Other Software Including
+  - Quarto, Microsoft Office, Qualtrics, SPSS, Stata, Zotero
+
+# Statistical Skills
+
+###### Regression-Based Analysis
+  - Linear regression, logistic regression, geographically weighted regression
+
+###### Spatial Statistics
+  - Distances & central features, clustering analysis, spatial autocorrelation, hot-spot analysis, spatial outlier analysis, interpolation
+
+###### Quasi-Experimental Design
+  - Propensity score analysis (including machine learning methods)
+
+###### Survival Analysis
+  - Cox proportional hazards model
+
+###### Psychometric Models
+  - Classical test theory, factor analysis, item response theory, learning computation psychometrics
 
 # Work Experience
+
+### Graduate Research Assistant
+
+*University of Florida, FL (August 2021 - Present)*
+
+Work with Dr. Frank Fernandez on research relating to college access, primarily taking responsibility for data-related tasks (gathering, cleaning, analysis, and visualization).
+
+##### Major Research Projects
+
+**Exploring Community College Funding and High School Characteristics in Texas *(Fall 2022 - Present)***
+
+  - Created spatial boundaries for TX community college service areas from legislation and tigris shapefiles to spatially match community college to feeder high schools.
+
+**Merit-Based Financial Aid *(Fall 2021 - Present)***
+
+  - Created a new dataset of all state-run merit-based aid programs in the United States including details on dates active, award amount, merit criteria, and funding rules, leading to a new typology being proposed (see Hu et al., In Press).
+
+**Exploring Equitable Higher Education Funding Models in Illinois *(Summer 2022)***
+  
+  - Collected data on Illinois and the surrounding states’ appropriations for higher education, labor market projections, census data, and institutional behavior.
+  - Provided data visualization using R (tables, graphs, and maps) for a report targeted at state policy makers to highlight inequities in funding.
+
+### Residence Hall Coordinator
+
+*University of Missouri, MO (July 2020 - May 2021)*
+
+  - Provided Residential Life leadership for a downtown undergraduate apartment building home to over 400 third- and fourth-year students in the first year of a full public-private partnership. Duties included directly supervising a team of 16 Resident Assistants and providing on-call crisis response to an area of 3250 students.
+
+### Graduate Community Coordinator
+
+*University of Florida, FL (July 2019 - May 2020)*
+
+  - Provided Residential Life leadership for an on-campus traditional residence hall home to over 200 first-year students, including 50 international scholarship recipients. Duties included directly supervising a team of 5 Resident Assistants and providing on-call crisis response to an area of 3650 students.
+
+### Summer Sessions Graduate Intern
+
+*Georgetown University, DC (May 2019 - July 2019)*
+
+### Graduate Assistant for Industry Relations
+
+*University of Florida, FL (August 2018 - May 2019)*
+
+### Advising Intern
+
+*US-UK Fulbright Commission, UK (January 2018 - June 2018)*
+
+### Student Ambassador
+
+*University of Birmingham, UK (January 2015 - June 2018)*
+
+### Careers Network Student Peer Presenter
+
+*University of Birmingham, UK (September 2017 - June 2018)*
+
+### International Employer Liaison Assistant
+
+*University of Birmingham, UK (June 2017 - August 2017)*
+
+# Teaching Experience & Qualifications
+
+### Teaching Assistant
+
+###### EDH 7916 Contemporary Research in Higher Education (aka "the R class")
+*Spring 2023*
+
+  - Introductory class on data management, organization, and workflow using R and GitHub.
+  - Assisted students with trouble-shooting and coding skills both in and out of class time.
+  - Designed and taught a lesson on working with spatial data and map creation in R. [See the lesson here](https://edquant.github.io/edh7916/lessons/mapping_api.html).
+
+### Training & Qualifications
+
+###### EDH 6305 College and University Teaching
+*Summer 2023*
+
+  - Designing a mock syllabus for a 4-week course on data visualization basics. 
+
 
 # Publications
 
 ### Peer-Reviewed Articles
 
 ::: content-hidden
-[@capaldi2023]
+[@capaldi2023; @hu]
 :::
-
 
 ### Commentary Articles
 
 ::: content-hidden
 [@capaldi2021]
 :::
-
 
 ### Presentations
 
