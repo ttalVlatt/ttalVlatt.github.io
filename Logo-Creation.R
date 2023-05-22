@@ -88,6 +88,10 @@ ggplot() +
 ggsave("Logo.png",
        bg = "transparent")
 
+## Create favicon here
+## https://realfavicongenerator.net
+## Only need the apple-touch-icon.png and set as Favicon.png
+
 ## -----------------------------------------------------------------------------
 ##' *END SCRIPT*
 ## -----------------------------------------------------------------------------
