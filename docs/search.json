@@ -4,7 +4,7 @@
     "href": "data-viz-examples.html",
     "title": "Data Viz Examples",
     "section": "",
-    "text": "I believe that high-quality data visualization is critically important for effectively communicating research and information. Below are some samples of my own data visualization work (more coming soon).\n\nInteractive Dashboard\nI created the below dashboard to go with paper “The Route to Graduation” that explored the association between transit accessibility and Pell completion rates. The dashboard allows you explore different slices of the data used in the paper, e.g. different regions and/or college types. The dashboard was developed using Shiny and R.\n\n\n\n\nIf this isn’t displaying right, you are using a smaller screen, or you just want to explore the dashboard in more detail, it might be easier to view it in its own window here."
+    "text": "I believe that high-quality data visualization is critically important for effectively communicating research and information. Below are some samples of my own data visualization work (more coming soon).\n\nInteractive Dashboard\nI created the below dashboard to go with my paper “The Route to Graduation” that explored the association between transit accessibility and Pell completion rates. The dashboard allows you explore different slices of the data used in the paper, e.g. different regions and/or college types. The dashboard was developed using Shiny and R.\n\n\n\n\nIf this isn’t displaying right, you are using a smaller screen, or you just want to explore the dashboard in more detail, it might be easier to view it in its own window here."
   },
   {
     "objectID": "index.html",
