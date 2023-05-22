@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Welcome!",
     "section": "",
-    "text": "Hi there, welcome to my website! This site is still evolving, but its general purpose is to show visitors a little more about me and the work I’ve done. With that said, who am I?\n\nI’m Matt, aspiring education data scientist and Ph.D. student at the University of Florida 🐊.\nI really enjoy designing and coding data visualizations 📈 📉 , check out my Data Viz examples page.\nFor my Ph.D. research, I’m currently exploring how transportation 🚌 🚏affects access and success in college 🎓. See my work on that here.\n\nI built the website with Quarto, if you’re interested in doing the same, learn more here."
+    "text": "Hi there, welcome to my website! This site is still evolving, but its general purpose is to show visitors a little more about me and the work I’ve done. With that said, who am I?\n\nI’m Matt, aspiring education data scientist and Ph.D. student at the University of Florida 🐊.\nI really enjoy designing and coding data visualizations 📈 📉 , check out my Data Viz examples page.\nFor my Ph.D. research, I’m currently exploring how transportation 🚌 🚏affects access and success in college 🎓. See my work on that here.\n\nIf you have any questions or comments, feel free to reach out to me!"
   },
   {
     "objectID": "data-viz-examples.html#interactive-dashboard",

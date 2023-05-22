@@ -8,6 +8,7 @@ website:
   image: "Logo.png"
   favicon: "Logo.png"
   twitter-card: true
+  open-graph: true
   navbar:
     logo: "Logo.png"
     left:
@@ -16,14 +17,27 @@ website:
       - href: cv.qmd
         text: C.V.
     right:
+      - icon: envelope
+        href: mailto:m.capaldi@ufl.edu
+        aria-label: "Contact Me"
       - icon: github
         href: https://github.com/ttalVlatt
+        aria-label: "My GitHub Repo"
+  page-footer:
+    right: 
+      - text: "Built with Quarto"
+        href: https://quarto.org/docs/websites
+      - icon: github
+        aria-label: Website Code Available Here
+        href: https://github.com/ttalVlatt/ttalVlatt.github.io
+
       
 format:
   html:
     theme: lux
     css: styles.css
     toc: false
+    email-obfuscation: references
   docx: default
 
 editor: source
