@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./Logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -61,15 +62,21 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
+<meta name="twitter:title" content="Matt Capaldi - Data Viz Examples">
+<meta name="twitter:description" content="I believe that high-quality data visualization is critically important for effectively communicating research and information.">
+<meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./Logo.png" alt="" class="navbar-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Matt Capaldi</span>
     </a>
@@ -88,6 +95,13 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">C.V.</span></a>
   </li>  
 </ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/ttalVlatt"><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
               <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -97,17 +111,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#interative-dashboard" id="toc-interative-dashboard" class="nav-link active" data-scroll-target="#interative-dashboard">Interative Dashboard</a></li>
-  <li><a href="#spatial-point-analysis" id="toc-spatial-point-analysis" class="nav-link" data-scroll-target="#spatial-point-analysis">Spatial Point Analysis</a></li>
-  <li><a href="#gifs-for-data-viz" id="toc-gifs-for-data-viz" class="nav-link" data-scroll-target="#gifs-for-data-viz">GIFs for Data Viz</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -128,39 +132,16 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Coming soon: Some cool data visualizations!</p>
-<section id="interative-dashboard" class="level1">
-<h1>Interative Dashboard</h1>
+<p>I believe that high-quality data visualization is critically important for effectively communicating research and information. Below are some samples of my own data visualization work (more coming soon).</p>
+<section id="interactive-dashboard" class="level1">
+<h1>Interactive Dashboard</h1>
 <p>I created the below dashboard to go with paper <a href="https://doi.org/10.1177/15210251231156421">“The Route to Graduation”</a> that explored the association between transit accessibility and Pell completion rates. The dashboard allows you explore different slices of the data used in the paper, e.g.&nbsp;different regions and/or college types. The dashboard was developed using Shiny and R.</p>
-<p>If this isn’t displaying right, you are using a smaller screen, or you just want to explore the dashboard in more detail, it might be easier to view it in its own window <a href="https://ttalvlatt.shinyapps.io/rtg-dashboard/">here</a>.</p>
 <!-- Commented out to avoid using all my server time h/t
 https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/12-html-block/ -->
 <!-- ```{=html} -->
 <!-- <iframe width="780" height="500" src="https://ttalvlatt.shinyapps.io/rtg-dashboard/" title="RTG Dashboard"></iframe> -->
 <!-- ``` -->
-</section>
-<section id="spatial-point-analysis" class="level1">
-<h1>Spatial Point Analysis</h1>
-<div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Hot-Spot Analysis</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Outlier Analysis</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Local Regression</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Interpolation</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p>Hi</p>
-</div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<p>Hi again</p>
-</div>
-<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-<p>Helloooo</p>
-</div>
-<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
-<p>Hi</p>
-</div>
-</div>
-</div>
-</section>
-<section id="gifs-for-data-viz" class="level1">
-<h1>GIFs for Data Viz</h1>
+<p>If this isn’t displaying right, you are using a smaller screen, or you just want to explore the dashboard in more detail, it might be easier to view it in its own window <a href="https://ttalvlatt.shinyapps.io/rtg-dashboard/">here</a>.</p>
 
 
 </section>

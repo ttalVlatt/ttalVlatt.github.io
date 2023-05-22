@@ -1,8 +1,13 @@
 ---
-title: "Matt Capaldi"
+title: "Welcome!"
 ---
 
-Hi there, this website is currently being built, please check back later!
+Hi there, welcome to my website! This site is still evolving, but its general purpose is to show visitors a little more about me and the work I've done. With that said, who am I?
 
-This is a Quarto website, [learn more here](https://quarto.org/docs/websites).
+-   I'm Matt, aspiring education data scientist and Ph.D. student at the University of Florida 🐊.
 
+-   I really enjoy designing and coding data visualizations 📈 📉 , [check out my Data Viz examples page](/data-viz-examples.qmd).
+
+-   For my Ph.D. research, I'm currently exploring how transportation 🚌 🚏affects access and success in college 🎓. See my work on that [here](https://doi.org/10.1177/15210251231156421).
+
+I built the website with Quarto, if you're interested in doing the same, [learn more here](https://quarto.org/docs/websites).
