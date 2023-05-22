@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Matt Capaldi"
-  description: "Learn more about me and the work I've done"
+  description: "Aspiring Education Data Scientist"
   image: "Logo.png"
   favicon: "Logo.png"
   twitter-card: true
