@@ -90,7 +90,7 @@ ggsave("Logo.png",
 
 ## Create favicon here
 ## https://realfavicongenerator.net
-## Only need the apple-touch-icon.png and set as Favicon.png
+## Only need the apple-touch-icon.png
 
 ## -----------------------------------------------------------------------------
 ##' *END SCRIPT*
