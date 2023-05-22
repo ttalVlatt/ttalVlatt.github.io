@@ -6,7 +6,7 @@ website:
   title: "Matt Capaldi"
   description: "Aspiring Education Data Scientist"
   image: "Logo.png"
-  favicon: "Logo.png"
+  favicon: "Favicon.png"
   twitter-card: true
   open-graph: true
   navbar:
