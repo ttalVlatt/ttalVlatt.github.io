@@ -14,94 +14,10 @@
     "text": "Hi there, welcome to my website! This site is still evolving, but its general purpose is to show visitors a little more about me and the work I’ve done. With that said, who am I?\n\nI’m Matt, aspiring education data scientist and Ph.D. student at the University of Florida 🐊.\nI really enjoy designing and coding data visualizations 📈 📉 , check out my Data Viz examples page.\nFor my Ph.D. research, I’m currently exploring how transportation 🚌 🚏affects access and success in college 🎓. See my work on that here.\n\nIf you have any questions or comments, feel free to reach out to me!"
   },
   {
-    "objectID": "data-viz-examples.html#interactive-dashboard",
-    "href": "data-viz-examples.html#interactive-dashboard",
-    "title": "Data Viz Examples",
-    "section": "Interactive Dashboard",
-    "text": "Interactive Dashboard\nHi"
-  },
-  {
-    "objectID": "data-viz-examples.html#hot-spot-analysis",
-    "href": "data-viz-examples.html#hot-spot-analysis",
-    "title": "Data Viz Examples",
-    "section": "Hot-Spot Analysis",
-    "text": "Hot-Spot Analysis\nHi again"
-  },
-  {
     "objectID": "cv.html",
     "href": "cv.html",
     "title": "Matt Capaldi",
     "section": "",
     "text": "Education data analyst and doctoral student researching at the intersection of transportation and access to college. Data visualization & R enthusiast.\n\nEducation\n\nPh.D. Higher Education Administration\n\nMinor: Urban and Regional Planning\n\n\nResearch Method Track: Quantitative Methods\nUniversity of Florida, FL (2021 - Present)\n\n\n\nM.Ed. Research and Evaluation Methodology\nUniversity of Florida, FL (2022 - Present)\n\n\nM.Ed. Student Personnel in Higher Education\nUniversity of Florida, FL (2018 - 2020)\n\n\nB.A. International Relations with Political Science\n\nYear Abroad: Providence College, RI\nUniversity of Birmingham, UK (2014 - 2018)\n\n\n\n\nTechnical Skills\n\nR\n\nData wrangling, data visualization, interactive graphics, machine learning, file management, basic regex, mapping & spatial statistics\n\n\n\nShiny\n\nDeveloping interactive apps including data visualization dashboards and data collection tools. Primarily use R Shiny, exploring shinyExpress with Python\n\n\n\nPython\n\nData wrangling, integration of Python & R through Reticulate, exploring natural language processing\n\n\n\nGitHub\n\nVersion control of code, collaboration through shared repositories, publishing websites with GitHub Pages\n\n\n\nGeographic Information Systems\n\nUtilize R for most GIS tasks, also familiar with both QGIS and ArcGIS\n\n\n\nOther Software Including\n\nQuarto, Microsoft Office, Qualtrics, SPSS, Stata, Zotero\n\n\n\n\nStatistical Skills\n\nRegression-Based Analysis\n\nLinear regression, logistic regression, geographically weighted regression\n\n\n\nSpatial Statistics\n\nDistances & central features, clustering analysis, spatial autocorrelation, hot-spot analysis, spatial outlier analysis, interpolation\n\n\n\nQuasi-Experimental Design\n\nPropensity score analysis (including machine learning methods)\n\n\n\nSurvival Analysis\n\nCox proportional hazards model\n\n\n\nPsychometric Models\n\nClassical test theory, factor analysis, item response theory, exploring computational psychometrics\n\n\n\n\nWork Experience\n\nGraduate Research Assistant\nUniversity of Florida, FL (August 2021 - Present)\nWork with Dr. Frank Fernandez on research relating to college access, primarily taking responsibility for data-related tasks (gathering, cleaning, analysis, and visualization).\n\nMajor Research Projects\nCampus Climate Vulnerability Project (Summer 2023 - Present)\n\nBuilt a customized Shiny app for data collection based on sets of images.\n\nLinking Community Colleges and High Schools in Texas (Fall 2022 - Present)\n\nCreated spatial boundaries for TX community college service areas from legislation and Census shapefiles to spatially match community colleges to feeder high schools.\n\nMerit-Based Financial Aid (Fall 2021 - Present)\n\nCreated a new dataset of all state-run merit-based aid programs in the United States including details on dates active, award amount, merit criteria, and funding rules, leading to a new typology being proposed (see Hu et al., 2023).\n\nExploring Equitable Higher Education Funding Models in Illinois (Summer 2022)\n\nCollected data on Illinois appropriations for higher education, labor market projections, census data, and institutional behavior, then drafted data visualizations using R (tables, graphs, and maps) for a report targeted at state policy makers.\n\n\n\n\nResidence Hall Coordinator\nUniversity of Missouri, MO (July 2020 - May 2021)\n\n\nGraduate Community Coordinator\nUniversity of Florida, FL (July 2019 - May 2020)\n\n\nSummer Sessions Graduate Intern\nGeorgetown University, DC (May 2019 - July 2019)\n\n\nGraduate Assistant for Industry Relations\nUniversity of Florida, FL (August 2018 - May 2019)\n\n\nAdvising Intern\nUS-UK Fulbright Commission, UK (January 2018 - June 2018)\n\n\nStudent Ambassador\nUniversity of Birmingham, UK (January 2015 - June 2018)\n\n\nCareers Network Student Peer Presenter\nUniversity of Birmingham, UK (September 2017 - June 2018)\n\n\nInternational Employer Liaison Assistant\nUniversity of Birmingham, UK (June 2017 - August 2017)\n\n\n\nTeaching Experience\n\nTeaching Assistant\n\nEDH 7916 Contemporary Research in Higher Education\nA.K.A. “the R class”, an introductory graduate level class on data management, organization, and workflow using R and GitHub.\nSpring 2023\n\nAssisted instructor Dr. Ben Skinner by helping students with trouble-shooting and coding skills both in and out of class time.\nDesigned and taught a lesson on working with spatial data and map creation in R. See the lesson here.\n\n\n\n\n\nPublications\n\nPeer-Reviewed Articles\n\n\nCapaldi, M. J. (2023). The Route to Graduation: An Exploration of the Association Between Transit Stop Proximity and Pell Recipient Completion Rates at US Commuter Colleges. Journal of College Student Retention: Research, Theory & Practice. https://doi.org/10.1177/15210251231156421\n\n\nHu, X., Fernandez, F., Qiu, Y., & Capaldi, M. J. (2023). IN PRESS. The good, the bad, and the balanced: A typology of state merit aid programs for community college students. Community College Review.\n\n\n\n\nCommentary Articles\n\n\nCapaldi, M. J. (2021, December 1). Ensuring equitable public safety responses in college towns. American City and County. https://www.americancityandcounty.com/2021/12/01/ensuring-equitable-public-safety-responses-in-college-towns/\n\n\n\n\nPresentations\n\n\n\n\nHu, X., Fernandez, F., Qiu, Y., & Capaldi, M. J. (2023, April 13). A typology of state merit aid programs for community college students. AERA: American Educational Research Association."
-  },
-  {
-    "objectID": "cv.html#work-experience",
-    "href": "cv.html#work-experience",
-    "title": "Matt Capaldi",
-    "section": "Work Experience",
-    "text": "Work Experience"
-  },
-  {
-    "objectID": "cv.html#publications",
-    "href": "cv.html#publications",
-    "title": "Matt Capaldi",
-    "section": "Publications",
-    "text": "Publications"
-  },
-  {
-    "objectID": "cv.html#education",
-    "href": "cv.html#education",
-    "title": "Matt Capaldi",
-    "section": "Education",
-    "text": "Education\n\nPh.D. Higher Education Administration\nUniversity of Florida, FL (2021 - Present)\n\nMinor: Urban and Regional Planning\n\n\nResearch Method Track: Quantitative Methods"
-  },
-  {
-    "objectID": "cv.html#peer-reviewed-articles",
-    "href": "cv.html#peer-reviewed-articles",
-    "title": "Matt Capaldi",
-    "section": "Peer-Reviewed Articles",
-    "text": "Peer-Reviewed Articles\n\n\nCapaldi, M. J. (2023). The Route to Graduation: An Exploration of the Association Between Transit Stop Proximity and Pell Recipient Completion Rates at US Commuter Colleges. Journal of College Student Retention: Research, Theory & Practice. https://doi.org/10.1177/15210251231156421"
-  },
-  {
-    "objectID": "cv.html#commentary-articles",
-    "href": "cv.html#commentary-articles",
-    "title": "Matt Capaldi",
-    "section": "Commentary Articles",
-    "text": "Commentary Articles\n\n\nCapaldi, M. J. (2021, December 1). Ensuring equitable public safety responses in college towns. American City and County. https://www.americancityandcounty.com/2021/12/01/ensuring-equitable-public-safety-responses-in-college-towns/"
-  },
-  {
-    "objectID": "cv.html#bibliography-1",
-    "href": "cv.html#bibliography-1",
-    "title": "Matt Capaldi",
-    "section": "",
-    "text": "Capaldi, Matthew J. 2023. “The Route to Graduation: An Exploration of the Association Between Transit Stop Proximity and Pell Recipient Completion Rates at US Commuter Colleges.” Journal of College Student Retention: Research, Theory & Practice, March, 15210251231156421. https://doi.org/10.1177/15210251231156421."
-  },
-  {
-    "objectID": "cv.html#bibliography-2",
-    "href": "cv.html#bibliography-2",
-    "title": "Matt Capaldi",
-    "section": "",
-    "text": "Capaldi, Matthew J. 2021. “Ensuring Equitable Public Safety Responses in College Towns.” American City and County. December 1, 2021. https://www.americancityandcounty.com/2021/12/01/ensuring-equitable-public-safety-responses-in-college-towns/."
-  },
-  {
-    "objectID": "cv.html#presentations",
-    "href": "cv.html#presentations",
-    "title": "Matt Capaldi",
-    "section": "Presentations",
-    "text": "Presentations\n\n\n\n\nHu, X., Fernandez, F., Qiu, Y., & Capaldi, M. J. (2023, April 13). A typology of state merit aid programs for community college students. AERA: American Educational Research Association."
-  },
-  {
-    "objectID": "cv.html#ph.d.-higher-education-administration",
-    "href": "cv.html#ph.d.-higher-education-administration",
-    "title": "Matt Capaldi",
-    "section": "Ph.D. Higher Education Administration",
-    "text": "Ph.D. Higher Education Administration\nUniversity of Florida, FL (2021 - Present)\n\nMinor: Urban and Regional Planning\n\n\nResearch Method Track: Quantitative Methods"
-  },
-  {
-    "objectID": "cv.html#minor-urban-and-regional-planning",
-    "href": "cv.html#minor-urban-and-regional-planning",
-    "title": "Matt Capaldi",
-    "section": "Minor: Urban and Regional Planning",
-    "text": "Minor: Urban and Regional Planning\n\nResearch Method Track: Quantitative Methods\n\n\nWork Experience"
   }
 ]
