@@ -1,5 +1,6 @@
 ---
 title: "Welcome!"
+format-links: false
 ---
 
 Hi there, welcome to my website! This site is still evolving, but its general purpose is to show visitors a little more about me and the work I've done. With that said, who am I?

@@ -14,15 +14,28 @@ anchor-sections: false
 
 *Education data analyst and doctoral student researching at the intersection of transportation and access to college. Data visualization & R enthusiast.*
 
+::: {.content-hidden when-format="html"}
+
+------------------------------------------------------------------------
+
+##### **Website:** <https://ttalVlatt.github.io>
+
+##### **Phone:** +1 (401) 601-2069
+
+##### **Email:** [m.capaldi\@ufl.edu](mailto:m.capaldi@ufl.edu)
+:::
+
 # Education
+
+------------------------------------------------------------------------
 
 ### Ph.D. Higher Education Administration
 
-###### Minor: Urban and Regional Planning
-
-###### Research Method Track: Quantitative Methods
-
 *University of Florida, FL (2021 - Present)*
+
+###### **Minor**: Urban and Regional Planning
+
+###### **Research Method Track**: Quantitative Methods
 
 ### M.Ed. Research and Evaluation Methodology
 
@@ -34,48 +47,65 @@ anchor-sections: false
 
 ### B.A. International Relations with Political Science
 
-###### Year Abroad: Providence College, RI
-
 *University of Birmingham, UK (2014 - 2018)*
+
+###### **Year Abroad**: Providence College, RI
 
 # Technical Skills
 
-###### R
-  - Data wrangling, data visualization, interactive graphics, machine learning, file management, basic regex, mapping & spatial statistics
+------------------------------------------------------------------------
 
-###### Shiny
-  - Developing interactive apps including data visualization dashboards and data collection tools. Primarily use R Shiny, exploring shinyExpress with Python
+#### R
 
-###### Python
-   - Data wrangling, integration of Python & R through Reticulate, exploring natural language processing
+-   Data wrangling, data visualization, interactive graphics, machine learning, file management, basic regex, mapping & spatial statistics
 
-###### GitHub
-  - Version control of code, collaboration through shared repositories, publishing websites with GitHub Pages
-  
-###### Geographic Information Systems
-  - Utilize R for most GIS tasks, also familiar with both QGIS and ArcGIS
-  
-###### Other Software Including
-  - Quarto, Microsoft Office, Qualtrics, SPSS, Stata, Zotero
+#### Shiny
+
+-   Developing interactive apps including data visualization dashboards and data collection tools. Primarily use R Shiny, exploring shinyExpress with Python
+
+#### Python
+
+-   Data wrangling, integration of Python & R through Reticulate, exploring natural language processing
+
+#### GitHub
+
+-   Version control of code, collaboration through shared repositories, publishing websites with GitHub Pages
+
+#### Geographic Information Systems
+
+-   Utilize R for most GIS tasks, also familiar with both QGIS and ArcGIS
+
+#### Other Software Including
+
+-   Quarto, Microsoft Office, Qualtrics, SPSS, Stata, Zotero
 
 # Statistical Skills
 
-###### Regression-Based Analysis
-  - Linear regression, logistic regression, geographically weighted regression
+------------------------------------------------------------------------
 
-###### Spatial Statistics
-  - Distances & central features, clustering analysis, spatial autocorrelation, hot-spot analysis, spatial outlier analysis, interpolation
+#### Regression-Based Analysis
 
-###### Quasi-Experimental Design
-  - Propensity score analysis (including machine learning methods)
+-   Linear regression, logistic regression, geographically weighted regression
 
-###### Survival Analysis
-  - Cox proportional hazards model
+#### Spatial Statistics
 
-###### Psychometric Models
-  - Classical test theory, factor analysis, item response theory, exploring computational psychometrics
+-   Distances & central features, clustering analysis, spatial autocorrelation, hot-spot analysis, spatial outlier analysis, interpolation
+
+#### Quasi-Experimental Design
+
+-   Propensity score analysis (including machine learning methods)
+
+#### Survival Analysis
+
+-   Cox proportional hazards model
+
+#### Psychometric Models
+
+-   Classical test theory, factor analysis, item response theory, exploring computational psychometrics
 
 # Work Experience
+
+------------------------------------------------------------------------
 
 ### Graduate Research Assistant
 
@@ -83,23 +113,23 @@ anchor-sections: false
 
 Work with Dr. Frank Fernandez on research relating to college access, primarily taking responsibility for data-related tasks (gathering, cleaning, analysis, and visualization).
 
-##### Major Research Projects
+#### Major Research Projects
 
 **Campus Climate Vulnerability Project *(Summer 2023 - Present)***
 
-  - Built a customized Shiny app for data collection based on sets of images.
+-   Built a customized Shiny app for data collection based on sets of images.
 
 **Linking Community Colleges and High Schools in Texas *(Fall 2022 - Present)***
 
-  - Created spatial boundaries for TX community college service areas from legislation and Census shapefiles to spatially match community colleges to feeder high schools.
+-   Created spatial boundaries for TX community college service areas from legislation and Census shapefiles to spatially match community colleges to feeder high schools.
 
 **Merit-Based Financial Aid *(Fall 2021 - Present)***
 
-  - Created a new dataset of all state-run merit-based aid programs in the United States including details on dates active, award amount, merit criteria, and funding rules, leading to a new typology being proposed (see Hu et al., 2023).
+-   Created a new dataset of all state-run merit-based aid programs in the United States including details on dates active, award amount, merit criteria, and funding rules, leading to a new typology being proposed (see Hu et al., 2023).
 
 **Exploring Equitable Higher Education Funding Models in Illinois *(Summer 2022)***
-  
-  - Collected data on Illinois appropriations for higher education, labor market projections, census data, and institutional behavior, then drafted data visualizations using R (tables, graphs, and maps) for a report targeted at state policy makers.
+
+-   Collected data on Illinois appropriations for higher education, labor market projections, census data, and institutional behavior, then drafted data visualizations using R (tables, graphs, and maps) for a report targeted at state policy makers.
 
 ### Residence Hall Coordinator
 
@@ -135,22 +165,31 @@ Work with Dr. Frank Fernandez on research relating to college access, primarily 
 
 # Teaching Experience
 
-### Teaching Assistant
+------------------------------------------------------------------------
 
-###### EDH 7916 Contemporary Research in Higher Education
+### EDH 7916 Contemporary Research in Higher Education
+
 *A.K.A. "the R class", an introductory graduate level class on data management, organization, and workflow using R and GitHub.*
 
-*Spring 2023*
+#### Teaching Assistant (Spring 2023)
 
-  - Assisted instructor Dr. Ben Skinner by helping students with trouble-shooting and coding skills both in and out of class time.
-  - Designed and taught a lesson on working with spatial data and map creation in R. [See the lesson here](https://edquant.github.io/edh7916/lessons/mapping_api.html).
+-   Assisted instructor Dr. Ben Skinner by helping students with trouble-shooting and coding skills both in and out of class time.
+-   Designed and taught a lesson on working with spatial data and map creation in R. [See the lesson here](https://edquant.github.io/edh7916/lessons/mapping_api.html).
 
 # Publications
+
+------------------------------------------------------------------------
 
 ### Peer-Reviewed Articles
 
 ::: content-hidden
 [@capaldi2023; @hu]
+:::
+
+### Reports
+
+::: content-hidden
+[@fernandez2023]
 :::
 
 ### Commentary Articles

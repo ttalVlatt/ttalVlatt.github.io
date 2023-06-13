@@ -72,4 +72,23 @@ references:
     aid programs for community college students"
   type: article-journal
   issued: "2023"
+- id: fernandez2023
+  author:
+  - family: Fernandez
+    given: Frank
+  - family: Hu
+    given: Xiaodan
+  - family: Capaldi
+    given: Matt
+  issued: 2023-05-23
+  key: 2BL7WGL8
+  language: en
+  libraryID: 1
+  providerKey: Zotero
+  publisher: Partnership for College Completion
+  source: Zotero
+  title: Exploring Equitable Public Higher Education Funding Models in
+    Illinois
+  type: report
+  URL: "https://partnershipfcc.org/publications/adequacy/"
 ...

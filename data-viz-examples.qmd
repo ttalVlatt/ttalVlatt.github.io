@@ -1,5 +1,6 @@
 ---
 title: "Data Viz Examples"
+format-links: false
 ---
 
 I believe that high-quality data visualization is critically important for effectively communicating research and information. Below are some samples of my own data visualization work (more coming soon).
