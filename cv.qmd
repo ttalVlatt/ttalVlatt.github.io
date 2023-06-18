@@ -4,7 +4,7 @@ csl: apa.csl
 section-bibs-bibliography: references.yaml
 filters:
   - section-bibliographies
-  - horizontal-rule
+  - docx-horizontal-rule
 citeproc: false
 reference-section-title: false
 section-bibs-level : 3
@@ -51,58 +51,6 @@ anchor-sections: false
 *University of Birmingham, UK (2014 - 2018)*
 
 ###### **Year Abroad**: Providence College, RI
-
-# Technical Skills
-
-------------------------------------------------------------------------
-
-#### R
-
--   Data wrangling, data visualization, interactive graphics, machine learning, file management, basic regex, mapping & spatial statistics
-
-#### Shiny
-
--   Developing interactive apps including data visualization dashboards and data collection tools. Primarily use R Shiny, exploring shinyExpress with Python
-
-#### Python
-
--   Data wrangling, integration of Python & R through Reticulate, exploring natural language processing
-
-#### GitHub
-
--   Version control of code, collaboration through shared repositories, publishing websites with GitHub Pages
-
-#### Geographic Information Systems
-
--   Utilize R for most GIS tasks, also familiar with both QGIS and ArcGIS
-
-#### Other Software Including
-
--   Quarto, Microsoft Office, Qualtrics, SPSS, Stata, Zotero
-
-# Statistical Skills
-
-------------------------------------------------------------------------
-
-#### Regression-Based Analysis
-
--   Linear regression, logistic regression, geographically weighted regression
-
-#### Spatial Statistics
-
--   Distances & central features, clustering analysis, spatial autocorrelation, hot-spot analysis, spatial outlier analysis, interpolation
-
-#### Quasi-Experimental Design
-
--   Propensity score analysis (including machine learning methods)
-
-#### Survival Analysis
-
--   Cox proportional hazards model
-
-#### Psychometric Models
-
--   Classical test theory, factor analysis, item response theory, exploring computational psychometrics
 
 # Work Experience
 
@@ -176,6 +124,59 @@ Work with Dr. Frank Fernandez on research relating to college access, primarily 
 
 -   Assisted instructor Dr. Ben Skinner by helping students with trouble-shooting and coding skills both in and out of class time.
 -   Designed and taught a lesson on working with spatial data and map creation in R. [See the lesson here](https://edquant.github.io/edh7916/lessons/mapping_api.html).
+
+# Technical Skills
+
+------------------------------------------------------------------------
+
+#### R
+
+-   Data wrangling, data visualization, interactive graphics, machine learning, file management, basic regex, mapping & spatial statistics
+
+#### Shiny
+
+-   Developing interactive apps including data visualization dashboards and data collection tools. Primarily use R Shiny, exploring shinyExpress with Python
+
+#### Python
+
+-   Data wrangling, integration of Python & R through Reticulate, exploring natural language processing
+
+#### GitHub
+
+-   Version control of code, collaboration through shared repositories, publishing websites with GitHub Pages
+
+#### Geographic Information Systems
+
+-   Utilize R for most GIS tasks, also familiar with both QGIS and ArcGIS
+
+#### Other Software Including
+
+-   Quarto, Microsoft Office, Qualtrics, SPSS, Stata, Zotero
+
+# Statistical Skills
+
+------------------------------------------------------------------------
+
+#### Regression-Based Analysis
+
+-   Linear regression, logistic regression, geographically weighted regression
+
+#### Spatial Statistics
+
+-   Distances & central features, clustering analysis, spatial autocorrelation, hot-spot analysis, spatial outlier analysis, interpolation
+
+#### Quasi-Experimental Design
+
+-   Propensity score analysis (including machine learning methods)
+
+#### Survival Analysis
+
+-   Cox proportional hazards model
+
+#### Psychometric Models
+
+-   Classical test theory, factor analysis, item response theory, exploring computational psychometrics
+
 
 # Publications
 
