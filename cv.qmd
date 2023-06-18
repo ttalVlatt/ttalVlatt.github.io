@@ -4,6 +4,7 @@ csl: apa.csl
 section-bibs-bibliography: references.yaml
 filters:
   - section-bibliographies
+  - horizontal-rule
 citeproc: false
 reference-section-title: false
 section-bibs-level : 3
@@ -113,21 +114,21 @@ anchor-sections: false
 
 Work with Dr. Frank Fernandez on research relating to college access, primarily taking responsibility for data-related tasks (gathering, cleaning, analysis, and visualization).
 
-#### Major Research Projects
+##### **Major Research Projects**
 
-**Campus Climate Vulnerability Project *(Summer 2023 - Present)***
+*Campus Climate Vulnerability Project (Summer 2023 - Present)*
 
 -   Built a customized Shiny app for data collection based on sets of images.
 
-**Linking Community Colleges and High Schools in Texas *(Fall 2022 - Present)***
+*Linking Community Colleges and High Schools in Texas (Fall 2022 - Present)*
 
 -   Created spatial boundaries for TX community college service areas from legislation and Census shapefiles to spatially match community colleges to feeder high schools.
 
-**Merit-Based Financial Aid *(Fall 2021 - Present)***
+*Merit-Based Financial Aid (Fall 2021 - Present)*
 
 -   Created a new dataset of all state-run merit-based aid programs in the United States including details on dates active, award amount, merit criteria, and funding rules, leading to a new typology being proposed (see Hu et al., 2023).
 
-**Exploring Equitable Higher Education Funding Models in Illinois *(Summer 2022)***
+*Exploring Equitable Higher Education Funding Models in Illinois (Summer 2022)*
 
 -   Collected data on Illinois appropriations for higher education, labor market projections, census data, and institutional behavior, then drafted data visualizations using R (tables, graphs, and maps) for a report targeted at state policy makers.
 

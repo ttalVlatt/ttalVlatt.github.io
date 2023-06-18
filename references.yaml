@@ -1,6 +1,7 @@
 ---
 references:
 - id: capaldi2023
+  accessed: "14:31:18"
   author:
   - family: Capaldi
     given: Matthew J.
@@ -11,16 +12,52 @@ references:
   issued: 2023-03-09
   key: 3X94K6UD
   language: en
-  libraryid: 1
-  providerKey: Bibliography
-  publisher: SAGE
+  libraryID: 1
+  providerKey: Zotero
+  Publisher: SAGE
   source: SAGE Journals
-  title: "The Route to Graduation: An Exploration of the Association
-    Between Transit Stop Proximity and Pell Recipient Completion Rates
-    at US Commuter Colleges"
-  title-short: The Route to Graduation
+  title: "The route to graduation: An exploration of the association
+    between transit stop proximity and pell recipient completion rates
+    at us commuter colleges"
+  title-short: The route to graduation
   type: article-journal
   URL: "https://doi.org/10.1177/15210251231156421"
+- id: hu
+  author:
+  - family: Hu
+    given: Xiaodan
+  - family: Fernandez
+    given: Frank
+  - family: Qiu
+    given: Yuxi
+  - family: Capaldi
+    given: Matthew J.
+  container-title: Community College Review
+  key: SQGH7XN6
+  libraryID: 1
+  providerKey: Zotero
+  title: "The good, the bad, and the balanced: A typology of state merit
+    aid programs for community college students"
+  type: article-journal
+- id: fernandez2023
+  author:
+  - family: Fernandez
+    given: Frank
+  - family: Hu
+    given: Xiaodan
+  - family: Capaldi
+    given: Matt
+  issued: 2023-05-23
+  key: 2BL7WGL8
+  language: en
+  libraryID: 1
+  providerKey: Zotero
+  publisher: Partnership for College Completion
+  source: Zotero
+  title: Exploring equitable public higher education funding models in
+    Illinois
+  type: report
+  URL: "https://partnershipfcc.org/publications/adequacy/"
 - id: capaldi2021
   accessed: "19:32:24"
   author:
@@ -33,7 +70,7 @@ references:
   libraryID: 1
   providerKey: Zotero
   title: Ensuring equitable public safety responses in college towns
-  type: webpage
+  type: article-magazine
   URL: "https://www.americancityandcounty.com/2021/12/01/ensuring-equitable-public-safety-responses-in-college-towns/"
 - id: hu2023
   author:
@@ -54,41 +91,4 @@ references:
   title: A typology of state merit aid programs for community college
     students.
   type: speech
-- id: hu
-  author:
-  - family: Hu
-    given: Xiaodan
-  - family: Fernandez
-    given: Frank
-  - family: Qiu
-    given: Yuxi
-  - family: Capaldi
-    given: Matthew J.
-  container-title: Community College Review
-  key: SQGH7XN6
-  libraryID: 1
-  providerKey: Zotero
-  title: "IN PRESS. The good, the bad, and the balanced: A typology of state merit
-    aid programs for community college students"
-  type: article-journal
-  issued: "2023"
-- id: fernandez2023
-  author:
-  - family: Fernandez
-    given: Frank
-  - family: Hu
-    given: Xiaodan
-  - family: Capaldi
-    given: Matt
-  issued: 2023-05-23
-  key: 2BL7WGL8
-  language: en
-  libraryID: 1
-  providerKey: Zotero
-  publisher: Partnership for College Completion
-  source: Zotero
-  title: Exploring Equitable Public Higher Education Funding Models in
-    Illinois
-  type: report
-  URL: "https://partnershipfcc.org/publications/adequacy/"
 ...
