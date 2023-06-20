@@ -30,6 +30,7 @@ website:
       - icon: github
         aria-label: Website Code Available Here
         href: https://github.com/ttalVlatt/ttalVlatt.github.io
+    left: "© M J Capaldi 2023"
 
       
 format:
