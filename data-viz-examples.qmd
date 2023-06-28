@@ -1,9 +1,54 @@
 ---
 title: "Data Viz Examples"
 format-links: false
+format:
+  html:
+    toc: true
+execute: 
+  echo: false
 ---
 
-I believe that high-quality data visualization is critically important for effectively communicating research and information. Below are some samples of my own data visualization work (more coming soon).
+I believe that high-quality data visualization is critically important for effectively communicating research and information. Below are some samples of my own data visualization work.
+
+# Spatial Point Pattern Maps
+
+In the below tabs are some examples of maps I created with spatial data from the Chicago Public School District for math achievement and free school lunch status for the 2014/15 school year. Each set of maps display results of a different spatial statistical analysis designed to highlight the spatial distribution of the data. All these analyses use distances from, and similarity to, neighboring points to show spatial patterns in the data.
+
+*Note: these maps are intended to be an example of the statistics & visualization techniques, not to make any claims about the district.*
+
+```{r}
+#| include: false
+source(file.path("data-viz-examples", "Spatial-Analysis-Graphs.R"))
+```
+
+::: panel-tabset
+## Hot-Spot Analysis
+
+Hot-spot analysis, specifically the [Getis-Ord Global G\* Statistic](https://doi.org/10.1111/j.1538-4632.1992.tb00261.x), shows hot- and cold-spots in the spatial distribution of a variable. Put simply, it highlights areas where nearby points are notably high or low in terms of a variable compared to the wider data. This can be useful in demonstrating spatial inequalities or gaps in outcomes across a given area.
+
+```{r}
+map_hot_lunch
+map_hot_math
+```
+
+## Outlier Analysis
+
+Outlier analysis, specifically the [Local Moran's I Statistic](https://doi.org/10.1111/j.1538-4632.1995.tb00338.x), builds off a similar logic as hot-spot analysis but then highlights points that go against the local pattern. Put simply, it highlights points whose value of a variable is high in an area of low values, or low in an area of high values. This can be useful in demonstrating observations that are notably different (for better or worse) than their local pattern, e.g., to identify places in need of extra help or places who may have found a strategy to overcome local challenges.
+
+```{r}
+map_lm_lunch
+map_lm_math
+```
+
+## Localized Regression
+
+Localized regression, specifically [Geographically Weighted Regression](https://www.wiley.com/en-gb/Geographically+Weighted+Regression%3A+The+Analysis+of+Spatially+Varying+Relationships+-p-9780471496168), shows how estimated regression coefficients vary across space. Put simply, instead of suggesting a variable has a certain association with an outcome for all places, this calculates the model locally to show where the association might be higher or lower. GWR can help deal with spatial autocorrelation of residuals which is common when using standard regression methods with spatial data. This can be useful in demonstrating how the effect of a certain intervention or characteristic varies across a given area.
+
+```{r}
+map_gwr_lunch
+map_gwr_chart
+```
+:::
 
 # Interactive Dashboard
 
@@ -11,18 +56,15 @@ I created the below dashboard to go with my paper ["The Route to Graduation"](ht
 
 *Note: This is just a preview window. If it isn't displaying neatly, you are using a smaller screen, or you want to explore the dashboard in more detail, it might be easier to view it in its own window [here](https://ttalvlatt.shinyapps.io/rtg-dashboard/).*
 
-<!-- Commented out to avoid using all my server time h/t
-https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/12-html-block/ -->
+<!-- h/t https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/12-html-block/ -->
+
 ```{=html}
 <iframe width="780" height="500" src="https://ttalvlatt.shinyapps.io/rtg-dashboard/" title="RTG Dashboard"></iframe>
 ```
-
 ::: content-hidden
-
 # Spatial Point Analysis
 
-::: {.panel-tabset}
-
+::: panel-tabset
 ## Hot-Spot Analysis
 
 Hi
@@ -38,9 +80,7 @@ Helloooo
 ## Interpolation
 
 Hi
-
 :::
 
 # GIFs for Data Viz
-
 :::

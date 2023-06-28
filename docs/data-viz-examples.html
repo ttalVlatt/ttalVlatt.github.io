@@ -63,14 +63,14 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Matt Capaldi - Data Viz Examples">
-<meta property="og:description" content="I believe that high-quality data visualization is critically important for effectively communicating research and information.">
+<meta property="og:description" content="I believe that high-quality data visualization is critically important for effectively communicating research and information. Below are some samples of my own data visualization work.">
 <meta property="og:site-name" content="Matt Capaldi">
 <meta name="twitter:title" content="Matt Capaldi - Data Viz Examples">
-<meta name="twitter:description" content="I believe that high-quality data visualization is critically important for effectively communicating research and information.">
+<meta name="twitter:description" content="I believe that high-quality data visualization is critically important for effectively communicating research and information. Below are some samples of my own data visualization work.">
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -119,7 +119,16 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#spatial-point-pattern-maps" id="toc-spatial-point-pattern-maps" class="nav-link active" data-scroll-target="#spatial-point-pattern-maps">Spatial Point Pattern Maps</a></li>
+  <li><a href="#interactive-dashboard" id="toc-interactive-dashboard" class="nav-link" data-scroll-target="#interactive-dashboard">Interactive Dashboard</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -140,13 +149,55 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>I believe that high-quality data visualization is critically important for effectively communicating research and information. Below are some samples of my own data visualization work (more coming soon).</p>
+<p>I believe that high-quality data visualization is critically important for effectively communicating research and information. Below are some samples of my own data visualization work.</p>
+<section id="spatial-point-pattern-maps" class="level1">
+<h1>Spatial Point Pattern Maps</h1>
+<p>In the below tabs are some examples of maps I created with spatial data from the Chicago Public School District for math achievement and free school lunch status for the 2014/15 school year. Each set of maps display results of a different spatial statistical analysis designed to highlight the spatial distribution of the data. All these analyses use distances from, and similarity to, neighboring points to show spatial patterns in the data.</p>
+<p><em>Note: these maps are intended to be an example of the statistics &amp; visualization techniques, not to make any claims about the district.</em></p>
+<div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Hot-Spot Analysis</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Outlier Analysis</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Localized Regression</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p>Hot-spot analysis, specifically the <a href="https://doi.org/10.1111/j.1538-4632.1992.tb00261.x">Getis-Ord Global G* Statistic</a>, shows hot- and cold-spots in the spatial distribution of a variable. Put simply, it highlights areas where nearby points are notably high or low in terms of a variable compared to the wider data. This can be useful in demonstrating spatial inequalities or gaps in outcomes across a given area.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="data-viz-examples_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
+</div>
+<div class="cell-output-display">
+<p><img src="data-viz-examples_files/figure-html/unnamed-chunk-2-2.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>Outlier analysis, specifically the <a href="https://doi.org/10.1111/j.1538-4632.1995.tb00338.x">Local Moran’s I Statistic</a>, builds off a similar logic as hot-spot analysis but then highlights points that go against the local pattern. Put simply, it highlights points whose value of a variable is high in an area of low values, or low in an area of high values. This can be useful in demonstrating observations that are notably different (for better or worse) than their local pattern, e.g., to identify places in need of extra help or places who may have found a strategy to overcome local challenges.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="data-viz-examples_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
+</div>
+<div class="cell-output-display">
+<p><img src="data-viz-examples_files/figure-html/unnamed-chunk-3-2.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<p>Localized regression, specifically <a href="https://www.wiley.com/en-gb/Geographically+Weighted+Regression%3A+The+Analysis+of+Spatially+Varying+Relationships+-p-9780471496168">Geographically Weighted Regression</a>, shows how estimated regression coefficients vary across space. Put simply, instead of suggesting a variable has a certain association with an outcome for all places, this calculates the model locally to show where the association might be higher or lower. GWR can help deal with spatial autocorrelation of residuals which is common when using standard regression methods with spatial data. This can be useful in demonstrating how the effect of a certain intervention or characteristic varies across a given area.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="data-viz-examples_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
+</div>
+<div class="cell-output-display">
+<p><img src="data-viz-examples_files/figure-html/unnamed-chunk-4-2.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
 <section id="interactive-dashboard" class="level1">
 <h1>Interactive Dashboard</h1>
 <p>I created the below dashboard to go with my paper <a href="https://doi.org/10.1177/15210251231156421">“The Route to Graduation”</a> that explored the association between transit accessibility and Pell completion rates. The dashboard allows you explore different slices of the data used in the paper, e.g.&nbsp;different regions and/or college types. The dashboard was developed using Shiny and R.</p>
 <p><em>Note: This is just a preview window. If it isn’t displaying neatly, you are using a smaller screen, or you want to explore the dashboard in more detail, it might be easier to view it in its own window <a href="https://ttalvlatt.shinyapps.io/rtg-dashboard/">here</a>.</em></p>
-<!-- Commented out to avoid using all my server time h/t
-https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/12-html-block/ -->
+<!-- h/t https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/12-html-block/ -->
 <iframe width="780" height="500" src="https://ttalvlatt.shinyapps.io/rtg-dashboard/" title="RTG Dashboard"></iframe>
 
 
