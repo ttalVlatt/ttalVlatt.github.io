@@ -160,7 +160,7 @@ map_lm_lunch <- base_map +
           color = "black",
           alpha = .8) +
   scale_fill_manual(values = matts_palette) +
-  scale_size_manual(values = c(1,3,3,3,3)) +
+  scale_size_manual(values = c(1,2,2,3,3)) +
   labs(title = "Free/Reduced Lunch",
        fill = "Local Moran's I Result",
        size = "Local Moran's I Result")
@@ -189,7 +189,7 @@ map_lm_math <- base_map +
           color = "black",
           alpha = .8) +
   scale_fill_manual(values = matts_palette) +
-  scale_size_manual(values = c(1,3,3,3,3)) +
+  scale_size_manual(values = c(1,2,2,3,3)) +
   labs(title = "Math Achievement",
        fill = "Local Moran's I Result",
        size = "Local Moran's I Result")
