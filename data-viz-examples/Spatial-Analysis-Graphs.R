@@ -16,7 +16,7 @@ library(sf)
 library(sfdep)
 library(patchwork)
 library(spgwr)
-library(gstat)
+# library(gstat)
 
 ## ---------------------------
 ##' [Data Input]
@@ -230,7 +230,7 @@ map_gwr_lunch <- base_map +
           color = "black",
           size = 2,
           alpha = .8) +
-  scale_fill_viridis_c(option = "magma") +
+  scale_fill_gradient2() +  
   labs(title = "Local β for Free/Reduced School Lunch",
        fill = "Local β Coefficient")
 
@@ -241,7 +241,7 @@ map_gwr_chart <- base_map +
           color = "black",
           size = 2,
           alpha = .8) +
-  scale_fill_viridis_c(option = "magma") +
+  scale_fill_gradient2() +
   labs(title = "Local β for Charter School Status",
        fill = "Local β Coefficient")
 
