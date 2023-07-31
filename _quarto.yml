@@ -38,8 +38,6 @@ format:
     css: styles.css
     toc: false
     email-obfuscation: references
-  docx:
-    reference-doc: Pandoc-Style-CV.docx
 
 editor: source
 

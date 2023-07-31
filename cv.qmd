@@ -12,13 +12,18 @@ section-bibs-level : 3
 bibliography: references.yaml
 toc: false
 anchor-sections: false
+format:
+  html:
+    toc: false
+  docx:
+    reference-doc: Pandoc-Style-CV.docx
 ---
 
 *Education data analyst and doctoral student researching at the intersection of transportation and access to college. Data visualization & R enthusiast.*
 
-::: {.content-hidden when-format="html"}
-
 ------------------------------------------------------------------------
+
+::: {.content-hidden when-format="html"}
 
 ##### **Website:** <https://ttalVlatt.github.io>
 
@@ -179,6 +184,8 @@ Work with Dr. Frank Fernandez on research relating to college access, primarily 
 -   Classical test theory, factor analysis, item response theory, exploring computational psychometrics
 
 # Publications
+
+------------------------------------------------------------------------
 
 ### Peer-Reviewed Articles
 
