@@ -5,6 +5,7 @@ section-bibs-bibliography: references.yaml
 filters:
   - section-bibliographies
   - docx-horizontal-rule
+  - hide-me
 citeproc: false
 reference-section-title: false
 section-bibs-level : 3
@@ -177,31 +178,28 @@ Work with Dr. Frank Fernandez on research relating to college access, primarily 
 
 -   Classical test theory, factor analysis, item response theory, exploring computational psychometrics
 
-
 # Publications
-
-------------------------------------------------------------------------
 
 ### Peer-Reviewed Articles
 
-::: content-hidden
-[@capaldi2023; @hu]
+::: hide-me
+@capaldi2023, @hu
 :::
 
 ### Reports
 
-::: content-hidden
-[@fernandez2023]
+::: hide-me
+@fernandez2023
 :::
 
 ### Commentary Articles
 
-::: content-hidden
-[@capaldi2021]
+::: hide-me
+@capaldi2021
 :::
 
 ### Presentations
 
-::: content-hidden
-[@hu2023]
+::: hide-me
+@hu2023
 :::

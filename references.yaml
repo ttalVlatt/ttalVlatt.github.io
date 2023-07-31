@@ -22,7 +22,7 @@ references:
   title-short: The route to graduation
   type: article-journal
   URL: "https://doi.org/10.1177/15210251231156421"
-- id: hu
+- id: hu2023
   author:
   - family: Hu
     given: Xiaodan
@@ -32,13 +32,15 @@ references:
     given: Yuxi
   - family: Capaldi
     given: Matthew J.
-  container-title: Community College Review
-  key: SQGH7XN6
+  event: "AERA: American Educational Research Association"
+  issued: 2023-04-13
+  key: 7SRZK86C
   libraryID: 1
   providerKey: Zotero
-  title: "The good, the bad, and the balanced: A typology of state merit
-    aid programs for community college students"
-  type: article-journal
+  publisher-place: Chicago, IL
+  title: A typology of state merit aid programs for community college
+    students.
+  type: speech
 - id: fernandez2023
   author:
   - family: Fernandez
@@ -72,7 +74,7 @@ references:
   title: Ensuring equitable public safety responses in college towns
   type: article-magazine
   URL: "https://www.americancityandcounty.com/2021/12/01/ensuring-equitable-public-safety-responses-in-college-towns/"
-- id: hu2023
+- id: hu
   author:
   - family: Hu
     given: Xiaodan
@@ -82,13 +84,11 @@ references:
     given: Yuxi
   - family: Capaldi
     given: Matthew J.
-  event: "AERA: American Educational Research Association"
-  issued: 2023-04-13
-  key: 7SRZK86C
+  container-title: Community College Review
+  key: SQGH7XN6
   libraryID: 1
   providerKey: Zotero
-  publisher-place: Chicago, IL
-  title: A typology of state merit aid programs for community college
-    students.
-  type: speech
+  title: "The good, the bad, and the balanced: A typology of state merit
+    aid programs for community college students"
+  type: article-journal
 ...
