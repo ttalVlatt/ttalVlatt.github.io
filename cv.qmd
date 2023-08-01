@@ -74,17 +74,17 @@ Work with Dr. Frank Fernandez on research relating to college access, primarily 
 
 -   Built a customized Shiny app for data collection based on sets of images.
 
-*Linking Community Colleges and High Schools in Texas (Fall 2022 - Present)*
+*Linking Community Colleges and High Schools in Texas (Fall 2022 - Spring 2023)*
 
 -   Created spatial boundaries for TX community college service areas from legislation and Census shapefiles to spatially match community colleges to feeder high schools.
-
-*Merit-Based Financial Aid (Fall 2021 - Present)*
-
--   Created a new dataset of all state-run merit-based aid programs in the United States including details on dates active, award amount, merit criteria, and funding rules, leading to a new typology being proposed (see Hu et al., 2023).
 
 *Exploring Equitable Higher Education Funding Models in Illinois (Summer 2022)*
 
 -   Collected data on Illinois appropriations for higher education, labor market projections, census data, and institutional behavior, then drafted data visualizations using R (tables, graphs, and maps) for a report targeted at state policy makers.
+
+*Merit-Based Financial Aid (Fall 2021 - Present)*
+
+-   Created a new dataset of all state-run merit-based aid programs in the United States including details on dates active, award amount, merit criteria, and funding rules, leading to a new typology being proposed (see Hu et al., 2023).
 
 ### Residence Hall Coordinator
 

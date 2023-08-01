@@ -4,7 +4,7 @@ My personal website
 
 © M. J. Capaldi 2023
 
-### Notes
+### Development Notes
 
 Push infinite hang after 
 `Writing objects: 100% (10/10), 1.14 MiB | 760.00 KiB/s, done.`
