@@ -88,7 +88,24 @@ references:
   key: SQGH7XN6
   libraryID: 1
   providerKey: Zotero
-  title: "The good, the bad, and the balanced: A typology of state merit
+  title: "IN PRESS The good, the bad, and the balanced: A typology of state merit
     aid programs for community college students"
   type: article-journal
+- id: fernandez2021
+  accessed: "14:16:55"
+  author:
+  - family: Fernandez
+    given: Frank
+  - family: Capaldi
+    given: Matthew J.
+  container-title: The Conversation
+  issued: 2021-10-25
+  key: 4E48DDUW
+  language: en
+  libraryID: 1
+  providerKey: Zotero
+  title: Studying political science motivates college students to
+    register and vote -- new research shows
+  type: article-magazine
+  URL: "http://theconversation.com/studying-political-science-motivates-college-students-to-register-and-vote-new-research-shows-168440"
 ...

@@ -24,7 +24,6 @@ format:
 ------------------------------------------------------------------------
 
 ::: {.content-hidden when-format="html"}
-
 ##### **Website:** <https://ttalVlatt.github.io>
 
 ##### **Phone:** +1 (401) 601-2069
@@ -190,7 +189,9 @@ Work with Dr. Frank Fernandez on research relating to college access, primarily 
 ### Peer-Reviewed Articles
 
 ::: hide-me
-@capaldi2023, @hu
+@capaldi2023
+
+@hu
 :::
 
 ### Reports
@@ -203,6 +204,8 @@ Work with Dr. Frank Fernandez on research relating to college access, primarily 
 
 ::: hide-me
 @capaldi2021
+
+@fernandez2021
 :::
 
 ### Presentations
