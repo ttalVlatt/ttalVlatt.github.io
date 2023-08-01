@@ -4,7 +4,8 @@ My personal website
 
 © M. J. Capaldi 2023
 
-Notes
+### Notes
+
 Push infinite hang after 
 `Writing objects: 100% (10/10), 1.14 MiB | 760.00 KiB/s, done.`
 `Total 10 (delta 3), reused 0 (delta 0), pack-reused 0`
