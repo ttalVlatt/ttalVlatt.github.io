@@ -1,6 +1,6 @@
 ---
 title: "Matt Capaldi"
-csl: apa.csl
+csl: apa-cv.csl
 section-bibs-bibliography: references.yaml
 filters:
   - section-bibliographies
