@@ -14,10 +14,31 @@
     "text": "I believe that high-quality data visualization is critically important for effectively communicating research and information. Below are some samples of my own data visualization work.\n\nInteractive Dashboard\nI created the below dashboard to go with my paper “The Route to Graduation” that explored the association between transit accessibility and Pell completion rates. The dashboard allows you explore different slices of the data used in the paper, e.g. different regions and/or college types. The dashboard was developed using Shiny and R.\nNote: This is just a preview window. If it isn’t displaying neatly, you are using a smaller screen, or you want to explore the dashboard in more detail, it might be easier to view it in its own window here.\n\n\n\n\nSpatial Point Pattern Maps\nIn the below tabs are some examples of maps I created with spatial data from the Chicago Public School District for math achievement and free school lunch status for the 2014/15 school year. Each set of maps display results of a different spatial statistical analysis designed to highlight the spatial distribution of the data. All these analyses use distances from, and similarity to, neighboring points to show spatial patterns in the data.\nNote: these maps are intended to be an example of the statistics & visualization techniques, not to make any claims about the district.\n\nHot-Spot AnalysisOutlier AnalysisLocalized Regression\n\n\nHot-spot analysis, specifically the Getis-Ord Global G* Statistic, shows hot- and cold-spots in the spatial distribution of a variable. Put simply, it highlights areas where nearby points are notably high or low in terms of a variable compared to the wider data. This can be useful in demonstrating spatial inequalities or gaps in outcomes across a given area.\n\n\n\n\n\n\n\n\n\n\nOutlier analysis, specifically the Local Moran’s I Statistic, builds off a similar logic as hot-spot analysis but then highlights points that go against the local pattern. Put simply, it highlights points whose value of a variable is high in an area of low values, or low in an area of high values. This can be useful in demonstrating observations that are notably different (for better or worse) than their local pattern, e.g., to identify places in need of extra help or places who may have found a strategy to overcome local challenges.\n\n\n\n\n\n\n\n\n\n\nLocalized regression, specifically Geographically Weighted Regression, shows how estimated regression coefficients vary across space. Put simply, instead of suggesting a variable has a certain association with an outcome for all places, this calculates the model locally to show where the association might be higher or lower. GWR can help deal with spatial autocorrelation of residuals which is common when using standard regression methods with spatial data. This can be useful in demonstrating how the effect of a certain intervention or characteristic varies across a given area."
   },
   {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Transport to College Research",
+    "section": "",
+    "text": "For my Ph.D. research, I’m exploring how transportation 🚌 🚏affects access and success in college 🎓. This page has a summary of my own research as well as some other work being done on the topic."
+  },
+  {
+    "objectID": "research.html#my-research-on-the-topic",
+    "href": "research.html#my-research-on-the-topic",
+    "title": "Transport to College Research",
+    "section": "My Research on the Topic",
+    "text": "My Research on the Topic\n\nPaper One: Route to Graduation\nThe first paper in the research collection explored the association having a transit stop within walking distance (0.5 miles) of campus and Pell student graduation rates. I found that having a transit stop within walking distance was associated with increased Pell graduation rates specifically for colleges urban environments.\n Publication\n Analysis Code\n Visualization Dashboard"
+  },
+  {
+    "objectID": "research.html#other-transport-to-college-work",
+    "href": "research.html#other-transport-to-college-work",
+    "title": "Transport to College Research",
+    "section": "Other Transport to College Work",
+    "text": "Other Transport to College Work\n\nCivic Mapping Iniative\nIn 2021, the Selding | Harring-Smith released a map and dataset detailing the location of the nearest transit stop to all colleges in US, as part of a broader project examining the need for cars in everyday US life. One of the major takeaways from the report was that 43% of community colleges were not accessible by public transit, and 25 of that 43% were within 5 miles of an existing transit route that could be extended.\n Report\n Maps\n Civic Mapping Project\n\n\nUS Congress: PATH to College Act\nInitially introduced in th 117th Congress, now reintroduced in the 118th Congress, the PATH to College Act is proposed legislation to provide grants to improve public transit access at technical and community colleges.\n Proposed Legislation\n Press Release"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome!",
     "section": "",
-    "text": "Hi there, welcome to my website! This site is still evolving, but its general purpose is to show visitors a little more about me and the work I’ve done. With that said, who am I?\n\nI’m Matt, aspiring education data scientist and Ph.D. student at the University of Florida 🐊.\nI really enjoy designing and coding data visualizations 📈 📉 , check out my Data Viz examples page.\nFor my Ph.D. research, I’m currently exploring how transportation 🚌 🚏affects access and success in college 🎓. See my work on that here.\n\nIf you have any questions or comments, feel free to reach out to me!"
+    "text": "Headshot\n\n\nI’m Matt Capaldi, an aspiring education data scientist and Ph.D. student in Higher Education Administration at the University of Florida 🐊. This website is intended to showcase a bit more about me than a CV can, such as my research on  transport to college, some examples of my  data visualizations, and my  CV.\n Email Me\n Github\n Google Scholar\n ORCID"
   }
 ]
