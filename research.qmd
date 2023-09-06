@@ -1,0 +1,48 @@
+---
+title: "Transport to College Research"
+anchor-sections: false
+---
+
+For my Ph.D. research, I'm exploring how transportation 🚌 🚏affects access and success in college 🎓. This page has a summary of my own research as well as some other work being done on the topic.
+
+## My Research on the Topic
+
+##### Paper One: Route to Graduation
+
+The first paper in the research collection explored the association having a transit stop within walking distance (0.5 miles) of campus and Pell student graduation rates. I found that having a transit stop within walking distance was associated with increased Pell graduation rates specifically for colleges urban environments.
+
+[{{< fa file-lines >}}](https://doi.org/10.1177/15210251231156421)
+[Publication](https://doi.org/10.1177/15210251231156421) 
+
+[{{< fa code >}}](https://github.com/ttalVlatt/Route-to-Graduation)
+[Analysis Code](https://github.com/ttalVlatt/Route-to-Graduation)
+
+[{{< fa chart-line >}}](https://ttalvlatt.shinyapps.io/rtg-dashboard/)
+[Visualization Dashboard](https://ttalvlatt.shinyapps.io/rtg-dashboard/)
+
+## Other Transport to College Work
+
+##### Civic Mapping Iniative
+
+In 2021, the Selding | Harring-Smith released a map and dataset detailing the location of the nearest transit stop to all colleges in US, as part of a broader project examining the need for cars in everyday US life. One of the major takeaways from the report was that 43% of community colleges were not accessible by public transit, and 25 of that 43% were within 5 miles of an existing transit route that could be extended.
+
+[{{< fa file-lines >}}](https://www.civicmaps.org/s/shsf-transit-guide-FINAL-2022-v2.pdf)
+[Report](https://www.civicmaps.org/s/shsf-transit-guide-FINAL-2022-v2.pdf)
+
+[{{< fa map-location-dot >}}](https://www.civicmaps.org/community-technical-college-transit-map)
+[Maps](https://www.civicmaps.org/community-technical-college-transit-map)
+
+[{{< fa link >}}](https://www.civicmaps.org)
+[Civic Mapping Project](https://www.civicmaps.org)
+
+
+##### US Congress: PATH to College Act
+
+Initially introduced in th 117th Congress, now reintroduced in the 118th Congress, the PATH to College Act is proposed legislation to provide grants to improve public transit access at technical and community colleges.
+
+[{{< fa scroll >}}](https://www.congress.gov/bill/118th-congress/house-bill/3411)
+[Proposed Legislation](https://www.congress.gov/bill/118th-congress/house-bill/3411)
+
+[{{< fa newspaper >}}](https://fitzpatrick.house.gov/2023/5/fitzpatrick-introduces-bipartisan-path-to-college-act)
+[Press Release](https://fitzpatrick.house.gov/2023/5/fitzpatrick-introduces-bipartisan-path-to-college-act)
+

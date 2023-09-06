@@ -1,6 +1,6 @@
 ---
 title: "Data Viz Examples"
-format-links: false
+anchor-sections: false
 format:
   html:
     toc: true

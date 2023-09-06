@@ -3,12 +3,18 @@ title: "Welcome!"
 format-links: false
 ---
 
-Hi there, welcome to my website! This site is still evolving, but its general purpose is to show visitors a little more about me and the work I've done. With that said, who am I?
+![Headshot](Headshot-Oval.png){width=200 fig-align="left"}
 
--   I'm Matt, aspiring education data scientist and Ph.D. student at the University of Florida 🐊.
+I'm Matt Capaldi, an aspiring education data scientist and Ph.D. student in Higher Education Administration at the University of Florida 🐊. This website is intended to showcase a bit more about me than a CV can, such as my research on [{{< fa bus >}}](/research.qmd) [transport to college](/research.qmd), some examples of my [{{< fa chart-line >}}](/data-viz-examples.qmd) [data visualizations](/data-viz-examples.qmd), and my [{{< fa file-lines >}}](/cv.qmd) [CV](/cv.qmd).
 
--   I really enjoy designing and coding data visualizations 📈 📉 , [check out my Data Viz examples page](/data-viz-examples.qmd).
+[{{< fa paper-plane >}}]()
+[Email Me](mailto:m.capaldi@ufl.edu)
 
--   For my Ph.D. research, I'm currently exploring how transportation 🚌 🚏affects access and success in college 🎓. See my work on that [here](https://doi.org/10.1177/15210251231156421).
+[{{< fa brands github >}}](https://github.com/ttalVlatt)
+[Github](https://github.com/ttalVlatt)
 
-If you have any questions or comments, feel free to [reach out to me](mailto:m.capaldi@ufl.edu)!
+[{{< fa graduation-cap >}}](https://scholar.google.com/citations?user=PHk--sIAAAAJ&hl=en)
+[Google Scholar](https://scholar.google.com/citations?user=PHk--sIAAAAJ&hl=en)
+
+[{{< fa brands orcid >}}](https://orcid.org/0000-0002-5664-3414)
+[ORCID](https://orcid.org/0000-0002-5664-3414)

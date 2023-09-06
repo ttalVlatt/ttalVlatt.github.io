@@ -11,17 +11,16 @@ website:
   navbar:
     logo: "Logo.png"
     left:
+      - href: research.qmd
+        text: "{{< fa bus >}} Transport to College"
       - href: data-viz-examples.qmd
-        text: Data Viz Examples
+        text: "{{< fa chart-line >}} Data Viz Examples"
       - href: cv.qmd
-        text: C.V.
+        text: "{{< fa file-lines >}} C.V."
     right:
-      - icon: envelope
+      - text: "{{< fa paper-plane >}} Email Me"
         href: mailto:m.capaldi@ufl.edu
-        aria-label: "Contact Me"
-      - icon: github
-        href: https://github.com/ttalVlatt
-        aria-label: "My GitHub Repo"
+        aria-label: "Email Me"
   page-footer:
     right: 
       - text: "Built with Quarto"
