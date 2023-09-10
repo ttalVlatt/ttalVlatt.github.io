@@ -5,7 +5,7 @@ format-links: false
 
 ![Headshot](Headshot-Oval.png){width=200 fig-align="left"}
 
-I'm Matt Capaldi, an aspiring education data scientist and Ph.D. student in Higher Education Administration at the University of Florida 🐊. This website is intended to showcase a bit more about me than a single piece of paper can, such as my research on [{{< fa bus >}}](/research.qmd) [transport to college](/transport-to-college.qmd), some examples of my [{{< fa chart-line >}}](/data-viz-examples.qmd) [data visualizations](/data-viz-examples.qmd), in addition to my traditional [{{< fa file-lines >}}](/cv.qmd) [CV](/cv.qmd).
+I'm Matt Capaldi, an aspiring education data scientist and Ph.D. student in Higher Education Administration at the University of Florida 🐊. This website is intended to showcase a bit more about me than a single piece of paper can, such as my research on [{{< fa bus >}}](/transport-to-college.qmd) [transport to college](/transport-to-college.qmd), some examples of my [{{< fa chart-line >}}](/data-viz-examples.qmd) [data visualizations](/data-viz-examples.qmd), in addition to my traditional [{{< fa file-lines >}}](/cv.qmd) [CV](/cv.qmd).
 
 [{{< fa paper-plane >}}]()
 [Email Me](mailto:m.capaldi@ufl.edu)
