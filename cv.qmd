@@ -1,8 +1,8 @@
 ---
 title: "Matt Capaldi"
 image: apple-touch-icon.png
-csl: apa-cv.csl
-section-bibs-bibliography: references.yaml
+csl: site-attachments/apa-cv.csl
+section-bibs-bibliography: site-attachments/cv-references.yaml
 filters:
   - section-bibliographies
   - docx-horizontal-rule
@@ -10,14 +10,14 @@ filters:
 citeproc: false
 reference-section-title: false
 section-bibs-level : 3
-bibliography: references.yaml
+bibliography: site-attachments/cv-references.yaml
 toc: false
 anchor-sections: false
 format:
   html:
     toc: false
   docx:
-    reference-doc: Pandoc-Style-CV.docx
+    reference-doc: site-attachments/Pandoc-Style-CV.docx
 ---
 
 *Education data analyst and doctoral student researching at the intersection of transportation and access to college. Data visualization & R enthusiast.*

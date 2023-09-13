@@ -22,12 +22,10 @@ library(spgwr)
 ##' [Data Input]
 ## ---------------------------
 
-schools <- read_sf(file.path("data-viz-examples",
-                             "chicago-public-schools",
+schools <- read_sf(file.path("chicago-public-schools",
                              "chicago-public-schools.shp"))
 
-boundary <- read_sf(file.path("data-viz-examples",
-                              "chicago-district-boundary",
+boundary <- read_sf(file.path("chicago-district-boundary",
                               "chicago-district-boundary.shp"))
 
 ## ---------------------------
@@ -244,6 +242,28 @@ map_gwr_chart <- base_map +
   scale_fill_gradient2() +
   labs(title = "Local β for Charter School Status",
        fill = "Local β Coefficient")
+
+## ---------------------------
+##' [Export: Save Graphs as Images]
+## ---------------------------
+
+ggsave(plot = map_hot_lunch,
+       filename = file.path("plot-images", "map-hot-lunch.png"))
+
+ggsave(plot = map_hot_math,
+       filename = file.path("plot-images", "map-hot-math.png"))
+
+ggsave(plot = map_lm_lunch,
+       filename = file.path("plot-images", "map-lm-lunch.png"))
+
+ggsave(plot = map_lm_math,
+       filename = file.path("plot-images", "map-lm-math.png"))
+
+ggsave(plot = map_gwr_lunch,
+       filename = file.path("plot-images", "map-gwr-lunch.png"))
+
+ggsave(plot = map_gwr_chart,
+       filename = file.path("plot-images", "map-gwr-chart.png"))
 
 ## ---------------------------
 ##' [Interpolation: Predict Hypothetical Values]

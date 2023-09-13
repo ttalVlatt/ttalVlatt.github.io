@@ -11,7 +11,7 @@ website:
   twitter-card: true
   open-graph: true
   navbar:
-    logo: "Logo.png"
+    logo: "site-attachments/Logo.png"
     left:
       - href: transport-to-college.qmd
         text: "{{< fa bus >}} Transport to College"
