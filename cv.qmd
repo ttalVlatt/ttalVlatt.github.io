@@ -1,5 +1,6 @@
 ---
 title: "Matt Capaldi"
+image: apple-touch-icon.png
 csl: apa-cv.csl
 section-bibs-bibliography: references.yaml
 filters:

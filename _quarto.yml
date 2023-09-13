@@ -6,7 +6,7 @@ project:
 website:
   title: "Matt Capaldi"
   description: "Matt Capaldi, education data and information analyst researching transport to college"
-  image: "Logo.png"
+  image: "apple-touch-icon.png"
   favicon: "apple-touch-icon.png"
   twitter-card: true
   open-graph: true

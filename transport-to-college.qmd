@@ -1,5 +1,6 @@
 ---
 title: "Transport to College Research"
+image: apple-touch-icon.png
 anchor-sections: false
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Data Viz Examples"
+image: apple-touch-icon.png
 anchor-sections: false
 format:
   html:
