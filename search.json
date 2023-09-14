@@ -14,13 +14,6 @@
     "text": "I’m Matt Capaldi, an aspiring education data scientist and Ph.D. student in Higher Education Administration at the University of Florida 🐊.\n\n\n\nHeadshot\n\n\nThis website is intended to showcase a bit more about me than a single piece of paper can, such as my research on  transport to college, some examples of my  data visualizations, in addition to my traditional  CV.\n Email Me\n Github\n Google Scholar\n ORCID"
   },
   {
-    "objectID": "site-attachments/Notes.html",
-    "href": "site-attachments/Notes.html",
-    "title": "Development Notes",
-    "section": "",
-    "text": "Development Notes\nPush infinite hang after Writing objects: 100% (10/10), 1.14 MiB | 760.00 KiB/s, done. Total 10 (delta 3), reused 0 (delta 0), pack-reused 0 issue resolved by increasing postBuffer size git config --global http.postBuffer 1048576000 https://stackoverflow.com/questions/15843937/git-push-hangs-after-total-line"
-  },
-  {
     "objectID": "data-viz-examples.html",
     "href": "data-viz-examples.html",
     "title": "Data Viz Examples",
