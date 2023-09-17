@@ -1,5 +1,6 @@
 project:
   type: website
+  post-render: docx-to-pdf.py
   resources:
     - CNAME
     

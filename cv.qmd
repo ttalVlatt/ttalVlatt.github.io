@@ -18,6 +18,11 @@ format:
     toc: false
   docx:
     reference-doc: site-attachments/Pandoc-Style-CV.docx
+  pdf:
+    documentclass: article
+    fontfamily: times
+    geometry:
+      - margin=15mm
 ---
 
 *Education data analyst and doctoral student researching at the intersection of transportation and access to college. Data visualization & R enthusiast.*
@@ -25,7 +30,7 @@ format:
 ------------------------------------------------------------------------
 
 ::: {.content-hidden when-format="html"}
-##### **Website:** <https://ttalVlatt.github.io>
+##### **Website:** [capaldi.info](https://capaldi.info)
 
 ##### **Phone:** +1 (401) 601-2069
 
@@ -70,7 +75,7 @@ Work with Dr. Frank Fernandez on research relating to college access, primarily 
 
 ##### **Major Research Projects**
 
-*Campus Climate Vulnerability Project (Summer 2023 - Present)*
+*Campus Climate Vulnerability Project (Summer 2023)*
 
 -   Built a customized Shiny app for data collection based on sets of images.
 
@@ -82,39 +87,39 @@ Work with Dr. Frank Fernandez on research relating to college access, primarily 
 
 -   Collected data on Illinois appropriations for higher education, labor market projections, census data, and institutional behavior, then drafted data visualizations using R (tables, graphs, and maps) for a report targeted at state policy makers.
 
-*Merit-Based Financial Aid (Fall 2021 - Present)*
+*Merit-Based Financial Aid (Fall 2021 - Spring 2022)*
 
 -   Created a new dataset of all state-run merit-based aid programs in the United States including details on dates active, award amount, merit criteria, and funding rules, leading to a new typology being proposed (see Hu et al., 2023).
 
-### Residence Hall Coordinator
+### **Residence Hall Coordinator**
 
 *University of Missouri, MO (July 2020 - May 2021)*
 
-### Graduate Community Coordinator
+### **Graduate Community Coordinator**
 
 *University of Florida, FL (July 2019 - May 2020)*
 
-### Summer Sessions Graduate Intern
+### **Summer Sessions Graduate Intern**
 
 *Georgetown University, DC (May 2019 - July 2019)*
 
-### Graduate Assistant for Industry Relations
+### **Graduate Assistant for Industry Relations**
 
 *University of Florida, FL (August 2018 - May 2019)*
 
-### Advising Intern
+### **Advising Intern**
 
 *US-UK Fulbright Commission, UK (January 2018 - June 2018)*
 
-### Student Ambassador
+### **Student Ambassador**
 
 *University of Birmingham, UK (January 2015 - June 2018)*
 
-### Careers Network Student Peer Presenter
+### **Careers Network Student Peer Presenter**
 
 *University of Birmingham, UK (September 2017 - June 2018)*
 
-### International Employer Liaison Assistant
+### **International Employer Liaison Assistant**
 
 *University of Birmingham, UK (June 2017 - August 2017)*
 
