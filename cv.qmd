@@ -41,8 +41,6 @@ format:
 
 ###### **Minor**: Urban and Regional Planning
 
-###### **Research Method Track**: Quantitative Methods
-
 *University of Florida, FL (2021 - Present)*
 
 ### M.Ed. Research and Evaluation Methodology
@@ -73,7 +71,7 @@ Work with Dr. Frank Fernandez on research relating to college access, primarily 
 
 *Campus Climate Vulnerability Project (Summer 2023)*
 
--   Built a customized Shiny app for data collection based on sets of images.
+-   Built a Shiny app to gather image feedback where the most relavent images to the current selection would be automatically displayed.
 
 *Linking Community Colleges and High Schools in Texas (Fall 2022 - Spring 2023)*
 
