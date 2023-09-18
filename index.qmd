@@ -20,3 +20,6 @@ This website is intended to showcase a bit more about me than a single piece of 
 
 [{{< fa brands orcid >}}](https://orcid.org/0000-0002-5664-3414)
 [ORCID](https://orcid.org/0000-0002-5664-3414)
+
+[{{< fa brands stack-overflow >}}](https://stackoverflow.com/users/21152968/ttalvlatt)
+[Stack Overflow](https://stackoverflow.com/users/21152968/ttalvlatt)

@@ -18,11 +18,7 @@ format:
     toc: false
   docx:
     reference-doc: site-attachments/Pandoc-Style-CV.docx
-  pdf:
-    documentclass: article
-    fontfamily: times
-    geometry:
-      - margin=15mm
+  pdf: default # Placeholder will be overwritten by docx-to-pdf.py
 ---
 
 *Education data analyst and doctoral student researching at the intersection of transportation and access to college. Data visualization & R enthusiast.*
@@ -43,11 +39,11 @@ format:
 
 ### Ph.D. Higher Education Administration
 
-*University of Florida, FL (2021 - Present)*
-
 ###### **Minor**: Urban and Regional Planning
 
 ###### **Research Method Track**: Quantitative Methods
+
+*University of Florida, FL (2021 - Present)*
 
 ### M.Ed. Research and Evaluation Methodology
 
@@ -59,9 +55,9 @@ format:
 
 ### B.A. International Relations with Political Science
 
-*University of Birmingham, UK (2014 - 2018)*
-
 ###### **Year Abroad**: Providence College, RI
+
+*University of Birmingham, UK (2014 - 2018)*
 
 # Work Experience
 
@@ -91,35 +87,35 @@ Work with Dr. Frank Fernandez on research relating to college access, primarily 
 
 -   Created a new dataset of all state-run merit-based aid programs in the United States including details on dates active, award amount, merit criteria, and funding rules, leading to a new typology being proposed (see Hu et al., 2023).
 
-### **Residence Hall Coordinator**
+### Residence Hall Coordinator
 
 *University of Missouri, MO (July 2020 - May 2021)*
 
-### **Graduate Community Coordinator**
+### Graduate Community Coordinator
 
 *University of Florida, FL (July 2019 - May 2020)*
 
-### **Summer Sessions Graduate Intern**
+### Summer Sessions Graduate Intern
 
 *Georgetown University, DC (May 2019 - July 2019)*
 
-### **Graduate Assistant for Industry Relations**
+### Graduate Assistant for Industry Relations
 
 *University of Florida, FL (August 2018 - May 2019)*
 
-### **Advising Intern**
+### Advising Intern
 
 *US-UK Fulbright Commission, UK (January 2018 - June 2018)*
 
-### **Student Ambassador**
+### Student Ambassador
 
 *University of Birmingham, UK (January 2015 - June 2018)*
 
-### **Careers Network Student Peer Presenter**
+### Careers Network Student Peer Presenter
 
 *University of Birmingham, UK (September 2017 - June 2018)*
 
-### **International Employer Liaison Assistant**
+### International Employer Liaison Assistant
 
 *University of Birmingham, UK (June 2017 - August 2017)*
 
@@ -142,7 +138,8 @@ Work with Dr. Frank Fernandez on research relating to college access, primarily 
 
 #### R
 
--   Data wrangling, data visualization, interactive graphics, machine learning, file management, basic regex, mapping & spatial statistics
+-   Data wrangling (tidyverse & vanilla), inferential statistics, data visualization (ggplot), interactive graphics (ggirpah & plotly), file management, 
+string manipulation & basic regex (stringr),  machine learning (tidymodels), mapping & spatial statistics (sf & sfdep)
 
 #### Shiny
 
@@ -150,19 +147,23 @@ Work with Dr. Frank Fernandez on research relating to college access, primarily 
 
 #### Python
 
--   Data wrangling, integration of Python & R through Reticulate, exploring natural language processing
+-   Data wrangling (numpy & pandas), integration of Python & R (Reticulate), exploring machine learning (Scikit) and natural language processing (NLTK)
 
 #### GitHub
 
--   Version control of code, collaboration through shared repositories, publishing websites with GitHub Pages
+-   Version control of code, collaboration through shared repositories, publishing websites with GitHub Pages, forking & pull-requesting repositories
 
 #### Geographic Information Systems
 
--   Utilize R for most GIS tasks, also familiar with both QGIS and ArcGIS
+-   Primarily use R for most GIS tasks but also familiar with QGIS and ArcGIS
+
+#### Quarto
+
+-   Website creation (e.g., [capaldi.info](https://capaldi.info)), formatted docx & pdf output (e.g., this CV), lua extensions (e.g., [Quarto-Docx-Horizontal-Rule](https://github.com/ttalVlatt/Quarto-Docx-Horizontal-Rule))
 
 #### Other Software Including
 
--   Quarto, Microsoft Office, Qualtrics, SPSS, Stata, Zotero
+-   Microsoft Office, VS Code, Google Workspace, Google Colab, Qualtrics, SPSS, Stata, Zotero
 
 # Statistical Skills
 
@@ -170,7 +171,7 @@ Work with Dr. Frank Fernandez on research relating to college access, primarily 
 
 #### Regression-Based Analysis
 
--   Linear regression, logistic regression, geographically weighted regression
+-   Linear regression, logistic regression, geographically weighted regression, cox regression
 
 #### Spatial Statistics
 
@@ -178,15 +179,11 @@ Work with Dr. Frank Fernandez on research relating to college access, primarily 
 
 #### Quasi-Experimental Design
 
--   Propensity score analysis (including machine learning methods)
-
-#### Survival Analysis
-
--   Cox proportional hazards model
+-   Propensity score matching & weighting, machine learning based propensity score calculation
 
 #### Psychometric Models
 
--   Classical test theory, factor analysis, item response theory, exploring computational psychometrics
+-   Classical test theory, factor analysis, item response theory, basic computational psychometrics
 
 # Publications
 
