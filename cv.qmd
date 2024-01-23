@@ -73,7 +73,7 @@ format:
 
 ##### R-Instructor (Spring 2024)
 
--   Following Dr. Skinner's departure, I was asked to take over instruction for the technical R coding portion of the course, which involved the majority of instruction and grading for the class.
+-   Following Dr. Skinner's departure, I was asked to take over instruction for the technical R coding portion of the course, which involved the majority of instruction and grading.
 -   Designed a refreshed [course website](https://capaldi.info/7916/) adding new lessons for using Quarto and translating R code to SQL.
 
 ##### Teaching Assistant (Spring 2023)
