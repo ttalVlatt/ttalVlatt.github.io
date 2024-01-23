@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.4.533">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -47,7 +47,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -56,6 +62,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -65,13 +72,13 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Matt Capaldi - Data Viz Examples">
-<meta property="og:description" content="">
+<meta property="og:description" content="Matt Capaldi, education data and information analyst researching transport to college">
 <meta property="og:image" content="https://capaldi.info/apple-touch-icon.png">
-<meta property="og:site-name" content="Matt Capaldi">
+<meta property="og:site_name" content="Matt Capaldi">
 <meta property="og:image:height" content="180">
 <meta property="og:image:width" content="180">
 <meta name="twitter:title" content="Matt Capaldi - Data Viz Examples">
-<meta name="twitter:description" content="">
+<meta name="twitter:description" content="Matt Capaldi, education data and information analyst researching transport to college">
 <meta name="twitter:image" content="https://capaldi.info/apple-touch-icon.png">
 <meta name="twitter:image-height" content="180">
 <meta name="twitter:image-width" content="180">
@@ -82,9 +89,9 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
     <img src="./site-attachments/Logo.png" alt="" class="navbar-logo">
     </a>
@@ -99,27 +106,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./transport-to-college.html" rel="" target="">
- <span class="menu-text"><i class="fa-solid fa-bus" aria-label="bus"></i> Transport to College</span></a>
+    <a class="nav-link" href="./transport-to-college.html"> 
+<span class="menu-text"><i class="fa-solid fa-bus" aria-label="bus"></i> Transport to College</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./data-viz-examples.html" rel="" target="" aria-current="page">
- <span class="menu-text"><i class="fa-solid fa-chart-line" aria-label="chart-line"></i> Data Viz Examples</span></a>
+    <a class="nav-link active" href="./data-viz-examples.html" aria-current="page"> 
+<span class="menu-text"><i class="fa-solid fa-chart-line" aria-label="chart-line"></i> Data Viz Examples</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv.html" rel="" target="">
- <span class="menu-text"><i class="fa-solid fa-file-lines" aria-label="file-lines"></i> C.V.</span></a>
+    <a class="nav-link" href="./cv.html"> 
+<span class="menu-text"><i class="fa-solid fa-file-lines" aria-label="file-lines"></i> C.V.</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="mailto:m.capaldi@ufl.edu" rel="" target="">
- <span class="menu-text"><i class="fa-solid fa-paper-plane" aria-label="paper-plane"></i> Email Me</span></a>
+    <a class="nav-link" href="mailto:m.capaldi@ufl.edu"> 
+<span class="menu-text"><i class="fa-solid fa-paper-plane" aria-label="paper-plane"></i> Email Me</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -155,7 +162,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 <p>I believe that high-quality data visualization is critically important for effectively communicating research and information. Below are some samples of my own data visualization work.</p>
 <section id="interactive-dashboard" class="level1">
@@ -174,46 +183,46 @@ ul.task-list li input[type="checkbox"] {
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <p>Hot-spot analysis, specifically the <a href="https://doi.org/10.1111/j.1538-4632.1992.tb00261.x">Getis-Ord Global G* Statistic</a>, shows hot- and cold-spots in the spatial distribution of a variable. Put simply, it highlights areas where nearby points are notably high or low in terms of a variable compared to the wider data. This can be useful in demonstrating spatial inequalities or gaps in outcomes across a given area.</p>
-<div class="quarto-figure quarto-figure-center">
+<div class="img-fluid quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="site-attachments/data-viz-examples/plot-images/map-hot-lunch.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Map of Free/Reduced Lunch Hot-spots</figcaption>
+<figcaption>Map of Free/Reduced Lunch Hot-spots</figcaption>
 </figure>
 </div>
-<div class="quarto-figure quarto-figure-center">
+<div class="img-fluid quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="site-attachments/data-viz-examples/plot-images/map-hot-math.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Map of Math Achievement Hot-spots</figcaption>
+<figcaption>Map of Math Achievement Hot-spots</figcaption>
 </figure>
 </div>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <p>Outlier analysis, specifically the <a href="https://doi.org/10.1111/j.1538-4632.1995.tb00338.x">Local Moran’s I Statistic</a>, builds off a similar logic as hot-spot analysis but then highlights points that go against the local pattern. Put simply, it highlights points whose value of a variable is high in an area of low values, or low in an area of high values. This can be useful in demonstrating observations that are notably different (for better or worse) than their local pattern, e.g., to identify places in need of extra help or places who may have found a strategy to overcome local challenges.</p>
-<div class="quarto-figure quarto-figure-center">
+<div class="img-fluid quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="site-attachments/data-viz-examples/plot-images/map-lm-lunch.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Map of Free/Reduced Lunch Outliers</figcaption>
+<figcaption>Map of Free/Reduced Lunch Outliers</figcaption>
 </figure>
 </div>
-<div class="quarto-figure quarto-figure-center">
+<div class="img-fluid quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="site-attachments/data-viz-examples/plot-images/map-lm-math.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Map of Math Achievement Outliers</figcaption>
+<figcaption>Map of Math Achievement Outliers</figcaption>
 </figure>
 </div>
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
 <p>Localized regression, specifically <a href="https://www.wiley.com/en-gb/Geographically+Weighted+Regression%3A+The+Analysis+of+Spatially+Varying+Relationships+-p-9780471496168">Geographically Weighted Regression</a>, shows how estimated regression coefficients vary across space. Put simply, instead of suggesting a variable has a certain association with an outcome for all places, this calculates the model locally to show where the association might be higher or lower. GWR can help deal with spatial autocorrelation of residuals which is common when using standard regression methods with spatial data. This can be useful in demonstrating how the effect of a certain intervention or characteristic varies across a given area.</p>
-<div class="quarto-figure quarto-figure-center">
+<div class="img-fluid quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="site-attachments/data-viz-examples/plot-images/map-gwr-lunch.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Map of Free/Reduced Lunch’s Association With Math Achievement</figcaption>
+<figcaption>Map of Free/Reduced Lunch’s Association With Math Achievement</figcaption>
 </figure>
 </div>
-<div class="quarto-figure quarto-figure-center">
+<div class="img-fluid quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="site-attachments/data-viz-examples/plot-images/map-gwr-chart.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Map of Charter School Status’s Association With Math Achievement</figcaption>
+<figcaption>Map of Charter School Status’s Association With Math Achievement</figcaption>
 </figure>
 </div>
 </div>
@@ -296,10 +305,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -309,8 +317,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -323,6 +340,120 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -366,6 +497,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -391,6 +523,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -453,14 +611,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">© M J Capaldi 2023</div>   
+    <div class="nav-footer-left">
+<p>© M J Capaldi 2023</p>
+</div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="https://quarto.org/docs/websites">Built with Quarto</a>
+    <a class="nav-link" href="https://quarto.org/docs/websites">
+<p>Built with Quarto</p>
+</a>
   </li>  
     <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/ttalVlatt/ttalVlatt.github.io">
@@ -472,6 +634,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+
 
 
 

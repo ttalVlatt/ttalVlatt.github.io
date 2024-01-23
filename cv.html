@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.4.533">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -24,6 +24,7 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -66,7 +67,13 @@ div.csl-indent {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -75,6 +82,7 @@ div.csl-indent {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -84,13 +92,13 @@ div.csl-indent {
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Matt Capaldi">
-<meta property="og:description" content="">
+<meta property="og:description" content="Matt Capaldi, education data and information analyst researching transport to college">
 <meta property="og:image" content="https://capaldi.info/apple-touch-icon.png">
-<meta property="og:site-name" content="Matt Capaldi">
+<meta property="og:site_name" content="Matt Capaldi">
 <meta property="og:image:height" content="180">
 <meta property="og:image:width" content="180">
 <meta name="twitter:title" content="Matt Capaldi">
-<meta name="twitter:description" content="">
+<meta name="twitter:description" content="Matt Capaldi, education data and information analyst researching transport to college">
 <meta name="twitter:image" content="https://capaldi.info/apple-touch-icon.png">
 <meta name="twitter:image-height" content="180">
 <meta name="twitter:image-width" content="180">
@@ -101,9 +109,9 @@ div.csl-indent {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
     <img src="./site-attachments/Logo.png" alt="" class="navbar-logo">
     </a>
@@ -118,27 +126,27 @@ div.csl-indent {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./transport-to-college.html" rel="" target="">
- <span class="menu-text"><i class="fa-solid fa-bus" aria-label="bus"></i> Transport to College</span></a>
+    <a class="nav-link" href="./transport-to-college.html"> 
+<span class="menu-text"><i class="fa-solid fa-bus" aria-label="bus"></i> Transport to College</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./data-viz-examples.html" rel="" target="">
- <span class="menu-text"><i class="fa-solid fa-chart-line" aria-label="chart-line"></i> Data Viz Examples</span></a>
+    <a class="nav-link" href="./data-viz-examples.html"> 
+<span class="menu-text"><i class="fa-solid fa-chart-line" aria-label="chart-line"></i> Data Viz Examples</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./cv.html" rel="" target="" aria-current="page">
- <span class="menu-text"><i class="fa-solid fa-file-lines" aria-label="file-lines"></i> C.V.</span></a>
+    <a class="nav-link active" href="./cv.html" aria-current="page"> 
+<span class="menu-text"><i class="fa-solid fa-file-lines" aria-label="file-lines"></i> C.V.</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="mailto:m.capaldi@ufl.edu" rel="" target="">
- <span class="menu-text"><i class="fa-solid fa-paper-plane" aria-label="paper-plane"></i> Email Me</span></a>
+    <a class="nav-link" href="mailto:m.capaldi@ufl.edu"> 
+<span class="menu-text"><i class="fa-solid fa-paper-plane" aria-label="paper-plane"></i> Email Me</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -166,7 +174,9 @@ div.csl-indent {
   </div>
   
 
+
 </header>
+
 
 <p><em>Education data analyst and doctoral student researching at the intersection of transportation and access to college. Data visualization &amp; R enthusiast.</em></p>
 <hr>
@@ -202,11 +212,34 @@ div.csl-indent {
 <section id="graduate-research-assistant" class="level3">
 <h3 data-anchor-id="graduate-research-assistant">Graduate Research Assistant</h3>
 <p><em>University of Florida, FL (August 2021 - Present)</em></p>
-<p>Work with Dr.&nbsp;Frank Fernandez on research relating to college access, primarily taking responsibility for data-related tasks (gathering, cleaning, analysis, and visualization).</p>
-<section id="major-research-projects" class="level5">
-<h5 data-anchor-id="major-research-projects"><strong>Major Research Projects</strong></h5>
-<p><em>Campus Climate Vulnerability Project (Summer 2023)</em></p>
+</section>
+<section id="teaching-responsibilities" class="level3">
+<h3 data-anchor-id="teaching-responsibilities"><strong>Teaching Responsibilities</strong></h3>
+<section id="edh-7916-contemporary-research-in-higher-education" class="level4">
+<h4 data-anchor-id="edh-7916-contemporary-research-in-higher-education">EDH 7916 Contemporary Research in Higher Education</h4>
+<p><em>A.K.A. “the R class”, an introductory graduate level class on data management, organization, and workflow using R and GitHub.</em></p>
+<section id="r-instructor-spring-2024" class="level5">
+<h5 data-anchor-id="r-instructor-spring-2024">R-Instructor (Spring 2024)</h5>
 <ul>
+<li>Following Dr.&nbsp;Skinner’s departure, I was asked to take over instruction for the technical R coding portion of the course, which involved the majority of instruction and grading for the class.</li>
+<li>Designed a refreshed <a href="https://capaldi.info/7916/">course website</a> adding new lessons for using Quarto and translating R code to SQL.</li>
+</ul>
+</section>
+<section id="teaching-assistant-spring-2023" class="level5">
+<h5 data-anchor-id="teaching-assistant-spring-2023">Teaching Assistant (Spring 2023)</h5>
+<ul>
+<li>Assisted instructor Dr.&nbsp;Ben Skinner by helping students with trouble-shooting and coding skills both in and out of class time.</li>
+<li>Designed and taught a lesson on working with spatial data and map creation in R. <a href="https://edquant.github.io/edh7916/lessons/mapping_api.html">See the lesson here</a>.</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="research-responsibilities" class="level3">
+<h3 data-anchor-id="research-responsibilities"><strong>Research Responsibilities</strong></h3>
+<p>Work with Dr.&nbsp;Frank Fernandez on research relating to college access, primarily taking responsibility for data-related tasks (gathering, cleaning, analysis, and visualization).</p>
+<p><em>College Climate Vulnerability (Summer 2023 - Fall 2023)</em></p>
+<ul>
+<li>Spatially merged meteorological and government emergency response data with college institutional data to explore potential impacts of extreme weather on higher education institutions.</li>
 <li>Built a Shiny app to gather image feedback where the most relevant images to the current selection would be automatically displayed below.</li>
 </ul>
 <p><em>Linking Community Colleges and High Schools in Texas (Fall 2022 - Spring 2023)</em></p>
@@ -219,9 +252,8 @@ div.csl-indent {
 </ul>
 <p><em>Merit-Based Financial Aid (Fall 2021 - Spring 2022)</em></p>
 <ul>
-<li>Created a new dataset of all state-run merit-based aid programs in the United States including details on dates active, award amount, merit criteria, and funding rules, leading to a new typology being proposed (see Hu et al., 2023).</li>
+<li>Created a new dataset of all state-run merit-based aid programs in the United States including details on dates active, award amount, merit criteria, and funding rules, leading to a new typology being proposed (see Hu et al., in press).</li>
 </ul>
-</section>
 </section>
 <section id="residence-hall-coordinator" class="level3">
 <h3 data-anchor-id="residence-hall-coordinator">Residence Hall Coordinator</h3>
@@ -246,29 +278,17 @@ div.csl-indent {
 <section id="student-ambassador" class="level3">
 <h3 data-anchor-id="student-ambassador">Student Ambassador</h3>
 <p><em>University of Birmingham, UK (January 2015 - June 2018)</em></p>
-</section>
-<section id="careers-network-student-peer-presenter" class="level3">
-<h3 data-anchor-id="careers-network-student-peer-presenter">Careers Network Student Peer Presenter</h3>
-<p><em>University of Birmingham, UK (September 2017 - June 2018)</em></p>
-</section>
-<section id="international-employer-liaison-assistant" class="level3">
-<h3 data-anchor-id="international-employer-liaison-assistant">International Employer Liaison Assistant</h3>
-<p><em>University of Birmingham, UK (June 2017 - August 2017)</em></p>
-</section>
-</section>
-<section id="teaching-experience" class="level1">
-<h1>Teaching Experience</h1>
-<hr>
-<section id="edh-7916-contemporary-research-in-higher-education" class="level3">
-<h3 data-anchor-id="edh-7916-contemporary-research-in-higher-education">EDH 7916 Contemporary Research in Higher Education</h3>
-<p><em>A.K.A. “the R class”, an introductory graduate level class on data management, organization, and workflow using R and GitHub.</em></p>
-<section id="teaching-assistant-spring-2023" class="level4">
-<h4 data-anchor-id="teaching-assistant-spring-2023">Teaching Assistant (Spring 2023)</h4>
-<ul>
-<li>Assisted instructor Dr.&nbsp;Ben Skinner by helping students with trouble-shooting and coding skills both in and out of class time.</li>
-<li>Designed and taught a lesson on working with spatial data and map creation in R. <a href="https://edquant.github.io/edh7916/lessons/mapping_api.html">See the lesson here</a>.</li>
-</ul>
-</section>
+<!--
+
+### Careers Network Student Peer Presenter
+
+*University of Birmingham, UK (September 2017 - June 2018)*
+
+### International Employer Liaison Assistant
+
+*University of Birmingham, UK (June 2017 - August 2017)*
+
+-->
 </section>
 </section>
 <section id="technical-skills" class="level1">
@@ -350,7 +370,7 @@ div.csl-indent {
 <hr>
 <section id="peer-reviewed-articles" class="level3">
 <h3 data-anchor-id="peer-reviewed-articles">Peer-Reviewed Articles</h3>
-<div id="refs-6.0.1" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="refs-5.0.1" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
 <div id="ref-capaldi2023" class="csl-entry" role="listitem">
 Capaldi, M. J. (2023). The route to graduation: An exploration of the association between transit stop proximity and pell recipient completion rates at US commuter colleges. <em>Journal of College Student Retention: Research, Theory &amp; Practice</em>. <a href="https://doi.org/10.1177/15210251231156421">https://doi.org/10.1177/15210251231156421</a>
 </div>
@@ -361,7 +381,7 @@ Hu, X., Fernandez, F., Qiu, Y., &amp; Capaldi, M. J. (n.d.). IN PRESS. The good,
 </section>
 <section id="reports" class="level3">
 <h3 data-anchor-id="reports">Reports</h3>
-<div id="refs-6.0.2" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="refs-5.0.2" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
 <div id="ref-fernandez2023" class="csl-entry" role="listitem">
 Fernandez, F., Hu, X., &amp; Capaldi, M. (2023). <em>Exploring equitable public higher education funding models in Illinois</em>. Partnership for College Completion. <a href="https://partnershipfcc.org/publications/adequacy/">https://partnershipfcc.org/publications/adequacy/</a>
 </div>
@@ -369,7 +389,7 @@ Fernandez, F., Hu, X., &amp; Capaldi, M. (2023). <em>Exploring equitable public 
 </section>
 <section id="commentary-articles" class="level3">
 <h3 data-anchor-id="commentary-articles">Commentary Articles</h3>
-<div id="refs-6.0.3" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="refs-5.0.3" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
 <div id="ref-capaldi2021" class="csl-entry" role="listitem">
 Capaldi, M. J. (2021, December 1). Ensuring equitable public safety responses in college towns. <em>American City and County</em>. <a href="https://www.americancityandcounty.com/2021/12/01/ensuring-equitable-public-safety-responses-in-college-towns/">https://www.americancityandcounty.com/2021/12/01/ensuring-equitable-public-safety-responses-in-college-towns/</a>
 </div>
@@ -382,7 +402,10 @@ Fernandez, F., &amp; Capaldi, M. J. (2021, October 25). Studying political scien
 <h3 data-anchor-id="presentations">Presentations</h3>
 
 
-<div id="refs-6.0.4" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="3ade8a4a-fb1d-4a6c-8409-ac45482d5fc9" class="hidden">
+
+</div>
+<div id="refs-5.0.4" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
 <div id="ref-hu2023" class="csl-entry" role="listitem">
 Hu, X., Fernandez, F., Qiu, Y., &amp; Capaldi, M. J. (2023, April 13). <em>A typology of state merit aid programs for community college students.</em> AERA: American Educational Research Association.
 </div>
@@ -463,10 +486,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -476,8 +498,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -490,6 +521,120 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -533,6 +678,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -558,6 +704,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -620,14 +792,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">© M J Capaldi 2023</div>   
+    <div class="nav-footer-left">
+<p>© M J Capaldi 2023</p>
+</div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="https://quarto.org/docs/websites">Built with Quarto</a>
+    <a class="nav-link" href="https://quarto.org/docs/websites">
+<p>Built with Quarto</p>
+</a>
   </li>  
     <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/ttalVlatt/ttalVlatt.github.io">
@@ -639,6 +815,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+
 
 
 
