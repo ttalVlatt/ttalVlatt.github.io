@@ -1,11 +1,12 @@
 project:
   type: website
-  post-render: docx-to-pdf.py
+  post-render: site-attachments/docx2pdf.R
   resources:
     - CNAME
     
 website:
   title: "Matt Capaldi"
+  site-url: "https://capaldi.info"
   description: "Matt Capaldi, education data and information analyst researching transport to college"
   image: "apple-touch-icon.png"
   favicon: "apple-touch-icon.png"
