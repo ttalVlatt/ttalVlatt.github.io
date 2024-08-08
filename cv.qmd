@@ -1,5 +1,6 @@
 ---
-title: "Matt Capaldi"
+title: "CV"
+date: today
 image: apple-touch-icon.png
 csl: site-attachments/apa-cv.csl
 section-bibs-bibliography: site-attachments/cv-references.yaml
@@ -7,81 +8,68 @@ filters:
   - section-bibliographies
   - docx-horizontal-rule
   - hide-me
-citeproc: false
+citeproc: true
 reference-section-title: false
-section-bibs-level : 3
+section-bibs-level : 2
 bibliography: site-attachments/cv-references.yaml
 toc: false
 anchor-sections: false
-format:
-  html:
-    toc: false
-  docx:
-    reference-doc: site-attachments/Pandoc-Style-CV.docx
-  pdf: default # Placeholder will be overwritten by docx-to-pdf.py
+format: CV-typst
+keep-typ: true
 ---
 
-*Education data analyst and doctoral student researching at the intersection of transportation and access to college. Data visualization & R enthusiast.*
+`#fa-icon("building-columns", size: 16pt) #h(0.1in) #text(16pt, weight: "bold")[Education]`{=typst}
 
-------------------------------------------------------------------------
+`#line(length: 75%)`{=typst}
 
-::: {.content-hidden when-format="html"}
-##### **Website:** [capaldi.info](https://capaldi.info)
+# **Ph.D.** Higher Education Administration
 
-##### **Phone:** +1 (401) 601-2069
+-   Thesis: Three essays on
+-   Minor: Urban and Regional Planning
+-   University of Florida, FL, *Summer 2025 (Expected)*
 
-##### **Email:** [m.capaldi\@ufl.edu](mailto:m.capaldi@ufl.edu)
-:::
+# **M.Ed.** Research and Evaluation Methodology
 
-# Education
+-   University of Florida, FL, *Fall 2024 (Expected)*
 
-------------------------------------------------------------------------
+# **M.Ed.** Student Personnel in Higher Education
 
-### Ph.D. Higher Education Administration
+-   University of Florida, FL, *Spring 2020*
 
-###### **Minor**: Urban and Regional Planning
+# **B.A.** International Relations with Political Science
 
-*University of Florida, FL (2021 - Present)*
+-   Year Abroad: Providence College, RI
+-   University of Birmingham, UK, *Summer 2018*
 
-### M.Ed. Research and Evaluation Methodology
+```{=typst}
+#v(0.2in)
+#fa-icon("briefcase", size: 16pt)
+#h(0.1in)
+#text(16pt, weight: "bold")[Experience]
+#line(length: 75%)
+```
+# **Graduate Assistant** University of Florida
 
-*University of Florida, FL (2022 - Present)*
+*August 2021 to Present*
 
-### M.Ed. Student Personnel in Higher Education
+`#block(stroke: rgb(255,165,0), fill: rgb(255,165,0,10%), inset: 0.5em, radius: 3pt)[`{=typst}
 
-*University of Florida, FL (2018 - 2020)*
+## Teaching Responsibilies
 
-### B.A. International Relations with Political Science
+*EDH 7916: Contemporary Research in Higher Education (a.k.a. "the R class")*
 
-###### **Year Abroad**: Providence College, RI
+-   **Co-Instructor** (with Dr. Melvin Tanner), *Spring 2024*
+    -   Following Dr. Skinner's departure, I was asked to take over instruction for the technical R coding portion of the course, which involved the majority of instruction and grading.
+    -   Designed a refreshed [course website](https://capaldi.info/7916/) adding new lessons for using Quarto and translating R code to SQL.
+-   **Teaching Assistant** (for Dr. Ben Skinner), *Spring 2023*
+    -   Assisted instructor Dr. Ben Skinner by helping students with trouble-shooting and coding skills both in and out of class time.
+    -   Designed and taught a lesson on working with spatial data and map creation in R. [See the lesson here](https://edquant.github.io/edh7916/lessons/mapping_api.html).
 
-*University of Birmingham, UK (2014 - 2018)*
+`]`{=typst}
 
-# Work Experience
+`#block(stroke: rgb(166,166,166), fill: rgb(166,166,166,10%),  inset: 0.5em, radius: 3pt)[`{=typst}
 
-------------------------------------------------------------------------
-
-### Graduate Research Assistant
-
-*University of Florida, FL (August 2021 - Present)*
-
-### **Teaching Responsibilities**
-
-#### EDH 7916 Contemporary Research in Higher Education
-
-*A.K.A. "the R class", an introductory graduate level class on data management, organization, and workflow using R and GitHub.*
-
-##### R-Instructor (Spring 2024)
-
--   Following Dr. Skinner's departure, I was asked to take over instruction for the technical R coding portion of the course, which involved the majority of instruction and grading.
--   Designed a refreshed [course website](https://capaldi.info/7916/) adding new lessons for using Quarto and translating R code to SQL.
-
-##### Teaching Assistant (Spring 2023)
-
--   Assisted instructor Dr. Ben Skinner by helping students with trouble-shooting and coding skills both in and out of class time.
--   Designed and taught a lesson on working with spatial data and map creation in R. [See the lesson here](https://edquant.github.io/edh7916/lessons/mapping_api.html).
-
-### **Research Responsibilities**
+## Research Responsibilities
 
 Work with Dr. Frank Fernandez on research relating to college access, primarily taking responsibility for data-related tasks (gathering, cleaning, analysis, and visualization).
 
@@ -102,31 +90,33 @@ Work with Dr. Frank Fernandez on research relating to college access, primarily 
 
 -   Created a new dataset of all state-run merit-based aid programs in the United States including details on dates active, award amount, merit criteria, and funding rules, leading to a new typology being proposed (see Hu et al., in press).
 
-### Residence Hall Coordinator
+`]`{=typst}
 
-*University of Missouri, MO (July 2020 - May 2021)*
+# **Residence Hall Coordinator** University of Missouri
 
-### Graduate Community Coordinator
+*July 2020 to May 2021*
 
-*University of Florida, FL (July 2019 - May 2020)*
+# **Graduate Community Coordinator** University of Florida
 
-### Summer Sessions Graduate Intern
+*July 2019 to May 2020*
 
-*Georgetown University, DC (May 2019 - July 2019)*
+# **Summer Sessions Graduate Intern (ACUHO-I)** Georgetown University
 
-### Graduate Assistant for Industry Relations
+*May 2019 to July 2019*
 
-*University of Florida, FL (August 2018 - May 2019)*
+# **Graduate Assistant for Industry Relations** University of Florida
 
-### Advising Intern
+*August 2018 to May 2019*
 
-*US-UK Fulbright Commission, UK (January 2018 - June 2018)*
+# **Advising Intern** US-UK Fulbright Commission
 
-### Student Ambassador
+*January 2018 to June 2018*
 
-*University of Birmingham, UK (January 2015 - June 2018)*
-
+```{=html}
 <!--
+
+## **Student Ambassador** University of Birmingham
+*January 2015 to June 2018*
 
 ### Careers Network Student Peer Presenter
 
@@ -137,64 +127,64 @@ Work with Dr. Frank Fernandez on research relating to college access, primarily 
 *University of Birmingham, UK (June 2017 - August 2017)*
 
 -->
+```
+```{=typst}
+#v(0.2in)
+#fa-icon("lightbulb", size: 16pt)
+#h(0.1in)
+#text(16pt, weight: "bold")[Technical Skills]
+#line(length: 75%)
+```
+```{=typst}
+#block(stroke: rgb(255,165,0), fill: rgb(255,165,0,10%), inset: 0.5em, radius: 3pt)[
 
-# Technical Skills
+#show table.cell.where(x: 0): strong
 
-------------------------------------------------------------------------
+#table(
+  columns: (1.8in, 1fr),
+  [Regression-Based Analysis], [OLS, Logistic, Cox Propoortional Hazard, Geographically Weighted, Fixed Effects],
+  [Quasi-Experimental Designs], [Propensity Score Weighting, Matching, & Stratification, Instrumemntal Variables, Diff-in-Diff, Regression Discontinuity],
+  [Spatial Statistics], [Distance Calculation, Cluster Analysis, Hot-Spot Analysis, Spatial Outlier Analysis, Interpolation],
+  [Psychometrics & Latent Variables], [Classical Test Theory, Factor Analysis, Item Response Theory, Computational Psychometrics, Structural Equation Modeling],
+  [Natural Language Processing], [Text Pre-Processing, Vectorization, Topic Modeling, Structural Topic Modeling],
+  [Bayesian Statistics], [TBD]
+)
 
-#### R
+]
+```
+```{=typst}
+#block(stroke: rgb(166,166,166), fill: rgb(166,166,166,10%), inset: 0.5em, radius: 3pt)[
 
--   Data wrangling (tidyverse & vanilla), inferential statistics, data visualization (ggplot), interactive graphics (ggirpah & plotly), file management, string manipulation & basic regex (stringr), machine learning (tidymodels), mapping & spatial statistics (sf & sfdep)
+#table(
+  columns: (4%, 10%, 4%, 11%, 4%, 13%, 4%, 8%, 4%, 11%, 4%, 23%),
+  align: left,
+  [#fa-icon("r-project")], [R],
+  [#fa-icon("chart-line")], [Shiny],
+  [#fa-icon("python")], [Python],
+  [#fa-icon("github")], [Git],
+  [#fa-icon("z")], [Zotero],
+  [#fa-icon("markdown")], [Quarto & Rmd],
+  [#fa-icon("cubes")], [Stata],
+  [#fa-icon("square-root-variable")], [SPSS],
+  [#fa-icon("clipboard-list")], [Qualtrics],
+  [#fa-icon("globe")], [GIS],
+  [#fa-icon("keyboard")], [Typst],
+  [#fa-icon("windows")], [Microsoft Office],
 
-#### Shiny
+)
 
--   Developing interactive apps including data visualization dashboards and data collection tools. Primarily use R Shiny, exploring shinyExpress with Python
+]
+```
+```{=typst}
+#v(0.2in)
+#fa-icon("feather-pointed", size: 16pt)
+#h(0.1in)
+#text(16pt, weight: "bold")[Publications]
+#line(length: 75%)
+```
+`#[#set par(leading: 0.5em, hanging-indent: 3em)`{=typst}
 
-#### Python
-
--   Data wrangling (numpy & pandas), integration of Python & R (Reticulate), exploring machine learning (Scikit) and natural language processing (NLTK)
-
-#### GitHub
-
--   Version control of code, collaboration through shared repositories, publishing websites with GitHub Pages, forking & pull-requesting repositories
-
-#### Geographic Information Systems
-
--   Primarily use R for most GIS tasks but also familiar with QGIS and ArcGIS
-
-#### Quarto
-
--   Website creation (e.g., [capaldi.info](https://capaldi.info)), formatted docx & pdf output (e.g., this CV), lua extensions (e.g., [Quarto-Docx-Horizontal-Rule](https://github.com/ttalVlatt/Quarto-Docx-Horizontal-Rule))
-
-#### Other Software Including
-
--   Microsoft Office, VS Code, Google Workspace, Google Colab, Qualtrics, SPSS, Stata, Zotero
-
-# Statistical Skills
-
-------------------------------------------------------------------------
-
-#### Regression-Based Analysis
-
--   Linear regression, logistic regression, geographically weighted regression, cox regression
-
-#### Spatial Statistics
-
--   Distances & central features, clustering analysis, spatial autocorrelation, hot-spot analysis, spatial outlier analysis, interpolation
-
-#### Quasi-Experimental Design
-
--   Propensity score matching & weighting, machine learning based propensity score calculation
-
-#### Psychometric Models
-
--   Classical test theory, factor analysis, item response theory, basic computational psychometrics
-
-# Publications
-
-------------------------------------------------------------------------
-
-### Peer-Reviewed Articles
+## Peer-Reviewed Articles
 
 ::: hide-me
 @capaldi2023
@@ -202,13 +192,13 @@ Work with Dr. Frank Fernandez on research relating to college access, primarily 
 @hu
 :::
 
-### Reports
+## Reports
 
 ::: hide-me
 @fernandez2023
 :::
 
-### Commentary Articles
+## Commentary Articles
 
 ::: hide-me
 @capaldi2021
@@ -216,8 +206,38 @@ Work with Dr. Frank Fernandez on research relating to college access, primarily 
 @fernandez2021
 :::
 
-### Presentations
+#
+
+```{=typst}
+#v(0in)
+#fa-icon("users", size: 16pt)
+#h(0.1in)
+#text(16pt, weight: "bold")[Conference Presentations]
+#line(length: 75%)
+```
+
+## Presentations
 
 ::: hide-me
 @hu2023
 :::
+
+#
+
+`]`{=typst}
+
+```{=typst}
+#v(0in)
+#fa-icon("sack-dollar", size: 16pt)
+#h(0.1in)
+#text(16pt, weight: "bold")[Funding]
+#line(length: 75%)
+
+#table(
+  columns: (15%, 1fr, 20%, 20%),
+  [2024], [Dr. Barbara Keener Dissertation Award], [University of Florida], [\$1,000],
+  [2024], [Lincoln and Lillian Hall Fellowship in Memory of Albert G. Hall], [University of Florida], [\$2,500],
+  [2023], [Patricia D. Conroy Endowed Scholarship], [University of Florida], [\$2,000],
+  [2021 to 2025], [Four-Year Graduate School Funding Award], [University of Florida], [Tuition plus \$31,000/year],
+)
+```
