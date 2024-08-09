@@ -186,7 +186,7 @@ Work with Dr. Frank Fernandez on research relating to college access, primarily 
 
 #show regex("Capaldi, M. J.|Capaldi, M."): strong
 
-#[#set par(leading: 0.5em, hanging-indent: 3em)
+#[#set par(leading: 0.5em, hanging-indent: 0.6in)
 ```
 
 ## Peer-Reviewed Articles

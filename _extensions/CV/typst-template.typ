@@ -56,7 +56,7 @@
                  place(left + top,
                        rotate(0deg,
                               par(text(size: 23pt,
-                                       weight: "regular",
+                                       weight: "bold",
                                        fill: rgb(166,166,166))[Matt \ Capaldi \ ] +
                                   text(size: 12pt,
                                        weight: "light",
@@ -67,15 +67,15 @@
                             rotate(0deg,
                                         fa-icon("paper-plane", fill: rgb(166,166,166), size: 9pt, solid: false) +
                                         text(fill: rgb(166,166,166))[ ] +
-                                        link("mailto:m.capaldi@ufl.edu")[Email Me] +
+                                        link("mailto:m.capaldi@ufl.edu")[Email] +
                                         text()[ \ ] +
                                         fa-icon("phone", fill: rgb(166,166,166), size: 9pt) +
                                         text(fill: rgb(166,166,166))[ ] +
-                                        link("tel:+1 (401) 601-2069")[Call Me] +
+                                        link("tel:+1 (401) 601-2069")[Phone] +
                                         text()[ \ ] +
                                         fa-icon("wifi", fill: rgb(166,166,166), size: 9pt) +
                                        text(fill: rgb(166,166,166))[ ] +
-                                       link("https://capaldi.info")[Personal Website] +
+                                       link("https://capaldi.info")[Website] +
                                        text()[ \ ] +
                                         fa-icon("google-scholar", fill: rgb(166,166,166), size: 9pt) +
                                         text(fill: rgb(166,166,166))[ ] +
@@ -94,10 +94,10 @@
                                         link("https://stackoverflow.com/users/21152968/ttalvlatt")[StackOverflow]
                                         ),
                                    dx: 0.1in, dy: 2.66in);
-                       place(top + right,
-                             text(fill: rgb(166,166,166), size: 9pt)[Updated: ] +
-                             text(fill: rgb(166,166,166), size: 9pt, date),
-                             dx: -0.1in, dy: 0.1in)
+                       place(bottom + right,
+                             text(fill: rgb(166,166,166), size: 11pt)[Updated: ] +
+                             text(fill: rgb(166,166,166), size: 11pt, date),
+                             dx: -0.2in, dy: -0.2in)
                       },
 )
   set par(justify: false,
@@ -123,7 +123,7 @@
 )
 
 #show link: underline
-#show link: set text(size: 10pt, weight: "extralight", fill: rgb(205,133,0))
+#show link: set text(size: 11pt, weight: "light", fill: rgb(205,133,0))
 
 #set list(marker: [--], tight: true)
 
