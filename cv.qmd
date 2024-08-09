@@ -3,15 +3,14 @@ title: "CV"
 date: today
 image: site-attachments/logo.png
 csl: site-attachments/apa-cv.csl
+bibliography: site-attachments/references.yaml
 section-bibs-bibliography: site-attachments/references.yaml
 filters:
   - section-bibliographies
-  - docx-horizontal-rule
   - hide-me
 citeproc: true
 reference-section-title: false
 section-bibs-level: 2
-bibliography: site-attachments/references.yaml
 toc: false
 anchor-sections: false
 format: CV-typst
@@ -55,23 +54,27 @@ format: CV-typst
 
 *Graduate Assistant & Fellow* #h(1fr) _August 2021 -- Present_ \
 #h(0.6in) University of Florida, FL \
+
 #block(inset: (left: 0.6in))[
   _*Teaching Experience*_ \
   EDH 7916: Contemporary Research in Higher Education -- _"The R Class"_ \
+  
     #block(inset: (left: 0.6in))[
-    _*Co-Instructor*_ #h(1fr) _Spring 2023_ \
-    - Took over instruction and grading for the technical R portions of the course Dr. Skinner's departure
-    - Refreshed the #link("https://capaldi.info/7916/")[course website] including simpliying some of the core content (e.g. loops), updating the .Rmd lesson to Quarto, and adding Tidyverse to SQL translation lesson
+    _*Co-Instructor*_ #h(1fr) _Spring 2024_ \
+    - Took over instruction and grading for the technical R portions of the course following Dr. Skinner's departure
+    - Refreshed the #link("https://capaldi.info/7916/")[course website] including simpliying some of the core content (e.g. loops), updating the .Rmd lesson to Quarto, and adding a Tidyverse to SQL translation lesson
     - 4.3 out of 5.0 course evaluation #link("https://gatorevals.aa.ufl.edu/public-results/")[see public results]
-    _*Teaching Assistant*_ #h(1fr) _Spring 2022_ \
+    _*Teaching Assistant*_ #h(1fr) _Spring 2023_ \
     - Assisted Dr. Skinner with 1:1 troubleshooting for lessons and assignments during class and office hours
-    - Designed and taught #link("https://edquant.github.io/edh7916/lessons/mapping_api.html")[a new lesson] on mapping and working with spatial data in R
-    
+    - Designed and taught #link("https://edquant.github.io/edh7916/lessons/mapping_api.html")[a new lesson] on mapping and working with spatial data in R based off a real-world past GA task
     ]
+    
   _*Research Experience*_ \
-  - #lorem(20)
-  - #lorem(10)
-  - #lorem(15)
+  - Created a time-series matrix of neighboring colleges to explore the impact of policy changes on transfer patterns
+  - Spatially merged meteorological and government emergency response data with IPEDS to explore the impact of extreme weather on colleges
+  - Spatially lined up TX community college service areas with high school districts to explore equity of institutional access
+  - Gathered data and created tables and visualizations for a #link("https://partnershipfcc.org/publications/adequacy/")[report targeted at state policy makers]
+  - Created a new dataset of state-run merit-based aid programs in the US which led to a #link("https://doi.org/10.1177/00915521241238753")[new typology being proposed]
 ]
 
 *Residence Hall Coordinator* #h(1fr) _July 2020 -- May 2021_ \
@@ -89,76 +92,65 @@ format: CV-typst
 *Advising Intern* #h(1fr) _January 2018 -- June 2018_ \
 #h(0.6in) US-UK Fulbright Commission
 
-```
+*Student Ambassador* #h(1fr) _January 2015 -- June 2018_ \
+#h(0.6in) University of Birmingham
 
 
-## Research Responsibilities
 
-Work with Dr. Frank Fernandez on research relating to college access, primarily taking responsibility for data-related tasks (gathering, cleaning, analysis, and visualization).
-
-*College Climate Vulnerability (Summer 2023 - Fall 2023)*
-
--   Spatially merged meteorological and government emergency response data with college institutional data to explore potential impacts of extreme weather on higher education institutions.
--   Built a Shiny app to gather image feedback where the most relevant images to the current selection would be automatically displayed below.
-
-*Linking Community Colleges and High Schools in Texas (Fall 2022 - Spring 2023)*
-
--   Created spatial boundaries for TX community college service areas from legislation and Census shapefiles to spatially match community colleges to feeder high schools.
-
-*Exploring Equitable Higher Education Funding Models in Illinois (Summer 2022)*
-
--   Collected data on Illinois appropriations for higher education, labor market projections, census data, and institutional behavior, then drafted data visualizations using R (tables, graphs, and maps) for a report targeted at state policy makers.
-
-*Merit-Based Financial Aid (Fall 2021 - Spring 2022)*
-
--   Created a new dataset of all state-run merit-based aid programs in the United States including details on dates active, award amount, merit criteria, and funding rules, leading to a new typology being proposed (see Hu et al., in press).
-
-
-```{=html}
-<!--
-
-## **Student Ambassador** University of Birmingham
-*January 2015 to June 2018*
-
-### Careers Network Student Peer Presenter
-
-*University of Birmingham, UK (September 2017 - June 2018)*
-
-### International Employer Liaison Assistant
-
-*University of Birmingham, UK (June 2017 - August 2017)*
-
--->
-```
-```{=typst}
 #v(0.2in)
 #fa-icon("lightbulb", size: 16pt)
 #h(0.1in)
 #text(16pt, weight: "bold")[Technical Skills]
 #line(length: 75%)
-```
-```{=typst}
-#block(stroke: rgb(255,165,0), fill: rgb(255,165,0,10%), inset: 0.5em, radius: 3pt)[
 
-#show table.cell.where(x: 0): strong
+#block(stroke: rgb(255,165,0), fill: rgb(255,165,0,10%),
+       inset: (left: 0.2in, top: 0.2in), radius: 3pt)[
 
-#table(
-  columns: (1.8in, 1fr),
-  [Regression-Based Analysis], [OLS, Logistic, Cox Propoortional Hazard, Geographically Weighted, Fixed Effects],
-  [Quasi-Experimental Designs], [Propensity Score Weighting, Matching, & Stratification, Instrumemntal Variables, Diff-in-Diff, Regression Discontinuity],
-  [Spatial Statistics], [Distance Calculation, Cluster Analysis, Hot-Spot Analysis, Spatial Outlier Analysis, Interpolation],
-  [Psychometrics & Latent Variables], [Classical Test Theory, Factor Analysis, Item Response Theory, Computational Psychometrics, Structural Equation Modeling],
-  [Natural Language Processing], [Text Pre-Processing, Vectorization, Topic Modeling, Structural Topic Modeling],
-  [Bayesian Statistics], [TBD]
+#grid(columns: (1fr, 1fr),
+      inset: (bottom: 0.2in, right: 0.2in),
+
+[*Regression-Based Analysis*
+- Ordinary Least Squares
+- Logistic
+- Cox Proportional Hazard
+- Geographically Weighted
+- Fixed Effects],
+
+[*Quasi-Experimental Designs*
+- Propensity Scores
+- Instrumental Variables
+- Difference in Differences
+- Regression Discontinuity],
+
+[*Spatial Statistics*
+- Spatial Projections & Mapping
+- Distance Calculation
+- Clusters & Hot-Spots
+- Spatial Outlier
+- Interpolation],
+
+[*Psychometrics & Latent Variables*
+- Classical Test Theory
+- Factor Analysis
+- Item Response Theory
+- Basic Computational Psychometrics
+- Structural Equation Modeling],
+
+[*Natural Language Processing*
+- Structural Topic Modeling],
+
+[*Bayesian Statistics*
+- Bayesian Regression (MCMC)]
 )
-
 ]
-```
-```{=typst}
-#block(stroke: rgb(166,166,166), fill: rgb(166,166,166,10%), inset: 0.5em, radius: 3pt)[
 
-#table(
+
+#block(stroke: rgb(166,166,166), fill: rgb(166,166,166,10%), inset: 0.05in, radius: 3pt)[
+
+#grid(
   columns: (4%, 10%, 4%, 11%, 4%, 13%, 4%, 8%, 4%, 11%, 4%, 23%),
+  inset: 0.1in,
+  
   align: left,
   [#fa-icon("r-project")], [R],
   [#fa-icon("chart-line")], [Shiny],
@@ -176,8 +168,8 @@ Work with Dr. Frank Fernandez on research relating to college access, primarily 
 )
 
 ]
-```
-```{=typst}
+
+
 #v(0.2in)
 #fa-icon("feather-pointed", size: 16pt)
 #h(0.1in)
@@ -185,6 +177,7 @@ Work with Dr. Frank Fernandez on research relating to college access, primarily 
 #line(length: 75%)
 
 #show regex("Capaldi, M. J.|Capaldi, M."): strong
+#show regex("Capaldi, M. J.|Capaldi, M."): emph
 
 #[#set par(leading: 0.5em, hanging-indent: 0.6in)
 ```
@@ -193,11 +186,8 @@ Work with Dr. Frank Fernandez on research relating to college access, primarily 
 
 ::: hide-me
 @capaldiRouteRetentionPropensity
-
 @capaldiTimePlaceSustainablea
-
 @huGoodBadBalanced2024
-
 @capaldiRouteGraduationExploration2023
 :::
 
@@ -211,7 +201,6 @@ Work with Dr. Frank Fernandez on research relating to college access, primarily 
 
 ::: hide-me
 @capaldiEnsuringEquitablePublic2021
-
 @fernandezStudyingPoliticalScience2021
 :::
 
@@ -227,40 +216,44 @@ Work with Dr. Frank Fernandez on research relating to college access, primarily 
 ## Workshops
 
 ::: hide-me
-
 @capaldiAutomatingDataRetrieval2024
-
 :::
 
 ## Paper Presentations
 
 ::: hide-me
-
 @capaldiTimePlaceSustainable
-
 @huFewDollarsMore
-
 @capaldiRouteRetentionAnalysis2024
-
 @huTypologyStateMerit2023
 :::
 
 # 
 
-`]`{=typst}
-
 ```{=typst}
+]
+
 #v(0in)
 #fa-icon("sack-dollar", size: 16pt)
 #h(0.1in)
 #text(16pt, weight: "bold")[Funding]
 #line(length: 75%)
 
-#table(
-  columns: (15%, 1fr, 20%, 20%),
-  [2024], [Dr. Barbara Keener Dissertation Award], [University of Florida], [\$1,000],
-  [2024], [Lincoln and Lillian Hall Fellowship in Memory of Albert G. Hall], [University of Florida], [\$2,500],
-  [2023], [Patricia D. Conroy Endowed Scholarship], [University of Florida], [\$2,000],
-  [2021 to 2025], [Four-Year Graduate School Funding Award], [University of Florida], [Tuition plus \$31,000/year],
-)
+
+#let neat(body) = context {
+  let size = measure(body)
+  let width = size.width
+  let space = 0.9in - width
+  {text(body); h(space)}
+}
+
+#neat("$1,000")Dr. Barbara Keener Dissertation Award #h(1fr) _2024_ \
+#h(1.2in) University of Florida \
+#neat("$2,500")Lincoln and Lillian Hall Fellowship in Memory of Albert G. Hall #h(1fr) _2024_ \
+#h(1.2in) University of Florida \
+#neat("$2,000")Patricia D. Conroy Endowed Scholarship #h(1fr) _2023_ \
+#h(1.2in) University of Florida \
+#neat("$31,000")Graduate School Funding Award #h(1fr) _2021 -- 2025_ \
+#neat("& Tuition")#h(0.3in) University of Florida
+
 ```

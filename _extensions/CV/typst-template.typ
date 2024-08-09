@@ -117,23 +117,15 @@
   }
 }
 
-#set table(
-  inset: 6pt,
-  stroke: none
-)
-
 #show link: underline
 #show link: set text(size: 11pt, weight: "light", fill: rgb(205,133,0))
 
 #set list(marker: [--], tight: true)
 
 // headings
-#show heading: set text(11pt) // set all headings to 12pt text
-#show heading.where(level: 1): set align(left) // center level one headings
-#show heading.where(level: 1): set text(weight: "regular")
-#show heading.where(level: 2): set text(style: "italic")
-#show heading.where(level: 4): it => text(it.body + [.]) // h/t https://github.com/mvuorre/quarto-apaish/blob/main/_extensions/apaish-document/typst-template.typ
-#show heading.where(level: 5): it => text(it.body + [.], style: "italic")
+#show heading: set text(11pt) // set all headings to 11pt text
+#show heading.where(level: 2): set text(weight: "bold")
+
 
 #show quote: set block(spacing: 1em)
 #show quote: set pad(x: 2.5em)

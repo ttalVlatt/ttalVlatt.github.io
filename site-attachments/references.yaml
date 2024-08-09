@@ -133,7 +133,7 @@ references:
   title: "The route to retention: an analysis of transit stop proximity
     and urban commuter college retention"
   type: speech
-  URL: "https://capaldi.info/ASHE24/retention"
+  URL: "https://capaldi.info/ASHE24/"
 - id: capaldiAutomatingDataRetrieval2024
   author:
   - family: Capaldi
@@ -147,7 +147,7 @@ references:
   title: "Automating data retrieval for enhanced reproducibility: using
     Stata and R to \"automagically\" download labeled IPEDS data"
   type: speech
-  URL: "https://capaldi.info/ASHE24/workshop"
+  URL: "https://capaldi.info/ASHE24/"
 - id: huFewDollarsMore
   author:
   - family: Hu
@@ -206,7 +206,7 @@ references:
   providerKey: Zotero
   title: "The route to retention: a propensity score and instrumental
     variable analysis of the link between transit stop proximity and
-    urban us commuter college retention rates"
+    urban US commuter college retention rates"
   type: article-journal
   status: in preparation
 ...
