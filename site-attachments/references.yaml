@@ -1,0 +1,212 @@
+---
+references:
+- id: fernandezStudyingPoliticalScience2021
+  accessed: "14:16:55"
+  author:
+  - family: Fernandez
+    given: Frank
+  - family: Capaldi
+    given: Matthew J.
+  container-title: The Conversation
+  issued: 2021-10-25
+  key: 4E48DDUW
+  language: en
+  libraryID: 1
+  providerKey: Zotero
+  title: Studying political science motivates college students to
+    register and vote -- new research shows
+  type: article-newspaper
+  URL: "http://theconversation.com/studying-political-science-motivates-college-students-to-register-and-vote-new-research-shows-168440"
+- id: capaldiEnsuringEquitablePublic2021
+  accessed: "19:32:24"
+  author:
+  - family: Capaldi
+    given: Matthew J.
+  container-title: American City and County
+  issued: 2021-12-01
+  key: FRM6DF6L
+  language: en-US
+  libraryID: 1
+  providerKey: Zotero
+  title: Ensuring equitable public safety responses in college towns
+  type: article-newspaper
+  URL: "https://www.americancityandcounty.com/2021/12/01/ensuring-equitable-public-safety-responses-in-college-towns/"
+- id: capaldiRouteGraduationExploration2023
+  accessed: "17:07:41"
+  author:
+  - family: Capaldi
+    given: Matthew J.
+  container-title: "Journal of College Student Retention: Research,
+    Theory & Practice"
+  DOI: 10.1177/15210251231156421
+  ISSN: 1521-0251
+  issued: 2023-03-09
+  key: 49F7CPCP
+  language: en
+  libraryID: 1
+  providerKey: Zotero
+  Publisher: SAGE
+  source: SAGE Journals
+  title: "The route to graduation: an exploration of the association
+    between transit stop proximity and pell recipient completion rates
+    at us commuter colleges"
+  title-short: The route to graduation
+  type: article-journal
+  URL: "https://doi.org/10.1177/15210251231156421"
+- id: huTypologyStateMerit2023
+  author:
+  - family: Hu
+    given: Xiaodan
+  - family: Fernandez
+    given: Frank
+  - family: Qiu
+    given: Yuxi
+  - family: Capaldi
+    given: Matthew J.
+  event: "AERA: American Educational Research Association"
+  issued: 2023-04-13
+  key: 7SRZK86C
+  libraryID: 1
+  providerKey: Zotero
+  publisher-place: Chicago, IL
+  title: A typology of state merit aid programs for community college
+    students
+  type: speech
+- id: fernandezExploringEquitablePublic2023
+  author:
+  - family: Fernandez
+    given: Frank
+  - family: Hu
+    given: Xiaodan
+  - family: Capaldi
+    given: Matt
+  issued: 2023-05-23
+  key: 2BL7WGL8
+  language: en
+  libraryID: 1
+  providerKey: Zotero
+  publisher: Partnership for College Completion
+  source: Zotero
+  title: Exploring equitable public higher education funding models in
+    Illinois
+  type: report
+  URL: "https://partnershipfcc.org/publications/adequacy/"
+- id: huGoodBadBalanced2024
+  accessed: "17:57:22"
+  author:
+  - family: Hu
+    given: Xiaodan
+  - family: Fernandez
+    given: Frank
+  - family: Qiu
+    given: Yuxi
+  - family: Capaldi
+    given: Matt
+  container-title: Community College Review
+  DOI: 10.1177/00915521241238753
+  ISSN: 0091-5521
+  issue: 3
+  issued: 2024-03-18
+  key: ZVWGHC7B
+  language: en
+  libraryID: 1
+  page: 289-314
+  providerKey: Zotero
+  Publisher: SAGE
+  source: SAGE Journals
+  title: "The good, the bad, and the balanced: a typology of state
+    merit-aid programs for community college students"
+  title-short: The good, the bad, and the balanced
+  type: article-journal
+  URL: "https://doi.org/10.1177/00915521241238753"
+  volume: 52
+- id: capaldiRouteRetentionAnalysis2024
+  author:
+  - family: Capaldi
+    given: Matthew J.
+  event: "ASHE: Association for the Study of Higher Education"
+  issued: 2024-11-21
+  key: 5UB8IXIL
+  libraryID: 1
+  providerKey: Zotero
+  publisher-place: Minneapolis, MN
+  title: "The route to retention: an analysis of transit stop proximity
+    and urban commuter college retention"
+  type: speech
+  URL: "https://capaldi.info/ASHE24/retention"
+- id: capaldiAutomatingDataRetrieval2024
+  author:
+  - family: Capaldi
+    given: Matthew J.
+  event: "ASHE: Association for the Study of Higher Education"
+  issued: 2024-11-22
+  key: UVPLPWWF
+  libraryID: 1
+  providerKey: Zotero
+  publisher-place: Minneapolis, MN
+  title: "Automating data retrieval for enhanced reproducibility: using
+    Stata and R to \"automagically\" download labeled IPEDS data"
+  type: speech
+  URL: "https://capaldi.info/ASHE24/workshop"
+- id: huFewDollarsMore
+  author:
+  - family: Hu
+    given: Xiaodan
+  - family: Fernandez
+    given: Frank
+  - family: Capaldi
+    given: Matthew J.
+  event: "AERA: American Educational Research Association"
+  key: W3BJZZVU
+  libraryID: 1
+  providerKey: Zotero
+  publisher-place: Denver, CO
+  title: "With a Few Dollars More: Examining Community College Merit
+    Aid, Enrollment, and Transfer"
+  type: speech
+  status: under review
+- id: capaldiTimePlaceSustainable
+  AERA: American Educational Research Association
+  author:
+  - family: Capaldi
+    given: Matthew J.
+  - family: Shin
+    given: Jinnie
+  event: "AERA: American Educational Research Association"
+  key: PWLEMDXW
+  libraryID: 1
+  providerKey: Zotero
+  publisher-place: Denver, CO
+  title: "Time and place for (sustainable) planning: a structural topic
+    model analysis of campus master plans"
+  type: speech
+  status: under review
+- id: capaldiTimePlaceSustainablea
+  author:
+  - family: Capaldi
+    given: Matthew J.
+  - family: Shin
+    given: Jinnie
+  container-title: Educational Evaluation and Policy Analysis
+  key: KTMZEEHM
+  libraryID: 1
+  providerKey: Zotero
+  title: "A time and place for (sustainable) campus planning: using
+    structural topic models to explore variations in planning priorities
+    at large us public colleges"
+  type: article-journal
+  status: in preparation
+- id: capaldiRouteRetentionPropensity
+  author:
+  - family: Capaldi
+    given: Matthew J.
+  container-title: AERA Open
+  key: RXH5XVDC
+  libraryID: 1
+  providerKey: Zotero
+  title: "The route to retention: a propensity score and instrumental
+    variable analysis of the link between transit stop proximity and
+    urban us commuter college retention rates"
+  type: article-journal
+  status: in preparation
+...

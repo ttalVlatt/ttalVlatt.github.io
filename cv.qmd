@@ -1,73 +1,96 @@
 ---
 title: "CV"
 date: today
-image: apple-touch-icon.png
+image: site-attachments/logo.png
 csl: site-attachments/apa-cv.csl
-section-bibs-bibliography: site-attachments/cv-references.yaml
+section-bibs-bibliography: site-attachments/references.yaml
 filters:
   - section-bibliographies
   - docx-horizontal-rule
   - hide-me
 citeproc: true
 reference-section-title: false
-section-bibs-level : 2
-bibliography: site-attachments/cv-references.yaml
+section-bibs-level: 2
+bibliography: site-attachments/references.yaml
 toc: false
 anchor-sections: false
 format: CV-typst
-keep-typ: true
 ---
 
-`#fa-icon("building-columns", size: 16pt) #h(0.1in) #text(16pt, weight: "bold")[Education]`{=typst}
-
-`#line(length: 75%)`{=typst}
-
-# **Ph.D.** Higher Education Administration
-
--   Thesis: Three essays on
--   Minor: Urban and Regional Planning
--   University of Florida, FL, *Summer 2025 (Expected)*
-
-# **M.Ed.** Research and Evaluation Methodology
-
--   University of Florida, FL, *Fall 2024 (Expected)*
-
-# **M.Ed.** Student Personnel in Higher Education
-
--   University of Florida, FL, *Spring 2020*
-
-# **B.A.** International Relations with Political Science
-
--   Year Abroad: Providence College, RI
--   University of Birmingham, UK, *Summer 2018*
-
 ```{=typst}
+
+#fa-icon("building-columns", size: 16pt) #h(0.1in) #text(16pt, weight: "bold")[Education]
+#line(length: 75%)
+
+#let neat(body) = context {
+  let size = measure(body)
+  let width = size.width
+  let space = 0.6in - width
+  {text(body); h(space)}
+}
+
+#neat[*Ph.D.*]Higher Education Administration #h(1fr) _Summer 2025 (Expected)_ \
+#block(inset: (left: 0.6in, right: 2in))[
+  Minor in Urban and Regional Planning \
+  Dissertation: _A collection of essays exploring the link between transportation and college student outcomes_ \
+  University of Florida \
+]
+
+#neat[*M.Ed.*]Research and Evaluation Methodology #h(1fr) _Fall 2024 (Expected)_ \
+#h(0.6in) University of Florida, FL #h(1fr) 
+
+#neat[*M.Ed.*]Student Personnel in Higher Education #h(1fr) _Spring 2020_ \
+#h(0.6in) University of Florida, FL
+
+#neat[*B.A.*]International Relations with Political Science #h(1fr) _Summer 2018_ \
+#h(0.6in) Year Abroad: Providence College, RI \
+#h(0.6in) University of Birmingham, UK
+
+
 #v(0.2in)
 #fa-icon("briefcase", size: 16pt)
 #h(0.1in)
 #text(16pt, weight: "bold")[Experience]
 #line(length: 75%)
+
+*Graduate Assistant & Fellow* #h(1fr) _August 2021 -- Present_ \
+#h(0.6in) University of Florida, FL \
+#block(inset: (left: 0.6in))[
+  _*Teaching Experience*_ \
+  EDH 7916: Contemporary Research in Higher Education -- _"The R Class"_ \
+    #block(inset: (left: 0.6in))[
+    _*Co-Instructor*_ #h(1fr) _Spring 2023_ \
+    - Took over instruction and grading for the technical R portions of the course Dr. Skinner's departure
+    - Refreshed the #link("https://capaldi.info/7916/")[course website] including simpliying some of the core content (e.g. loops), updating the .Rmd lesson to Quarto, and adding Tidyverse to SQL translation lesson
+    - 4.3 out of 5.0 course evaluation #link("https://gatorevals.aa.ufl.edu/public-results/")[see public results]
+    _*Teaching Assistant*_ #h(1fr) _Spring 2022_ \
+    - Assisted Dr. Skinner with 1:1 troubleshooting for lessons and assignments during class and office hours
+    - Designed and taught #link("https://edquant.github.io/edh7916/lessons/mapping_api.html")[a new lesson] on mapping and working with spatial data in R
+    
+    ]
+  _*Research Experience*_ \
+  - #lorem(20)
+  - #lorem(10)
+  - #lorem(15)
+]
+
+*Residence Hall Coordinator* #h(1fr) _July 2020 -- May 2021_ \
+#h(0.6in) University of Missouri, MO
+
+*Graduate Community Coordinator* #h(1fr) _July 2019 -- May 2020_ \
+#h(0.6in) University of Florida, FL
+
+*Summer Sessions Graduate Intern* #h(1fr) _May 2019 -- July 2019_ \
+#h(0.6in) Georgetown University, DC
+
+*Graduate Assistant* #h(1fr) _August 2018 -- May 2019_ \
+#h(0.6in) University of Florida
+
+*Advising Intern* #h(1fr) _January 2018 -- June 2018_ \
+#h(0.6in) US-UK Fulbright Commission
+
 ```
-# **Graduate Assistant** University of Florida
 
-*August 2021 to Present*
-
-`#block(stroke: rgb(255,165,0), fill: rgb(255,165,0,10%), inset: 0.5em, radius: 3pt)[`{=typst}
-
-## Teaching Responsibilies
-
-*EDH 7916: Contemporary Research in Higher Education (a.k.a. "the R class")*
-
--   **Co-Instructor** (with Dr. Melvin Tanner), *Spring 2024*
-    -   Following Dr. Skinner's departure, I was asked to take over instruction for the technical R coding portion of the course, which involved the majority of instruction and grading.
-    -   Designed a refreshed [course website](https://capaldi.info/7916/) adding new lessons for using Quarto and translating R code to SQL.
--   **Teaching Assistant** (for Dr. Ben Skinner), *Spring 2023*
-    -   Assisted instructor Dr. Ben Skinner by helping students with trouble-shooting and coding skills both in and out of class time.
-    -   Designed and taught a lesson on working with spatial data and map creation in R. [See the lesson here](https://edquant.github.io/edh7916/lessons/mapping_api.html).
-
-`]`{=typst}
-
-`#block(stroke: rgb(166,166,166), fill: rgb(166,166,166,10%),  inset: 0.5em, radius: 3pt)[`{=typst}
 
 ## Research Responsibilities
 
@@ -90,27 +113,6 @@ Work with Dr. Frank Fernandez on research relating to college access, primarily 
 
 -   Created a new dataset of all state-run merit-based aid programs in the United States including details on dates active, award amount, merit criteria, and funding rules, leading to a new typology being proposed (see Hu et al., in press).
 
-`]`{=typst}
-
-# **Residence Hall Coordinator** University of Missouri
-
-*July 2020 to May 2021*
-
-# **Graduate Community Coordinator** University of Florida
-
-*July 2019 to May 2020*
-
-# **Summer Sessions Graduate Intern (ACUHO-I)** Georgetown University
-
-*May 2019 to July 2019*
-
-# **Graduate Assistant for Industry Relations** University of Florida
-
-*August 2018 to May 2019*
-
-# **Advising Intern** US-UK Fulbright Commission
-
-*January 2018 to June 2018*
 
 ```{=html}
 <!--
@@ -181,32 +183,39 @@ Work with Dr. Frank Fernandez on research relating to college access, primarily 
 #h(0.1in)
 #text(16pt, weight: "bold")[Publications]
 #line(length: 75%)
+
+#show regex("Capaldi, M. J.|Capaldi, M."): strong
+
+#[#set par(leading: 0.5em, hanging-indent: 3em)
 ```
-`#[#set par(leading: 0.5em, hanging-indent: 3em)`{=typst}
 
 ## Peer-Reviewed Articles
 
 ::: hide-me
-@capaldi2023
+@capaldiRouteRetentionPropensity
 
-@hu
+@capaldiTimePlaceSustainablea
+
+@huGoodBadBalanced2024
+
+@capaldiRouteGraduationExploration2023
 :::
 
 ## Reports
 
 ::: hide-me
-@fernandez2023
+@fernandezExploringEquitablePublic2023
 :::
 
 ## Commentary Articles
 
 ::: hide-me
-@capaldi2021
+@capaldiEnsuringEquitablePublic2021
 
-@fernandez2021
+@fernandezStudyingPoliticalScience2021
 :::
 
-#
+# 
 
 ```{=typst}
 #v(0in)
@@ -215,14 +224,28 @@ Work with Dr. Frank Fernandez on research relating to college access, primarily 
 #text(16pt, weight: "bold")[Conference Presentations]
 #line(length: 75%)
 ```
-
-## Presentations
+## Workshops
 
 ::: hide-me
-@hu2023
+
+@capaldiAutomatingDataRetrieval2024
+
 :::
 
-#
+## Paper Presentations
+
+::: hide-me
+
+@capaldiTimePlaceSustainable
+
+@huFewDollarsMore
+
+@capaldiRouteRetentionAnalysis2024
+
+@huTypologyStateMerit2023
+:::
+
+# 
 
 `]`{=typst}
 

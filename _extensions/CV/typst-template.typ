@@ -33,6 +33,7 @@
   doc,
 ) = { set page(
     margin: (left: 2in, right: 0.5in, top: 0.5in, bottom: 0.5in),
+    numbering: "1",
     background: {place(left + top, 
                        rect(fill: rgb(26,26,26), 
                             height: 100%,
@@ -92,7 +93,11 @@
                                         text(fill: rgb(166,166,166))[ ] +
                                         link("https://stackoverflow.com/users/21152968/ttalvlatt")[StackOverflow]
                                         ),
-                                   dx: 0.1in, dy: 2.66in)
+                                   dx: 0.1in, dy: 2.66in);
+                       place(top + right,
+                             text(fill: rgb(166,166,166), size: 9pt)[Updated: ] +
+                             text(fill: rgb(166,166,166), size: 9pt, date),
+                             dx: -0.1in, dy: 0.1in)
                       },
 )
   set par(justify: false,
