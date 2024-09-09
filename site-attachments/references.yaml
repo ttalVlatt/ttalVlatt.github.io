@@ -195,12 +195,12 @@ references:
     structural topic models to explore variations in planning priorities
     at large us public colleges"
   type: article-journal
-  status: in preparation
+  status: under review
 - id: capaldiRouteRetentionPropensity
   author:
   - family: Capaldi
     given: Matthew J.
-  container-title: AERA Open
+  # container-title: AERA Open
   key: RXH5XVDC
   libraryID: 1
   providerKey: Zotero
@@ -209,4 +209,20 @@ references:
     urban US commuter college retention rates"
   type: article-journal
   status: in preparation
+- id: capaldiIPEDtaSAutomagicallyDownload2024
+  accessed: "23:01:20"
+  author:
+  - family: Capaldi
+    given: Matthew J.
+  issued: 2024-08-28
+  key: 6KC3DRG7
+  libraryID: 1
+  providerKey: Zotero
+  publisher: Zenodo
+  source: Zenodo
+  title: "IPEDtaS: Automagically Download Labeled .dta IPEDS Files in
+    Stata and R"
+  title-short: IPEDtaS
+  type: book
+  URL: "https://doi.org/10.5281/zenodo.13388846"
 ...

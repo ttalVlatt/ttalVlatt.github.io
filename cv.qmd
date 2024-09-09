@@ -1,5 +1,5 @@
 ---
-title: "CV"
+title: "cv"
 date: today
 image: site-attachments/logo.png
 csl: site-attachments/apa-cv.csl
@@ -13,179 +13,180 @@ reference-section-title: false
 section-bibs-level: 2
 toc: false
 anchor-sections: false
-format: CV-typst
+format: cv-typst
 ---
 
 ```{=typst}
 
-#fa-icon("building-columns", size: 16pt) #h(0.1in) #text(16pt, weight: "bold")[Education]
-#line(length: 75%)
+    #fa-icon("building-columns", size: 16pt) #h(0.1in) #text(16pt, weight: "bold")[Education]
+    #line(length: 75%)
 
-#let neat(body) = context {
-  let size = measure(body)
-  let width = size.width
-  let space = 0.6in - width
-  {text(body); h(space)}
-}
+    #let neat(body) = context {
+      let size = measure(body)
+      let width = size.width
+      let space = 0.6in - width
+      {text(body); h(space)}
+    }
 
-#neat[*Ph.D.*]Higher Education Administration #h(1fr) _Summer 2025 (Expected)_ \
-#block(inset: (left: 0.6in, right: 2in))[
-  Minor in Urban and Regional Planning \
-  Dissertation: _A collection of essays exploring the link between transportation and college student outcomes_ \
-  University of Florida \
-]
-
-#neat[*M.Ed.*]Research and Evaluation Methodology #h(1fr) _Fall 2024 (Expected)_ \
-#h(0.6in) University of Florida, FL #h(1fr) 
-
-#neat[*M.Ed.*]Student Personnel in Higher Education #h(1fr) _Spring 2020_ \
-#h(0.6in) University of Florida, FL
-
-#neat[*B.A.*]International Relations with Political Science #h(1fr) _Summer 2018_ \
-#h(0.6in) Year Abroad: Providence College, RI \
-#h(0.6in) University of Birmingham, UK
-
-
-#v(0.2in)
-#fa-icon("briefcase", size: 16pt)
-#h(0.1in)
-#text(16pt, weight: "bold")[Experience]
-#line(length: 75%)
-
-*Graduate Assistant & Fellow* #h(1fr) _August 2021 -- Present_ \
-#h(0.6in) University of Florida, FL \
-
-#block(inset: (left: 0.6in))[
-  _*Teaching Experience*_ \
-  EDH 7916: Contemporary Research in Higher Education -- _"The R Class"_ \
-  
-    #block(inset: (left: 0.6in))[
-    _*Co-Instructor*_ #h(1fr) _Spring 2024_ \
-    - Took over instruction and grading for the technical R portions of the course following Dr. Skinner's departure
-    - Refreshed the #link("https://capaldi.info/7916/")[course website] including simpliying some of the core content (e.g. loops), updating the .Rmd lesson to Quarto, and adding a Tidyverse to SQL translation lesson
-    - 4.3 out of 5.0 course evaluation #link("https://gatorevals.aa.ufl.edu/public-results/")[see public results]
-    _*Teaching Assistant*_ #h(1fr) _Spring 2023_ \
-    - Assisted Dr. Skinner with 1:1 troubleshooting for lessons and assignments during class and office hours
-    - Designed and taught #link("https://edquant.github.io/edh7916/lessons/mapping_api.html")[a new lesson] on mapping and working with spatial data in R based off a real-world past GA task
+    #neat[*Ph.D.*]Higher Education Administration #h(1fr) _Summer 2025 (Expected)_ \
+    #block(inset: (left: 0.6in, right: 2in))[
+      Minor in Urban and Regional Planning \
+      Dissertation: _A collection of essays exploring the link between transportation and college student outcomes_ \
+      University of Florida \
     ]
-    
-  _*Research Experience*_ \
-  - Created a time-series matrix of neighboring colleges to explore the impact of policy changes on transfer patterns
-  - Spatially merged meteorological and government emergency response data with IPEDS to explore the impact of extreme weather on colleges
-  - Spatially lined up TX community college service areas with high school districts to explore equity of institutional access
-  - Gathered data and created tables and visualizations for a #link("https://partnershipfcc.org/publications/adequacy/")[report targeted at state policy makers]
-  - Created a new dataset of state-run merit-based aid programs in the US which led to a #link("https://doi.org/10.1177/00915521241238753")[new typology being proposed]
-]
 
-*Residence Hall Coordinator* #h(1fr) _July 2020 -- May 2021_ \
-#h(0.6in) University of Missouri, MO
+    #neat[*M.Ed.*]Research and Evaluation Methodology #h(1fr) _Fall 2024 (Expected)_ \
+    #h(0.6in) University of Florida, FL #h(1fr) 
 
-*Graduate Community Coordinator* #h(1fr) _July 2019 -- May 2020_ \
-#h(0.6in) University of Florida, FL
+    #neat[*M.Ed.*]Student Personnel in Higher Education #h(1fr) _Spring 2020_ \
+    #h(0.6in) University of Florida, FL
 
-*Summer Sessions Graduate Intern* #h(1fr) _May 2019 -- July 2019_ \
-#h(0.6in) Georgetown University, DC
-
-*Graduate Assistant* #h(1fr) _August 2018 -- May 2019_ \
-#h(0.6in) University of Florida
-
-*Advising Intern* #h(1fr) _January 2018 -- June 2018_ \
-#h(0.6in) US-UK Fulbright Commission
-
-*Student Ambassador* #h(1fr) _January 2015 -- June 2018_ \
-#h(0.6in) University of Birmingham
+    #neat[*B.A.*]International Relations with Political Science #h(1fr) _Summer 2018_ \
+    #h(0.6in) Year Abroad: Providence College, RI \
+    #h(0.6in) University of Birmingham, UK
 
 
+    #v(0.2in)
+    #fa-icon("briefcase", size: 16pt)
+    #h(0.1in)
+    #text(16pt, weight: "bold")[Experience]
+    #line(length: 75%)
 
-#v(0.2in)
-#fa-icon("lightbulb", size: 16pt)
-#h(0.1in)
-#text(16pt, weight: "bold")[Technical Skills]
-#line(length: 75%)
+    *Graduate Assistant & Fellow* #h(1fr) _August 2021 -- Present_ \
+    #h(0.6in) University of Florida, FL \
 
-#block(stroke: rgb(255,165,0), fill: rgb(255,165,0,10%),
-       inset: (left: 0.2in, top: 0.2in), radius: 3pt)[
+    #block(inset: (left: 0.6in))[
+      _*Teaching Experience*_ \
+      EDH 7916: Contemporary Research in Higher Education -- _"The R Class"_ \
+      
+        #block(inset: (left: 0.6in))[
+        _*Co-Instructor*_ #h(1fr) _Spring 2024_ \
+        - Took over instruction and grading for the technical R portions of the course following Dr. Skinner's departure
+        - Refreshed the #link("https://capaldi.info/7916/")[course website] including simpliying some of the core content (e.g. loops), updating the .Rmd lesson to Quarto, and adding a Tidyverse to SQL translation lesson
+        - 4.3 out of 5.0 course evaluation #link("https://gatorevals.aa.ufl.edu/public-results/")[see public results]
+        _*Teaching Assistant*_ #h(1fr) _Spring 2023_ \
+        - Assisted Dr. Skinner with 1:1 troubleshooting for lessons and assignments during class and office hours
+        - Designed and taught #link("https://edquant.github.io/edh7916/lessons/mapping_api.html")[a new lesson] on mapping and working with spatial data in R based off a real-world past GA task
+        ]
+        
+      _*Research Experience*_ \
+      - Created a time-series matrix of neighboring colleges to explore the impact of policy changes on transfer patterns
+      - Spatially merged meteorological and government emergency response data with IPEDS to explore the impact of extreme weather on colleges
+      - Spatially lined up TX community college service areas with high school districts to explore equity of institutional access
+      - Gathered data and created tables and visualizations for a #link("https://partnershipfcc.org/publications/adequacy/")[report targeted at state policy makers]
+      - Created a new dataset of state-run merit-based aid programs in the US which led to a #link("https://doi.org/10.1177/00915521241238753")[new typology being proposed]
+    ]
 
-#grid(columns: (1fr, 1fr),
-      inset: (bottom: 0.2in, right: 0.2in),
+    *Residence Hall Coordinator* #h(1fr) _July 2020 -- May 2021_ \
+    #h(0.6in) University of Missouri, MO
 
-[*Regression-Based Analysis*
-- Ordinary Least Squares
-- Logistic
-- Cox Proportional Hazard
-- Geographically Weighted
-- Fixed Effects],
+    *Graduate Community Coordinator* #h(1fr) _July 2019 -- May 2020_ \
+    #h(0.6in) University of Florida, FL
 
-[*Quasi-Experimental Designs*
-- Propensity Scores
-- Instrumental Variables
-- Difference in Differences
-- Regression Discontinuity],
+    *Summer Sessions Graduate Intern* #h(1fr) _May 2019 -- July 2019_ \
+    #h(0.6in) Georgetown University, DC
 
-[*Spatial Statistics*
-- Spatial Projections & Mapping
-- Distance Calculation
-- Clusters & Hot-Spots
-- Spatial Outlier
-- Interpolation],
+    *Graduate Assistant* #h(1fr) _August 2018 -- May 2019_ \
+    #h(0.6in) University of Florida
 
-[*Psychometrics & Latent Variables*
-- Classical Test Theory
-- Factor Analysis
-- Item Response Theory
-- Basic Computational Psychometrics
-- Structural Equation Modeling],
+    *Advising Intern* #h(1fr) _January 2018 -- June 2018_ \
+    #h(0.6in) US-UK Fulbright Commission
 
-[*Natural Language Processing*
-- Structural Topic Modeling],
-
-[*Bayesian Statistics*
-- Bayesian Regression (MCMC)]
-)
-]
-
-
-#block(stroke: rgb(166,166,166), fill: rgb(166,166,166,10%), inset: 0.05in, radius: 3pt)[
-
-#grid(
-  columns: (4%, 10%, 4%, 11%, 4%, 13%, 4%, 8%, 4%, 11%, 4%, 23%),
-  inset: 0.1in,
-  
-  align: left,
-  [#fa-icon("r-project")], [R],
-  [#fa-icon("chart-line")], [Shiny],
-  [#fa-icon("python")], [Python],
-  [#fa-icon("github")], [Git],
-  [#fa-icon("z")], [Zotero],
-  [#fa-icon("markdown")], [Quarto & Rmd],
-  [#fa-icon("cubes")], [Stata],
-  [#fa-icon("square-root-variable")], [SPSS],
-  [#fa-icon("clipboard-list")], [Qualtrics],
-  [#fa-icon("globe")], [GIS],
-  [#fa-icon("keyboard")], [Typst],
-  [#fa-icon("windows")], [Microsoft Office],
-
-)
-
-]
+    *Student Ambassador* #h(1fr) _January 2015 -- June 2018_ \
+    #h(0.6in) University of Birmingham
 
 
-#v(0.2in)
-#fa-icon("feather-pointed", size: 16pt)
-#h(0.1in)
-#text(16pt, weight: "bold")[Publications]
-#line(length: 75%)
 
-#show regex("Capaldi, M. J.|Capaldi, M."): strong
-#show regex("Capaldi, M. J.|Capaldi, M."): emph
+    #v(0.2in)
+    #fa-icon("lightbulb", size: 16pt)
+    #h(0.1in)
+    #text(16pt, weight: "bold")[Technical Skills]
+    #line(length: 75%)
 
-#[#set par(leading: 0.5em, hanging-indent: 0.6in)
+    #block(stroke: rgb(255,165,0), fill: rgb(255,165,0,10%),
+           inset: (left: 0.2in, top: 0.2in), radius: 3pt)[
+
+    #grid(columns: (1fr, 1fr),
+          inset: (bottom: 0.2in, right: 0.2in),
+
+    [*Regression-Based Analysis*
+    - Ordinary Least Squares
+    - Logistic
+    - Cox Proportional Hazard
+    - Geographically Weighted
+    - Fixed Effects],
+
+    [*Quasi-Experimental Designs*
+    - Propensity Scores
+    - Instrumental Variables
+    - Difference in Differences
+    - Regression Discontinuity],
+
+    [*Spatial Statistics*
+    - Spatial Projections & Mapping
+    - Distance Calculation
+    - Clusters & Hot-Spots
+    - Spatial Outlier
+    - Interpolation],
+
+    [*Psychometrics & Latent Variables*
+    - Classical Test Theory
+    - Factor Analysis
+    - Item Response Theory
+    - Basic Computational Psychometrics
+    - Structural Equation Modeling],
+
+    [*Natural Language Processing*
+    - Structural Topic Modeling],
+
+    [*Bayesian Statistics*
+    - Bayesian Regression (MCMC)]
+    )
+    ]
+
+
+    #block(stroke: rgb(166,166,166), fill: rgb(166,166,166,10%), inset: 0.05in, radius: 3pt)[
+
+    #grid(
+      columns: (4%, 10%, 4%, 11%, 4%, 13%, 4%, 8%, 4%, 11%, 4%, 23%),
+      inset: 0.1in,
+      
+      align: left,
+      [#fa-icon("r-project")], [R],
+      [#image("site-attachments/shiny-icon.png", width: 0.2in)], [Shiny],
+      [#fa-icon("python")], [Python],
+      [#fa-icon("github")], [Git],
+      [#fa-icon("z")], [Zotero],
+      [#fa-icon("markdown")], [Quarto & Rmd],
+      [#image("site-attachments/stata-icon.png", width: 0.15in)], [Stata],
+      [#image("site-attachments/spss-icon.png", width: 0.2in)], [SPSS],
+      [#image("site-attachments/qualtrics-icon.png", width: 0.15in)], [Qualtrics],
+      [#image("site-attachments/arcgis-icon.png", width: 0.15in)], [GIS],
+      [#image("site-attachments/typst-icon.png", width: 0.15in)], [Typst],
+      [#fa-icon("windows")], [Microsoft Office],
+
+    )
+
+    ]
+
+
+    #v(0.2in)
+    #fa-icon("feather-pointed", size: 16pt)
+    #h(0.1in)
+    #text(16pt, weight: "bold")[Published Work]
+    #line(length: 75%)
+
+    #show regex("Capaldi, M. J.|Capaldi, M."): strong
+    #show regex("Capaldi, M. J.|Capaldi, M."): emph
+
+    #[#set par(leading: 0.5em, hanging-indent: 0.6in)
+
 ```
 
 ## Peer-Reviewed Articles
 
 ::: hide-me
-@capaldiRouteRetentionPropensity
+<!-- @capaldiRouteRetentionPropensity -->
 @capaldiTimePlaceSustainablea
 @huGoodBadBalanced2024
 @capaldiRouteGraduationExploration2023
@@ -200,8 +201,13 @@ format: CV-typst
 ## Commentary Articles
 
 ::: hide-me
-@capaldiEnsuringEquitablePublic2021
-@fernandezStudyingPoliticalScience2021
+@capaldiEnsuringEquitablePublic2021 @fernandezStudyingPoliticalScience2021
+:::
+
+## Software
+
+::: hide-me
+@capaldiIPEDtaSAutomagicallyDownload2024
 :::
 
 # 
@@ -222,10 +228,7 @@ format: CV-typst
 ## Paper Presentations
 
 ::: hide-me
-@capaldiTimePlaceSustainable
-@huFewDollarsMore
-@capaldiRouteRetentionAnalysis2024
-@huTypologyStateMerit2023
+@capaldiTimePlaceSustainable @huFewDollarsMore @capaldiRouteRetentionAnalysis2024 @huTypologyStateMerit2023
 :::
 
 # 
@@ -255,5 +258,4 @@ format: CV-typst
 #h(1.2in) University of Florida \
 #neat("$31,000")Graduate School Funding Award #h(1fr) _2021 -- 2025_ \
 #neat("& Tuition")#h(0.3in) University of Florida
-
 ```
