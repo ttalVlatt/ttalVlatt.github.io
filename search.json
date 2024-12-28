@@ -1,17 +1,17 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome!",
-    "section": "",
-    "text": "I’m Matt Capaldi, an aspiring education data scientist and Ph.D. student in Higher Education Administration at the University of Florida 🐊.\n\n\n\nHeadshot\n\n\nThis website is intended to showcase a bit more about me than a single piece of paper can, such as my research on  transport to college, some examples of my  data visualizations, in addition to my traditional  CV.\n Email Me\n Github\n Google Scholar\n ORCID\n Stack Overflow"
-  },
-  {
     "objectID": "data-viz-examples.html",
     "href": "data-viz-examples.html",
     "title": "Data Viz Examples",
     "section": "",
     "text": "I believe that high-quality data visualization is critically important for effectively communicating research and information. Below are some samples of my own data visualization work.\n\nInteractive Dashboard\nI created the below dashboard to go with my paper “The Route to Graduation” that explored the association between transit accessibility and Pell completion rates. The dashboard allows you explore different slices of the data used in the paper, e.g. different regions and/or college types. The dashboard was developed using Shiny and R.\nNote: This is just a preview window. If it isn’t displaying neatly, you are using a smaller screen, or you want to explore the dashboard in more detail, it might be easier to view it in its own window here.\n\n\n\n\nSpatial Point Pattern Maps\nIn the below tabs are some examples of maps I created with spatial data from the Chicago Public School District for math achievement and free school lunch status for the 2014/15 school year. Each set of maps display results of a different spatial statistical analysis designed to highlight the spatial distribution of the data. All these analyses use distances from, and similarity to, neighboring points to show spatial patterns in the data.\nNote: these maps are intended to be an example of the statistics & visualization techniques, not to make any claims about the district.\n\nHot-Spot AnalysisOutlier AnalysisLocalized Regression\n\n\nHot-spot analysis, specifically the Getis-Ord Global G* Statistic, shows hot- and cold-spots in the spatial distribution of a variable. Put simply, it highlights areas where nearby points are notably high or low in terms of a variable compared to the wider data. This can be useful in demonstrating spatial inequalities or gaps in outcomes across a given area.\n\n\n\nMap of Free/Reduced Lunch Hot-spots\n\n\n\n\n\nMap of Math Achievement Hot-spots\n\n\n\n\nOutlier analysis, specifically the Local Moran’s I Statistic, builds off a similar logic as hot-spot analysis but then highlights points that go against the local pattern. Put simply, it highlights points whose value of a variable is high in an area of low values, or low in an area of high values. This can be useful in demonstrating observations that are notably different (for better or worse) than their local pattern, e.g., to identify places in need of extra help or places who may have found a strategy to overcome local challenges.\n\n\n\nMap of Free/Reduced Lunch Outliers\n\n\n\n\n\nMap of Math Achievement Outliers\n\n\n\n\nLocalized regression, specifically Geographically Weighted Regression, shows how estimated regression coefficients vary across space. Put simply, instead of suggesting a variable has a certain association with an outcome for all places, this calculates the model locally to show where the association might be higher or lower. GWR can help deal with spatial autocorrelation of residuals which is common when using standard regression methods with spatial data. This can be useful in demonstrating how the effect of a certain intervention or characteristic varies across a given area.\n\n\n\nMap of Free/Reduced Lunch’s Association With Math Achievement\n\n\n\n\n\nMap of Charter School Status’s Association With Math Achievement"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome!",
+    "section": "",
+    "text": "I’m Matt Capaldi, an aspiring education data scientist and Ph.D. student in Higher Education Administration at the University of Florida 🐊.\n\n\n\nHeadshot\n\n\nThis website is intended to showcase a bit more about me than a single piece of paper can, such as my research on  transport to college, some examples of my  data visualizations, in addition to my  Academic CV and  Résumé.\nI also have a number of sub-websites including my  IPEDtaS Project to download labeled IPEDS, instructional materials for  “The R Class”, and my personal  collection of recipes.\n Email Me\n Github\n Google Scholar\n ORCID\n Stack Overflow"
   },
   {
     "objectID": "transport-to-college.html",
