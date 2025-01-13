@@ -20,7 +20,17 @@ website:
       - href: data-viz-examples.qmd
         text: "{{< fa chart-line >}} Data Viz Examples"
       - href: cv.qmd
-        text: "{{< fa file-lines >}} C.V."
+        text: "{{< fa file-pdf >}} C.V."
+      - href: resume.qmd
+        text: "{{< fa file-pdf >}} Résumé"
+      - text: "Other Websites"
+        menu:
+        - href: "https://capaldi.info/IPEDtaS"
+          text: "{{< fa code >}} IPEDtaS Project"
+        - href: "https://capaldi.info/7916"
+          text: "{{< fa person-chalkboard >}} The R Class"
+        - href: "https://capaldi.info/recipebox"
+          text: "{{< fa utensils >}} Recipe Box"
     right:
       - text: "{{< fa paper-plane >}} Email Me"
         href: mailto:m.capaldi@ufl.edu

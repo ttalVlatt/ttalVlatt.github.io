@@ -7,7 +7,9 @@ I'm Matt Capaldi, an aspiring education data scientist and Ph.D. student in High
 
 ![Headshot](site-attachments/Headshot.jpeg){width=300 fig-align="left"}
 
-This website is intended to showcase a bit more about me than a single piece of paper can, such as my research on [{{< fa bus >}}](/transport-to-college.qmd) [transport to college](/transport-to-college.qmd), some examples of my [{{< fa chart-line >}}](/data-viz-examples.qmd) [data visualizations](/data-viz-examples.qmd), in addition to my traditional [{{< fa file-lines >}}](/cv.qmd) [CV](/cv.qmd).
+This website is intended to showcase a bit more about me than a single piece of paper can, such as my research on [{{< fa bus >}}](/transport-to-college.qmd) [transport to college](/transport-to-college.qmd), some examples of my [{{< fa chart-line >}}](/data-viz-examples.qmd) [data visualizations](/data-viz-examples.qmd), in addition to my [{{< fa file-pdf >}}](/cv.qmd) [Academic CV](/cv.qmd) and [{{< fa file-pdf >}}](/resume.qmd) [Résumé](/resume.qmd).
+
+I also have a number of sub-websites including my [{{< fa code >}}](https://capaldi.info/IPEDtaS) [`IPEDtaS` Project](https://capaldi.info/IPEDtaS) to download labeled IPEDS, instructional materials for [{{< fa person-chalkboard >}}](https://capaldi.info/7916) ["The R Class"](https://capaldi.info/7916), and my personal [{{< fa utensils >}}](https://capaldi.info/recipebox) [collection of recipes](https://capaldi.info/recipebox).
 
 [{{< fa paper-plane >}}]()
 [Email Me](mailto:m.capaldi@ufl.edu)

@@ -164,7 +164,7 @@ references:
   title: "With a Few Dollars More: Examining Community College Merit
     Aid, Enrollment, and Transfer"
   type: speech
-  status: under review
+  status: accepted
 - id: capaldiTimePlaceSustainable
   AERA: American Educational Research Association
   author:
@@ -180,14 +180,14 @@ references:
   title: "Time and place for (sustainable) planning: a structural topic
     model analysis of campus master plans"
   type: speech
-  status: under review
+  status: accepted
 - id: capaldiTimePlaceSustainablea
   author:
   - family: Capaldi
     given: Matthew J.
   - family: Shin
     given: Jinnie
-  container-title: Educational Evaluation and Policy Analysis
+  container-title: Research in Higher Education
   key: KTMZEEHM
   libraryID: 1
   providerKey: Zotero
@@ -225,4 +225,20 @@ references:
   title-short: IPEDtaS
   type: book
   URL: "https://doi.org/10.5281/zenodo.13388846"
+- id: huGrowingOutcomesGarden
+  author:
+  - family: Hu
+    given: Xiaodan
+  - family: Fernandez
+    given: Frank
+  - family: Capaldi
+    given: Matthew
+  container-title: Community College Review
+  key: D74CR3T4
+  libraryID: 1
+  providerKey: Zotero
+  title: "Growing Outcomes in the Garden State: Examining Community
+    College Merit Aid, Enrollment, Completion, and Transfer"
+  type: article-journal
+  status: under review
 ...

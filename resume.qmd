@@ -1,0 +1,167 @@
+---
+title: "resume"
+date: today
+image: site-attachments/logo.png
+csl: site-attachments/apa-cv.csl
+bibliography: site-attachments/references.yaml
+section-bibs-bibliography: site-attachments/references.yaml
+filters:
+  - section-bibliographies
+  - hide-me
+citeproc: true
+reference-section-title: false
+section-bibs-level: 2
+toc: false
+anchor-sections: false
+format: cv-typst
+---
+
+```{=typst}
+
+    #h(1fr) #text(30pt)[Matthew J. Capaldi] #h(1fr)
+    
+    #v(0.1in)
+    
+    #h(0.6fr) #fa-icon("globe") #link("https://capaldi.info")[Website] #h(0.2fr) #fa-icon("envelope") #link("mailto:matt.capaldi@outlook.com")[Email Me] #h(0.2fr) #fa-icon("phone") #link("tel:401-601-2069")[Call Me] #h(0.2fr) #fa-icon("stack-overflow") #link("https://stackoverflow.com/users/21152968/ttalvlatt")[StackOverflow] #h(0.2fr) #fa-icon("github") #link("https://github.com/ttalVlatt")[GitHub] #h(0.6fr)
+    
+    
+    #v(0.2in)
+    
+    #fa-icon("graduation-cap", size: 16pt) #h(0.1in) #text(18pt)[Education]
+    #line(length: 75%)
+
+    #let neat(body) = context {
+      let size = measure(body)
+      let width = size.width
+      let space = 0.5in - width
+      {text(body); h(space)}
+    }
+
+    #neat[*Ph.D.*]Higher Education Administration -- University of Florida #h(1fr) _Summer 2025 (Expected)_ \
+
+    #neat[*M.Ed.*]Research and Evaluation Methodology -- University of Florida #h(1fr) _Fall 2024_ \
+
+    #neat[*M.Ed.*]Student Personnel in Higher Education -- University of Florida #h(1fr) _Spring 2020_ \
+
+    #neat[*B.A.*]International Relations with Political Science -- University of Birmingham #h(1fr) _Summer 2018_ \
+   
+    #v(0.2in)
+
+    #fa-icon("briefcase", size: 16pt)
+    #h(0.1in)
+    #text(18pt)[Experience]
+    #line(length: 75%)
+    
+    *Graduate Assistant & Fellow* -- University of Florida #h(1fr) _August 2021 -- Present_ \
+    
+    #block(inset: (left: 0.5in, right: 0in))[
+    
+   // - Data collection, wrangling, visualization, & analysis leading to multiple publications #super[#link("https://doi.org/10.1177/00915521241238753")[1,]#link("https://partnershipfcc.org/publications/adequacy/")[ 2]]
+    - Created a new dataset of US merit-based aid programs which led to a #link("https://doi.org/10.1177/00915521241238753")[new typology being proposed]
+    - Merged data and created tables and visualizations for a #link("https://partnershipfcc.org/publications/adequacy/")[report targeted at state policy makers]
+    - TA for "The R Class" including majority of teaching in 2024 after instructor's resignation
+    #h(0.5in) - Refreshed the #link("https://capaldi.info/7916/")[course website] adding #link("https://capaldi.info/7916/09-wrangle-iv.html")[a new lesson] connecting tidyverse and SQL concepts
+    - Provided 1:1 tutoring on Stata and IPEDS data wrangling to a new graduate assistant
+]
+
+    *Residence Hall Coordinator* -- University of Missouri #h(1fr) _July 2020 -- May 2021_ \
+    
+    #block(inset: (left: 0.5in, right: 0.5in))[
+    
+    - Supervised 16 student staff members and provided crisis response to 3242 residents 
+    
+    ]
+
+    *Graduate Community Coordinator* -- University of Florida #h(1fr) _July 2019 -- May 2020_ \
+    
+    #block(inset: (left: 0.5in, right: 0.5in))[
+    
+    - Supervised 5 student staff members and provided crisis response to 3655 residents 
+    
+    ]
+
+    *Summer Sessions Graduate Intern* -- Georgetown University #h(1fr) _May 2019 -- July 2019_ \
+
+    *Graduate Assistant* -- University of Florida #h(1fr) _August 2018 -- May 2019_ \
+
+    *Advising Intern* -- US-UK Fulbright Commission #h(1fr) _January 2018 -- June 2018_ \
+
+    *Student Ambassador* --  University of Birmingham #h(1fr) _January 2015 -- June 2018_ \
+
+    #v(0.2in)
+    #fa-icon("award", size: 16pt)
+    #h(0.1in)
+    #text(18pt)[Certifications]
+    #line(length: 75%)
+    
+    #link("https://coursera.org/share/d86b98e2e0d00034c020447e34bd4447")[Database Design and Basic SQL in PostgreSQL] -- University of Michigan #h(1fr) _December 2024_ \
+    Intermediate PostgreSQL -- University of Michigan #h(1fr) _January 2025 (Expected)_
+    
+    #v(0.2in)
+    #fa-icon("magnifying-glass-chart", size: 16pt)
+    #h(0.1in)
+    #text(18pt)[Portfolio]
+    #line(length: 75%)
+    
+    #link("https://ttalvlatt.shinyapps.io/rtg-dashboard/")[Shiny Interactive Dashboard] -- Visualization of transit stop access and association with Pell completion rates
+    
+    #link("https://capaldi.info/IPEDtaS")[IPEDtaS] -- Code to 'Automagically' Download and Label IPEDS data in Stata and R
+    
+    #link("https://capaldi.info/7916")[R Instructional Materials] -- Instructional materials from "the R Class"
+    
+    #link("https://capaldi.info/cv.pdf")[Curriculum Vitae] -- Complete record of academic and research activity
+    
+    #v(0.2in)
+    #fa-icon("lightbulb", size: 16pt)
+    #h(0.1in)
+    #text(18pt)[Technical Skills]
+    #line(length: 75%)
+
+    #block(stroke: rgb(255,165,0), fill: rgb(255,165,0,10%),
+           inset: (left: 0.1in, top: 0.1in), radius: 3pt)[
+
+    #grid(columns: (1fr, 0.9fr, 1.1fr),
+          inset: (bottom: 0.1in, right: 0.1in),
+
+    [Regression-Based Analysis],
+    
+    [Spatial Statistics],
+    
+    [Psychometrics & Latent Variables],
+
+    [Quasi-Experimental Design],
+    
+    [Machine Learning Models],
+    
+    [Natural Language Processing]
+    
+    )
+    ]
+
+
+    #block(stroke: rgb(166,166,166), fill: rgb(166,166,166,10%), inset: 0.05in, radius: 3pt)[
+
+    #grid(
+      columns: (4%, 10%, 4%, 11%, 4%, 13%, 4%, 8%, 4%, 11%, 4%, 23%),
+      inset: 0.1in,
+      
+      align: left,
+      [#fa-icon("r-project")], [R],
+      [#image("site-attachments/shiny-icon.png", width: 0.2in)], [Shiny],
+      [#fa-icon("python")], [Python],
+      [#fa-icon("github")], [Git],
+      [#fa-icon("database")], [SQL],
+      [#fa-icon("windows")], [Microsoft Office],
+      [#image("site-attachments/stata-icon.png", width: 0.15in)], [Stata],
+      [#image("site-attachments/spss-icon.png", width: 0.2in)], [SPSS],
+      [#image("site-attachments/qualtrics-icon.png", width: 0.15in)], [Qualtrics],
+      [#image("site-attachments/arcgis-icon.png", width: 0.15in)], [GIS],
+      [#image("site-attachments/typst-icon.png", width: 0.15in)], [Typst],
+      [#fa-icon("markdown")], [Quarto & Rmd]
+
+    )
+
+    ]
+
+
+```
