@@ -22,7 +22,7 @@ format: cv-typst
     
     #v(0.1in)
     
-    #h(0.6fr) #fa-icon("globe") #link("https://capaldi.info")[Website] #h(0.2fr) #fa-icon("envelope") #link("mailto:matt.capaldi@outlook.com")[Email Me] #h(0.2fr) #fa-icon("phone") #link("tel:401-601-2069")[Call Me] #h(0.2fr) #fa-icon("google-scholar") #link("https://scholar.google.com/citations?user=PHk--sIAAAAJ&hl=en")[Google Scholar] #h(0.2fr) #fa-icon("orcid") #link("https://orcid.org/0000-0002-5664-3414")[ORCiD] #h(0.6fr)
+#h(0.6fr) #fa-icon("globe") #link("https://capaldi.info")[Website] #h(0.2fr) #fa-icon("envelope") #link("mailto:matt.capaldi@outlook.com")[matt.capaldi\@outlook.com] #h(0.2fr) #fa-icon("phone") #link("tel:401-601-2069")[401-601-2069] #h(0.2fr) #fa-icon("google-scholar") #link("https://scholar.google.com/citations?user=PHk--sIAAAAJ&hl=en")[Google Scholar] #h(0.2fr) #fa-icon("orcid") #link("https://orcid.org/0000-0002-5664-3414")[ORCiD] #h(0.6fr)
     
     
     #v(0.2in)
@@ -41,25 +41,16 @@ format: cv-typst
     #h(0.5in) University of Florida, FL
     #block(inset: (left: 1in, right: 0in))[
       // University of Florida, FL \
-      Minor: Urban and Regional Planning \
-      Dissertation Papers \
-      #block(inset: (left: 0.5in))[ 
-      *1.* The Route to Graduation: An Exploration of the Association Between Transit Stop Proximity and Pell Recipient Completion Rates at US Commuter Colleges \ 
-      *2.* The Route to Retention: A Propensity Score and Instrumental Variable Analysis of
-Transit Stop Proximity and Urban US Commuter College Retention Rates \ 
-      *3.* Local Access Matters: A Structural Equation Modeling Exploration of the Association
-Between Transport Disadvantage and College Enrollment in New Jersey \ 
-      
-      ]
+      Minor -- Urban and Regional Planning \
+      #par(hanging-indent: 0in)[
+      Dissertation -- _The Route to Retention: A Quasi-Experimental Analysis of the Link Between Transit Stop Proximity and First Year Retention Rates at US Commuter Colleges_ \
+       ]
     ]
 
     #neat[*M.Ed.*]Research and Evaluation Methodology #h(1fr) _Fall 2024_ \
     #h(0.5in) University of Florida, FL \
     #block(inset: (left: 1in, right: 0in))[//#set par(hanging-indent: 0.5in)
-      *Final Project:* 
-      // #block(inset: (left: 0.5in))[
-      A Time and Place for (Sustainable) Campus Planning: Using Structural Topic Modeling to Explore Variations in Planning Priorities at Large US Public Colleges \
-      // ]
+      Final Project -- _A Time and Place for (Sustainable) Campus Planning: Using Structural Topic Modeling to Explore Variations in Planning Priorities at Large US Public Colleges_ \
     ]
 
     #neat[*M.Ed.*]Student Personnel in Higher Education #h(1fr) _Spring 2020_ \
@@ -213,9 +204,9 @@ passion for teaching which carried into the classroom. The lectures were engagin
     #text(18pt)[Certifications]
     #line(length: 75%)
     
+    #link("https://coursera.org/share/2de0c595e00aae6a5766518c45c2aeae")[Intermediate PostgreSQL] -- University of Michigan #h(1fr) _February 2025_ \
     #link("https://coursera.org/share/d86b98e2e0d00034c020447e34bd4447")[Database Design and Basic SQL in PostgreSQL] -- University of Michigan #h(1fr) _December 2024_ \
-    Intermediate PostgreSQL -- University of Michigan #h(1fr) _January 2025 (Expected)_
-
+    
     #v(0.2in)
     #fa-icon("lightbulb", size: 16pt)
     #h(0.1in)

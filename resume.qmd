@@ -22,7 +22,7 @@ format: cv-typst
     
     #v(0.1in)
     
-    #h(0.6fr) #fa-icon("globe") #link("https://capaldi.info")[Website] #h(0.2fr) #fa-icon("envelope") #link("mailto:matt.capaldi@outlook.com")[Email Me] #h(0.2fr) #fa-icon("phone") #link("tel:401-601-2069")[Call Me] #h(0.2fr) #fa-icon("stack-overflow") #link("https://stackoverflow.com/users/21152968/ttalvlatt")[StackOverflow] #h(0.2fr) #fa-icon("github") #link("https://github.com/ttalVlatt")[GitHub] #h(0.6fr)
+#h(0.6fr) #fa-icon("globe") #link("https://capaldi.info")[Website] #h(0.2fr) #fa-icon("envelope") #link("mailto:matt.capaldi@outlook.com")[Email] #h(0.2fr) #fa-icon("phone") #link("tel:401-601-2069")[Phone] #h(0.2fr) #fa-icon("google-scholar") #link("https://scholar.google.com/citations?user=PHk--sIAAAAJ&hl=en")[Google Scholar] #h(0.2fr) #fa-icon("orcid") #link("https://orcid.org/0000-0002-5664-3414")[ORCiD] #h(0.2fr) #fa-icon("stack-overflow") #link("https://stackoverflow.com/users/21152968/ttalvlatt")[StackOverflow] #h(0.2fr) #fa-icon("github") #link("https://github.com/ttalVlatt")[GitHub] #h(0.6fr)
     
     
     #v(0.2in)
@@ -38,6 +38,9 @@ format: cv-typst
     }
 
     #neat[*Ph.D.*]Higher Education Administration -- University of Florida #h(1fr) _Summer 2025 (Expected)_ \
+    
+    #block(inset: (left: 0.5in, right: 0in))[Dissertation --  _The Route to Retention: A Quasi-Experimental Analysis of the Link Between Transit Stop Proximity and First Year Retention Rates at US Commuter Colleges_
+    ]
 
     #neat[*M.Ed.*]Research and Evaluation Methodology -- University of Florida #h(1fr) _Fall 2024_ \
 
@@ -56,19 +59,20 @@ format: cv-typst
     
     #block(inset: (left: 0.5in, right: 0in))[
     
-   // - Data collection, wrangling, visualization, & analysis leading to multiple publications #super[#link("https://doi.org/10.1177/00915521241238753")[1,]#link("https://partnershipfcc.org/publications/adequacy/")[ 2]]
-    - Created a new dataset of US merit-based aid programs which led to a #link("https://doi.org/10.1177/00915521241238753")[new typology being proposed]
-    - Merged data and created tables and visualizations for a #link("https://partnershipfcc.org/publications/adequacy/")[report targeted at state policy makers]
-    - TA for "The R Class" including majority of teaching in 2024 after instructor's resignation
-    #h(0.5in) - Refreshed the #link("https://capaldi.info/7916/")[course website] adding #link("https://capaldi.info/7916/09-wrangle-iv.html")[a new lesson] connecting tidyverse and SQL concepts
-    - Provided 1:1 tutoring on Stata and IPEDS data wrangling to a new graduate assistant
+    - Taught in the  #link("https://capaldi.info/7916/")["R Class"] for 3 years including the majority of instruction in Spring 2024
+    - Performed data cleaning, wrangling, analysis, and visualization for research projects including:
+    #block(inset: (left: 0.5in, right: 0in))[
+    - Calculating travel time penalties for using transit to access college with OpenTripPlanner
+    - Merging Census, IPEDS, and BLS data to create visualizations for a #link("https://partnershipfcc.org/publications/adequacy/")[policy report]
+    - Creating a new dataset of US merit-based aid programs which led to a #link("https://doi.org/10.1177/00915521241238753")[a new typology]
+    ]
 ]
 
     *Residence Hall Coordinator* -- University of Missouri #h(1fr) _July 2020 -- May 2021_ \
     
     #block(inset: (left: 0.5in, right: 0.5in))[
     
-    - Supervised 16 student staff members and provided crisis response to 3242 residents 
+    - Supervised 5 student staff and 222 residents, provided crisis response for 3,655 residents
     
     ]
 
@@ -94,8 +98,8 @@ format: cv-typst
     #text(18pt)[Certifications]
     #line(length: 75%)
     
-    #link("https://coursera.org/share/d86b98e2e0d00034c020447e34bd4447")[Database Design and Basic SQL in PostgreSQL] -- University of Michigan #h(1fr) _December 2024_ \
-    Intermediate PostgreSQL -- University of Michigan #h(1fr) _January 2025 (Expected)_
+    #link("https://coursera.org/share/2de0c595e00aae6a5766518c45c2aeae")[Intermediate PostgreSQL] -- University of Michigan #h(1fr) _February 2025_ \
+    #link("https://coursera.org/share/d86b98e2e0d00034c020447e34bd4447")[Database Design and Basic SQL in PostgreSQL] -- University of Michigan #h(1fr) _December 2024_
     
     #v(0.2in)
     #fa-icon("magnifying-glass-chart", size: 16pt)
@@ -109,37 +113,22 @@ format: cv-typst
     
     #link("https://capaldi.info/7916")[R Instructional Materials] -- Instructional materials from "the R Class"
     
-    #link("https://capaldi.info/cv.pdf")[Curriculum Vitae] -- Complete record of academic and research activity
-    
     #v(0.2in)
     #fa-icon("lightbulb", size: 16pt)
     #h(0.1in)
     #text(18pt)[Technical Skills]
     #line(length: 75%)
 
-    #block(stroke: rgb(255,165,0), fill: rgb(255,165,0,10%),
-           inset: (left: 0.1in, top: 0.1in), radius: 3pt)[
 
-    #grid(columns: (1fr, 0.9fr, 1.1fr),
-          inset: (bottom: 0.1in, right: 0.1in),
-
-    [Regression-Based Analysis],
+    #block(stroke: rgb(255,165,0), fill: rgb(255,165,0,10%), inset: 0.05in, radius: 3pt)[
     
-    [Spatial Statistics],
-    
-    [Psychometrics & Latent Variables],
-
-    [Quasi-Experimental Design],
-    
-    [Machine Learning Models],
-    
-    [Natural Language Processing]
-    
-    )
-    ]
-
-
-    #block(stroke: rgb(166,166,166), fill: rgb(166,166,166,10%), inset: 0.05in, radius: 3pt)[
+     #grid(
+      columns: (12%, 28%, 18%, 12%, 30%),
+      inset: (top: 0.1in, left: 0.1in, right: 0.1in),
+      
+      [Regression], [Quasi-Experimental Design], [Spatial Statistics], [AI Models], [Natural Language Processing]
+      
+      )
 
     #grid(
       columns: (4%, 10%, 4%, 11%, 4%, 13%, 4%, 8%, 4%, 11%, 4%, 23%),

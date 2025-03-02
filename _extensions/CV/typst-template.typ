@@ -33,7 +33,7 @@
   doc,
 ) = { set page(
     margin: (left: 0.5in, right: 0.5in, top: 0.5in, bottom: 0.5in),
-    numbering: "1",
+   // numbering: "1",
     background: {place(bottom + right,
                              text(fill: rgb(166,166,166), size: 11pt)[Updated: ] +
                              text(fill: rgb(166,166,166), size: 11pt, date),
