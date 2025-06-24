@@ -22,8 +22,9 @@ format: cv-typst
     
     #v(0.1in)
     
-#h(0.6fr) #fa-icon("globe") #link("https://capaldi.info")[Website] #h(0.2fr) #fa-icon("envelope") #link("mailto:matt.capaldi@outlook.com")[Email] #h(0.2fr) #fa-icon("phone") #link("tel:401-601-2069")[Phone] #h(0.2fr) #fa-icon("google-scholar") #link("https://scholar.google.com/citations?user=PHk--sIAAAAJ&hl=en")[Google Scholar] #h(0.2fr) #fa-icon("orcid") #link("https://orcid.org/0000-0002-5664-3414")[ORCiD] #h(0.2fr) #fa-icon("stack-overflow") #link("https://stackoverflow.com/users/21152968/ttalvlatt")[StackOverflow] #h(0.2fr) #fa-icon("github") #link("https://github.com/ttalVlatt")[GitHub] #h(0.6fr)
+#h(0.2fr) #fa-icon("globe") #link("https://capaldi.info")[Website] #h(0.2fr) #fa-icon("envelope") #link("mailto:matt.capaldi@outlook.com")[Email] #h(0.2fr) #fa-icon("phone") #link("tel:401-601-2069")[Phone] #h(0.2fr) #fa-icon("google-scholar") #link("https://scholar.google.com/citations?user=PHk--sIAAAAJ&hl=en")[Google Scholar] #h(0.2fr) #fa-icon("linkedin") #link("https://www.linkedin.com/in/mattcapaldi/")[LinkedIn] #h(0.2fr) #fa-icon("stack-overflow") #link("https://stackoverflow.com/users/21152968/ttalvlatt")[StackOverflow] #h(0.2fr) #fa-icon("github") #link("https://github.com/ttalVlatt")[GitHub] #h(0.2fr)
     
+    // #h(0.2fr) #fa-icon("orcid") #link("https://orcid.org/0000-0002-5664-3414")[ORCiD] 
     
     #v(0.2in)
     
@@ -37,16 +38,16 @@ format: cv-typst
       {text(body); h(space)}
     }
 
-    #neat[*Ph.D.*]Higher Education Administration -- University of Florida #h(1fr) _Summer 2025 (Expected)_ \
+    #neat[*Ph.D.*]Higher Education Administration -- University of Florida #h(1fr) _Aug 2025 (Expected)_ \
     
     #block(inset: (left: 0.5in, right: 0in))[Dissertation --  _The Route to Retention: A Quasi-Experimental Analysis of the Link Between Transit Stop Proximity and First Year Retention Rates at US Commuter Colleges_
     ]
 
-    #neat[*M.Ed.*]Research and Evaluation Methodology -- University of Florida #h(1fr) _Fall 2024_ \
+    #neat[*M.Ed.*]Research and Evaluation Methodology -- University of Florida #h(1fr) _Dec 2024_ \
 
-    #neat[*M.Ed.*]Student Personnel in Higher Education -- University of Florida #h(1fr) _Spring 2020_ \
+    #neat[*M.Ed.*]Student Personnel in Higher Education -- University of Florida #h(1fr) _May 2020_ \
 
-    #neat[*B.A.*]International Relations with Political Science -- University of Birmingham #h(1fr) _Summer 2018_ \
+    #neat[*B.A.*]International Relations with Political Science -- University of Birmingham #h(1fr) _Jul 2018_ \
    
     #v(0.2in)
 
@@ -55,7 +56,17 @@ format: cv-typst
     #text(18pt)[Experience]
     #line(length: 75%)
     
-    *Graduate Assistant & Fellow* -- University of Florida #h(1fr) _August 2021 -- Present_ \
+    *Senior Planning Analyst* -- Arizona State University #h(1fr) _May 2025 -- Present_ \
+    
+    #block(inset: (left: 0.5in, right: 0in))[
+    
+    - Perform data analysis for decision support in the Office of the University Provost including:
+    #block(inset: (left: 0.5in, right: 0in))[
+     - Curricular analytics on program requirement complexity using raw degree audit system data
+     ]
+ ]
+    
+    *Graduate Assistant & Fellow* -- University of Florida #h(1fr) _Aug 2021 -- May 2025_ \
     
     #block(inset: (left: 0.5in, right: 0in))[
     
@@ -68,7 +79,7 @@ format: cv-typst
     ]
 ]
 
-    *Residence Hall Coordinator* -- University of Missouri #h(1fr) _July 2020 -- May 2021_ \
+    *Residence Hall Coordinator* -- University of Missouri #h(1fr) _Jul 2020 -- May 2021_ \
     
     #block(inset: (left: 0.5in, right: 0.5in))[
     
@@ -76,7 +87,7 @@ format: cv-typst
     
     ]
 
-    *Graduate Community Coordinator* -- University of Florida #h(1fr) _July 2019 -- May 2020_ \
+    *Graduate Community Coordinator* -- University of Florida #h(1fr) _Jul 2019 -- May 2020_ \
     
     #block(inset: (left: 0.5in, right: 0.5in))[
     
@@ -84,13 +95,23 @@ format: cv-typst
     
     ]
 
-    *Summer Sessions Graduate Intern* -- Georgetown University #h(1fr) _May 2019 -- July 2019_ \
+    *Summer Sessions Graduate Intern* -- Georgetown University #h(1fr) _May 2019 -- Jul 2019_ \
+    
+    #block(inset: (left: 0.5in, right: 0.5in))[
+    
+    - Coordinated housing, orientation programs, and activities for 54 visiting international students
+    
+    ]
 
-    *Graduate Assistant* -- University of Florida #h(1fr) _August 2018 -- May 2019_ \
+    *Graduate Assistant* -- University of Florida #h(1fr) _Aug 2018 -- May 2019_ \
 
-    *Advising Intern* -- US-UK Fulbright Commission #h(1fr) _January 2018 -- June 2018_ \
+    *Advising Intern* -- US-UK Fulbright Commission #h(1fr) _Jan 2018 -- Jun 2018_ \
+    
+    *'Apply Yourself' Student Peer Presenter* --  University of Birmingham #h(1fr) _Sep 2017 -- Jun 2018_ \
+    
+    *International Employer Liaison Assistant* --  University of Birmingham #h(1fr) _Jun 2017 -- Aug 2017_ \
 
-    *Student Ambassador* --  University of Birmingham #h(1fr) _January 2015 -- June 2018_ \
+    *Student Ambassador* --  University of Birmingham #h(1fr) _Jan 2015 -- Jun 2018_ \
 
     #v(0.2in)
     #fa-icon("award", size: 16pt)
@@ -98,8 +119,8 @@ format: cv-typst
     #text(18pt)[Certifications]
     #line(length: 75%)
     
-    #link("https://coursera.org/share/2de0c595e00aae6a5766518c45c2aeae")[Intermediate PostgreSQL] -- University of Michigan #h(1fr) _February 2025_ \
-    #link("https://coursera.org/share/d86b98e2e0d00034c020447e34bd4447")[Database Design and Basic SQL in PostgreSQL] -- University of Michigan #h(1fr) _December 2024_
+    #link("https://coursera.org/share/2de0c595e00aae6a5766518c45c2aeae")[Intermediate PostgreSQL] -- University of Michigan #h(1fr) _Feb 2025_ \
+    #link("https://coursera.org/share/d86b98e2e0d00034c020447e34bd4447")[Database Design and Basic SQL in PostgreSQL] -- University of Michigan #h(1fr) _Dec 2024_
     
     #v(0.2in)
     #fa-icon("magnifying-glass-chart", size: 16pt)
@@ -107,50 +128,16 @@ format: cv-typst
     #text(18pt)[Portfolio]
     #line(length: 75%)
     
-    #link("https://ttalvlatt.shinyapps.io/rtg-dashboard/")[Shiny Interactive Dashboard] -- Visualization of transit stop access and association with Pell completion rates
+    #link("http://dashboard.ihe.education.ufl.edu:3838/course-sequencing/")[Course Sequencing Dashboard] -- Visualize academic outcomes by customizable course sequences #h(1fr) #box()[#image("site-attachments/shiny-icon.png", width: 0.2in)] #fa-icon("r-project")
     
-    #link("https://capaldi.info/IPEDtaS")[IPEDtaS] -- Code to 'Automagically' Download and Label IPEDS data in Stata and R
+    #link("https://ttalvlatt.shinyapps.io/rtg-dashboard/")[Route to Graduation Dashboard] -- Visualize Pell completion rates by college transit stop access #h(1fr) #box()[#image("site-attachments/shiny-icon.png", width: 0.2in)] #fa-icon("r-project")
+
     
-    #link("https://capaldi.info/7916")[R Instructional Materials] -- Instructional materials from "the R Class"
+    #link("https://capaldi.info/IPEDtaS")[IPEDtaS] -- Code to 'automagically' download and label IPEDS data in both Stata and R #h(1fr) #fa-icon("r-project") #box()[#image("site-attachments/stata-icon.png", width: 0.15in)]
     
-    #v(0.2in)
-    #fa-icon("lightbulb", size: 16pt)
-    #h(0.1in)
-    #text(18pt)[Technical Skills]
-    #line(length: 75%)
-
-
-    #block(stroke: rgb(255,165,0), fill: rgb(255,165,0,10%), inset: 0.05in, radius: 3pt)[
+    #link("https://capaldi.info/7916")[R Instructional Materials] -- Quarto & GitHub website with instructional materials from "the R Class" #h(1fr) #fa-icon("r-project") #box()[#image("site-attachments/quarto-icon.png", width: 0.15in)] #fa-icon("github")
     
-     #grid(
-      columns: (12%, 28%, 18%, 12%, 30%),
-      inset: (top: 0.1in, left: 0.1in, right: 0.1in),
-      
-      [Regression], [Quasi-Experimental Design], [Spatial Statistics], [AI Models], [Natural Language Processing]
-      
-      )
-
-    #grid(
-      columns: (4%, 10%, 4%, 11%, 4%, 13%, 4%, 8%, 4%, 11%, 4%, 23%),
-      inset: 0.1in,
-      
-      align: left,
-      [#fa-icon("r-project")], [R],
-      [#image("site-attachments/shiny-icon.png", width: 0.2in)], [Shiny],
-      [#fa-icon("python")], [Python],
-      [#fa-icon("github")], [Git],
-      [#fa-icon("database")], [SQL],
-      [#fa-icon("windows")], [Microsoft Office],
-      [#image("site-attachments/stata-icon.png", width: 0.15in)], [Stata],
-      [#image("site-attachments/spss-icon.png", width: 0.2in)], [SPSS],
-      [#image("site-attachments/qualtrics-icon.png", width: 0.15in)], [Qualtrics],
-      [#image("site-attachments/arcgis-icon.png", width: 0.15in)], [GIS],
-      [#image("site-attachments/typst-icon.png", width: 0.15in)], [Typst],
-      [#fa-icon("markdown")], [Quarto & Rmd]
-
-    )
-
-    ]
+    #link("https://github.com/ttalVlatt/UF-Quarto-Dissertation")[UF Quarto Dissertation] -- Adaptation of UF's LaTeX dissertation template to work with Quarto #h(1fr) #box()[ #image("site-attachments/LaTeX-icon.png", width: 0.25in)] #box()[#image("site-attachments/quarto-icon.png", width: 0.15in)]
 
 
 ```
