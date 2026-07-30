@@ -19,10 +19,10 @@ website:
         text: "{{< fa bus >}} Transport to College"
       - href: data-viz-examples.qmd
         text: "{{< fa chart-line >}} Data Viz Examples"
-      - href: cv.qmd
-        text: "{{< fa file-pdf >}} C.V."
       - href: resume.qmd
         text: "{{< fa file-pdf >}} Résumé"
+      - href: research-teaching.qmd
+        text: "{{< fa file-pdf >}} Résumé Appendix: Research & Teaching"
       - text: "Other Websites"
         menu:
         - href: "https://capaldi.info/IPEDtaS"
@@ -33,7 +33,7 @@ website:
           text: "{{< fa utensils >}} Recipe Box"
     right:
       - text: "{{< fa paper-plane >}} Email Me"
-        href: mailto:m.capaldi@ufl.edu
+        href: "{{< meta email >}}"
         aria-label: "Email Me"
   page-footer:
     right: 
@@ -54,3 +54,4 @@ format:
 
 editor: source
 
+email: mailto:m.capaldi@umkc.edu

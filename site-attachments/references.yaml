@@ -181,21 +181,6 @@ references:
     model analysis of campus master plans"
   type: speech
   status: accepted
-- id: capaldiTimePlaceSustainablea
-  author:
-  - family: Capaldi
-    given: Matthew J.
-  - family: Shin
-    given: Jinnie
-  container-title: Research in Higher Education
-  key: KTMZEEHM
-  libraryID: 1
-  providerKey: Zotero
-  title: "A time and place for (sustainable) campus planning: using
-    structural topic models to explore variations in planning priorities
-    at large us public colleges"
-  type: article-journal
-  status: under review
 - id: capaldiRouteRetentionPropensity
   author:
   - family: Capaldi
@@ -241,4 +226,72 @@ references:
     College Merit Aid, Enrollment, Completion, and Transfer"
   type: article-journal
   status: under review
+- id: smith-onyewu
+  author:
+  - family: Smith-Onyewu
+    given: Zyrashae
+  - family: Capaldi
+    given: Matthew J.
+  - family: Montero
+    given: Nilka
+  - family: Kicheek
+    given: Christopher
+  - family: Shin
+    given: Hyevin
+  container-title: Journal of Higher Education
+  key: 8PSNV4VC
+  libraryID: 1
+  providerKey: Zotero
+  title: "College Choices in the City: Examining the Relationship
+    Between Urban College Options and Public Transit"
+  type: article-journal
+  status: Revise & Resubmit
+- id: capaldi
+  author:
+  - family: Capaldi
+    given: Matthew J.
+  - family: Shin
+    given: Jinnie
+  - family: Fernandez
+    given: Frank
+  - family: Lechen
+    given: Li
+  container-title: Higher Eduaction Policy
+  key: KTMZEEHM
+  libraryID: 1
+  providerKey: Zotero
+  title: "A time and place for (sustainable) campus planning: using
+    structural topic models to explore variations in planning priorities
+    at large us public colleges"
+  type: article-journal
+  status: revise & resubmit
+- id: hu2026
+  accessed: "06:49:22"
+  author:
+  - family: Hu
+    given: Xiaodan
+  - family: Fernandez
+    given: Frank
+  - family: Capaldi
+    given: Matthew J.
+  - family: Zhang
+    given: Yi Leaf
+  container-title: Research in Higher Education
+  container-title-short: Res High Educ
+  DOI: 10.1007/s11162-026-09905-6
+  ISSN: 0361-0365, 1573-188X
+  issue: 4
+  issued: 2026-06
+  key: 34TQUI83
+  language: en
+  libraryID: 1
+  page: 30
+  providerKey: Zotero
+  source: DOI.org (Crossref)
+  title: "The Dual Pillars of Dual Enrollment: Examining Two- and
+    Four-Year Public Colleges as Providers of Dual Enrollment Programs"
+  title-short: The Dual Pillars of Dual Enrollment
+  type: article-journal
+  URL: "https://link.springer.com/10.1007/s11162-026-09905-6"
+  volume: 67
 ...

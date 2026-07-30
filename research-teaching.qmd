@@ -1,0 +1,335 @@
+---
+title: "Research & Teaching"
+date: today
+image: site-attachments/logo.png
+csl: site-attachments/apa-numeric-superscript.csl
+bibliography: site-attachments/references.bib
+section-bibs-bibliography: site-attachments/references.bib
+filters:
+  - section-bibliographies
+  - hide-me
+citeproc: true
+reference-section-title: false
+section-bibs-level: 2
+toc: false
+anchor-sections: false
+format: cv-typst
+---
+
+```{=typst}
+
+    #set par(spacing: 0.4em)
+
+    #set block(spacing: 0.4em)
+
+    #h(1fr) #text(30pt)[Matthew J. Capaldi] #h(1fr)
+    
+    #v(0.1in)
+    
+#h(0.2fr) #fa-icon("globe") #link("https://capaldi.info")[Website] 
+#h(0.2fr) #fa-icon("envelope") #link("mailto:matt.capaldi@outlook.com")[matt.capaldi\@outlook.com] 
+#h(0.2fr) #fa-icon("phone") #link("tel:401-601-2069")[401-601-2069] 
+#h(0.2fr) #fa-icon("google-scholar") #link("https://scholar.google.com/citations?user=PHk--sIAAAAJ&hl=en")[Google Scholar] 
+#h(0.2fr) #fa-icon("orcid") #link("https://orcid.org/0000-0002-5664-3414")[ORCiD]
+#h(0.2fr) #fa-icon("github") #link("https://github.com/ttalVlatt")[GitHub] 
+// #h(0.2fr) #fa-icon("stack-overflow") #link("https://stackoverflow.com/users/21152968/ttalvlatt")[StackOverflow]
+// #h(0.2fr) #fa-icon("linkedin") #link("https://www.linkedin.com/in/mattcapaldi/")[LinkedIn]     
+#h(0.2fr)
+
+/*
+
+    #v(0.2in)   
+    #fa-icon("graduation-cap", size: 16pt) #h(0.1in) #text(18pt)[Education]
+    #line(length: 75%)
+
+    #let neat(body) = context {
+      let size = measure(body)
+      let width = size.width
+      let space = 0.5in - width
+      {text(body); h(space)}
+    }
+
+    #neat[*Ph.D.*]Higher Education Administration -- University of Florida #h(1fr) _Aug 2025_ \
+    
+    #block(inset: (left: 0.5in, right: 0.5in))[#text(weight: "medium")[Dissertation] --  _The Route to Retention: A Quasi-Experimental Analysis of the Link Between Transit Stop Proximity and First Year Retention Rates at US Commuter Colleges_ ]
+
+    #block(inset: (left: 0.5in, right: 0.5in))[#text(weight: "medium")[Minor] --  Urban and Regional Planning ]
+
+    #neat[*M.Ed.*]Research and Evaluation Methodology -- University of Florida #h(1fr) _Dec 2024_ \
+
+    #neat[*M.Ed.*]Student Personnel in Higher Education -- University of Florida #h(1fr) _May 2020_ \
+
+    #neat[*B.A.*]International Relations with Political Science -- University of Birmingham #h(1fr) _Jul 2018_ \
+
+    #block(inset: (left: 0.5in, right: 0.5in))[#text(weight: "medium")[Year Abroad] --  Providence College ]
+   
+    #v(0.2in)
+   
+#fa-icon("briefcase", size: 16pt)
+    #h(0.1in)
+    #text(18pt)[Experience]
+    #line(length: 75%)
+    
+    *Senior Business Intelligence Specialist* -- University of Missouri -- Kansas City #h(1fr) _Aug 2025 -- Present_ \
+    
+    *Senior Planning Analyst* -- Arizona State University #h(1fr) _May 2025 -- Aug 2025_ \
+    
+    *Graduate Assistant & Fellow* -- University of Florida #h(1fr) _Aug 2021 -- May 2025_ \
+
+
+    *Residence Hall Coordinator* -- University of Missouri -- Columbia #h(1fr) _Jul 2020 -- May 2021_ \
+
+    *Graduate Community Coordinator* -- University of Florida #h(1fr) _Jul 2019 -- May 2020_ \
+    
+    *Summer Sessions Graduate Intern* -- Georgetown University #h(1fr) _May 2019 -- Jul 2019_ \
+    
+    *Graduate Assistant* -- University of Florida #h(1fr) _Aug 2018 -- May 2019_ \
+
+    *Advising Intern* -- US-UK Fulbright Commission #h(1fr) _Jan 2018 -- Jun 2018_ \
+
+    *Student Ambassador* --  University of Birmingham #h(1fr) _Jan 2015 -- Jun 2018_ \
+
+*/
+
+#v(0.2in)
+#fa-icon("feather-pointed", size: 16pt)
+#h(0.1in)
+#text(18pt)[Published Work & Research]
+#line(length: 75%)
+
+#show regex("Capaldi, M. J.|Capaldi, M."): set text(weight: 500)
+#show regex("Capaldi, M. J.|Capaldi, M."): emph
+
+#[#set par(leading: 0.5em, hanging-indent: 0.6in)
+
+```
+## Peer Reviewed Journal Articles
+
+::: hide-me
+<!-- @capaldiRouteRetentionPropensity -->
+
+@huDualPillarsDual2026
+
+@huGrowingOutcomesGarden2026
+
+@huGoodBadBalanced2024
+
+@capaldiRouteGraduationExploration2023
+
+:::
+
+## Revise & Resubmit Journal Articles
+
+::: hide-me
+
+@capaldiTimePlaceSustainablea
+
+@smith-onyewuCollegeChoicesCity
+
+:::
+
+## Public Policy Reports
+
+::: hide-me
+
+@fernandezExploringEquitablePublic2023
+
+:::
+
+## Commentary Articles
+
+::: hide-me
+
+@capaldiEnsuringEquitablePublic2021
+
+@fernandezStudyingPoliticalScience2021
+
+:::
+
+## Other Research In-Progress
+
+::: hide-me
+
+@capaldiRouteRetentionPropensity
+
+:::
+
+## Research Software & Datasets
+
+::: hide-me
+
+@capaldiIPEDtaSAutomagicallyDownload2024
+
+:::
+
+#
+
+```{=typst}
+
+#v(0in)
+#fa-icon("users", size: 16pt)
+#h(0.1in)
+#text(18pt)[Conference Presentations]
+#line(length: 75%)
+
+```
+## 
+
+::: hide-me
+
+@smith-onyewuCollegeChoicesCity2025
+
+@huStateContextsLocal2025
+
+@capaldiTimePlaceSustainable2025
+
+@huFewDollarsMore2025
+
+@capaldiRouteRetentionAnalysis2024
+
+@capaldiAutomatingDataRetrieval2024
+
+@huComplementingCompetingExamining2025
+
+@huTypologyStateMerit2023
+
+:::
+
+
+#
+
+
+```{=typst}
+
+] // End of Hanging Indents
+
+#v(0in)
+#fa-icon("person-chalkboard", size: 16pt) #h(0.1in) #text(18pt)[Teaching Experience]
+#line(length: 75%)
+#v(0.1in)
+
+    *EDH 7916: Contemporary Research in Higher Education* -- _"The R Class"_ -- University of Florida \
+
+    - Introductory graduate-level class covering data wrangling, statistical coding, and reproducible research \
+    - Instructional material available to view at #link("https://capaldi.info/7916/")[capaldi.info/7916/] \
+
+    #block(inset: (left: 0.5in))[
+
+    Guest Lecturer -- Maps & Spatial Data #h(1fr) _Spring 2026_ \
+    Co-Instructor #h(1fr) _Spring 2025_, _Spring 2024_ \
+    Teaching Assistant #h(1fr) _Spring 2023_ \
+
+
+    _"In addition to knowing the subject matter so well, Matt also exhibited a
+passion for teaching which carried into the classroom. The lectures were engaging and Matt seemed to have a genuine desire to help all of us in the class succeed."_ -- Course Evaluation (Spring 2024)
+    
+
+    ]
+    
+    *1:1 Stata & Data Wrangling Tutoring* -- University of Florida #h(1fr) _Fall 2024_ \
+    - Tutored new doctoral student to our research team on basic statistical coding and analysis
+
+    *Automating Data Retrieval for Enhanced Reproducibility* -- ASHE Research Workshops #h(1fr) _November 2024_
+    - #link("https://capaldi.info/ASHE24/")[Workshop] demonstrating R and Stata code to automatically download and label IPEDS data  
+
+    
+#v(0.2in)
+#fa-icon("sack-dollar", size: 16pt)
+#h(0.1in)
+#text(18pt)[Scholarships & Awards]
+#line(length: 75%)
+
+
+#let neat(body) = context {
+  let size = measure(body)
+  let width = size.width
+  let space = 1in - width
+  {text(body); h(space)}
+}
+
+#neat("$1,000")Dr. Barbara Keener Dissertation Award -- University of Florida #h(1fr) _2024_ \
+#neat("$2,500")Lincoln and Lillian Hall Fellowship in Memory of Albert G. Hall -- University of Florida #h(1fr) _2024_ \
+#neat("$2,000")Patricia D. Conroy Endowed Scholarship -- University of Florida #h(1fr) _2023_ \
+#neat("$124,000")Graduate School Funding Award -- University of Florida #h(1fr) _2021-2025_ \
+& Tuition
+
+/*
+
+    #v(0.2in)
+    #fa-icon("lightbulb", size: 16pt)
+    #h(0.1in)
+    #text(18pt)[Technical Skills]
+    #line(length: 75%)
+
+    #block(stroke: rgb(255,165,0), fill: rgb(255,165,0,10%),
+           inset: (left: 0.2in, top: 0.2in), radius: 3pt)[
+
+    #grid(columns: (1fr, 1fr),
+          inset: (bottom: 0.2in, right: 0.2in),
+
+    [*Regression-Based Analysis*
+    - Linear Regression
+    - Logistic Regression
+    - Fixed Effects Regression
+    - Cox Proportional Hazards
+    - Bayesian Regression],
+    
+    [*Spatial Statistics*
+    - Spatial Projections & Mapping
+    - Distance Calculation
+    - Clusters & Hot-Spots
+    - Interpolation
+    - Geographically Weighted Regression],
+    
+    [*Psychometrics & Latent Variables*
+    - Classical Test Theory
+    - Factor Analysis
+    - Item Response Theory
+    - Basic Computational Psychometrics
+    - Structural Equation Modeling],
+
+    [*Quasi-Experimental Designs*
+    - Propensity Scores
+    - Instrumental Variables
+    - Difference in Differences
+    - Regression Discontinuity
+    - Entropy Balancing],
+    
+    [*Machine Learning Models*
+    - Random Forests
+    - Neural Networks],
+    
+    [*Natural Language Processing*
+    - Structural Topic Modeling
+    - Text Classification & Clustering]
+    
+    )
+    ]
+
+
+    #block(stroke: rgb(166,166,166), fill: rgb(166,166,166,10%), inset: 0.05in, radius: 3pt)[
+
+    #grid(
+      columns: (4%, 10%, 4%, 11%, 4%, 13%, 4%, 8%, 4%, 11%, 4%, 23%),
+      inset: 0.1in,
+      
+      align: left,
+      [#fa-icon("r-project")], [R],
+      [#image("site-attachments/shiny-icon.png", width: 0.2in)], [Shiny],
+      [#fa-icon("python")], [Python],
+      [#fa-icon("github")], [Git],
+      [#fa-icon("database")], [SQL],
+      [#fa-icon("windows")], [Microsoft Office],
+      [#image("site-attachments/stata-icon.png", width: 0.15in)], [Stata],
+      [#image("site-attachments/spss-icon.png", width: 0.2in)], [SPSS],
+      [#image("site-attachments/qualtrics-icon.png", width: 0.15in)], [Qualtrics],
+      [#image("site-attachments/arcgis-icon.png", width: 0.15in)], [GIS],
+      [#image("site-attachments/typst-icon.png", width: 0.15in)], [Typst],
+      [#fa-icon("markdown")], [Quarto & Rmd]
+
+    )
+
+    ]
+
+
+```

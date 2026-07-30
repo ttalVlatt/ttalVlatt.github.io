@@ -2,9 +2,9 @@
 title: "resume"
 date: today
 image: site-attachments/logo.png
-csl: site-attachments/apa-numeric-superscript.csl
-bibliography: site-attachments/references.bib
-section-bibs-bibliography: site-attachments/references.bib
+csl: site-attachments/apa-cv.csl
+bibliography: site-attachments/references.yaml
+section-bibs-bibliography: site-attachments/references.yaml
 filters:
   - section-bibliographies
   - hide-me
@@ -26,16 +26,9 @@ format: cv-typst
     
     #v(0.1in)
     
-#h(0.2fr) #fa-icon("globe") #link("https://capaldi.info")[Website] 
+#h(0.2fr) #fa-icon("phone") #link("tel:401-601-2069")[401-601-2069]
 #h(0.2fr) #fa-icon("envelope") #link("mailto:matt.capaldi@outlook.com")[matt.capaldi\@outlook.com] 
-#h(0.2fr) #fa-icon("phone") #link("tel:401-601-2069")[(401) 601-2069] 
-#h(0.2fr) #fa-icon("google-scholar") #link("https://scholar.google.com/citations?user=PHk--sIAAAAJ&hl=en")[Google Scholar] 
-#h(0.2fr) #fa-icon("linkedin") #link("https://www.linkedin.com/in/mattcapaldi/")[LinkedIn] 
-#h(0.2fr) #fa-icon("github") #link("https://github.com/ttalVlatt")[GitHub] 
-// #h(0.2fr) #fa-icon("stack-overflow") #link("https://stackoverflow.com/users/21152968/ttalvlatt")[StackOverflow]
-// #h(0.2fr) #fa-icon("orcid") #link("https://orcid.org/0000-0002-5664-3414")[ORCiD] 
-#h(0.2fr)
-    
+#h(0.2fr) #fa-icon("linkedin") #link("https://www.linkedin.com/in/mattcapaldi/")[LinkedIn] #h(0.2fr)
     
     #v(0.2in)
     
@@ -50,8 +43,6 @@ format: cv-typst
     }
 
     #neat[*Ph.D.*]Higher Education Administration -- University of Florida #h(1fr) _Aug 2025_ \
-    
-    #block(inset: (left: 0.5in, right: 0.5in))[Dissertation --  _The Route to Retention: A Quasi-Experimental Analysis of the Link Between Transit Stop Proximity and First Year Retention Rates at US Commuter Colleges_ ]
 
     #neat[*M.Ed.*]Research and Evaluation Methodology -- University of Florida #h(1fr) _Dec 2024_ \
 
@@ -70,19 +61,21 @@ format: cv-typst
     
     #block(inset: (left: 0.5in, right: 0in))[
     
-    Brought in to establish a new 'data concierge' position for the international and admissions offices
-    #text(weight: 500)[_Decision support projections and analysis_]
-      - Net revenue and enrollment projections for new international scholarships
-      - Overhauled weekly admissions reporting into a curated dashboard based on leadership feedback
-      - Examined former dual credit student academics to design targeted financial aid incentives 
-    #text(weight: 500)[_Business logic automations and process improvements_]
-      - Automated system to monitor new multi-criteria math placement requirements and trigger different Slate communications
-      - Reduced course load and enrollment monitoring dashboard to ensure SEVIS compliance
-    #text(weight: 500)[_Data pipelines and architecture_]
-      - Overhauled Slate and TerraDotta data exports to make previously untapped data available for analysis in a medallion table structure
-      - Connected UMKC Chatbot to Slate to capture prospective student conversation summaries
-    #text(weight: 500)[_External reporting_]
-      - Submitted data to IIE Open Doors and QS World University Rankings
+    - Brought in to establish a new 'data concierge' position for international affairs and admissions offices
+
+        #block(inset: (left: 0.5in, right: 0in))[
+      - Used my dual background to provide non-technical explanations of data to student facing practioners and explanations of non-technical business processes to data engineers to overcome persistent miscommunication issues
+        ]
+
+    - Worked inside Slate and TerraDotta platforms to improve data quality and enhance functionality
+
+        #block(inset: (left: 0.5in, right: 0in))[
+      - Automated a variety of manual processes underpinned by two-way communication between the platforms and the university data warehouse 
+      - Standardized templates and procedures to ensure accurate and consistent queries
+      - Developed new automated processes to log student interactions with recruiting consultants and the university chatbot to paint a clearer picture of student journeys
+        ]
+
+    - Created a variety of reports and dashboards for non-technical users to digest complex data
 
  ]
 
@@ -92,44 +85,48 @@ format: cv-typst
     
     #block(inset: (left: 0.5in, right: 0in))[
     
-    - Assessed program requirement complexity using curricular analytics and UAchieve DARS data
+    - Assessed degree requirement complexity using curricular analytics and UAchieve degree audit data
  ]
     
     *Graduate Assistant & Fellow* -- University of Florida #h(1fr) _Aug 2021 -- May 2025_ \
     
     #block(inset: (left: 0.5in, right: 0in))[
     
-    - Taught in the  #link("https://capaldi.info/7916/")["R Class"] for 3 years including the majority of instruction in Spring 2024
-    - Performed data cleaning, wrangling, analysis, and visualization for research projects including papers on #link("https://doi.org/10.1177/00915521241238753")[merit aid], #link("https://partnershipfcc.org/publications/adequacy/")[funding equity], and transit travel-time penalties
+    - Taught in the #link("https://capaldi.info/7916/")["R Class"] for 3 years including the majority of instruction in Spring 2024
+    - Performed data cleaning, statistical analysis, and data visualization for research projects
     
     ]
-
 
 
     *Residence Hall Coordinator* -- University of Missouri -- Columbia #h(1fr) _Jul 2020 -- May 2021_ \
     
     #block(inset: (left: 0.5in, right: 0.5in))[
     
-    - Supervised 16 student staff and 404 residents, provided crisis response for 3,242 residents
-    
+    - Oversaw an apartment-style residence hall, home to 404 residents, in the first year of a public-private partnership, involved crafting procedures to manage 3rd party keys systems
+    - Led a team of 16 resident assistants and 3 hall government officers in supporting students and creating community amid the challenges and restrictions of the COVID-19 pandemic 
+    - Responded to a variety of serious scenarios including mental health crises, incidents of sexual harassment, and student hospitalizations across an area home to 3242 residents
+    - Utilized StarRez housing management system and Starfish student success software
     ]
 
     *Graduate Community Coordinator* -- University of Florida #h(1fr) _Jul 2019 -- May 2020_ \
     
     #block(inset: (left: 0.5in, right: 0.5in))[
     
-    - Supervised 5 student staff and 222 residents, provided crisis response for 3,655 residents
+    - Oversaw a traditional-style residence hall, home to 222 residents, including an international community of United World Scholars
+    - Led a team of 5 resident assistants and 4 hall government officers responsible for support and educational programming, including an alcohol medical amnesty policy campaign
+    - Responded to a variety of crisis scenarios including the onset of the COVID-19 pandemic, and hurricane preparations across an area home to 3,655 residents
+    - Utilized a homegrown housing management system and Maxient student conduct software
 
     ]
-/*
     *Summer Sessions Graduate Intern* -- Georgetown University #h(1fr) _May 2019 -- Jul 2019_ \
-    
+  
     *Graduate Assistant* -- University of Florida #h(1fr) _Aug 2018 -- May 2019_ \
 
     *Advising Intern* -- US-UK Fulbright Commission #h(1fr) _Jan 2018 -- Jun 2018_ \
 
     *Student Ambassador* --  University of Birmingham #h(1fr) _Jan 2015 -- Jun 2018_ \
-*/ 
+
+/*
 
     #v(0.2in)
     #fa-icon("award", size: 16pt)    #h(0.1in)
